@@ -1,0 +1,136 @@
+/** Brunembert : presse media querries **/
+/** pour pc  **/
+  .content-presse{
+  margin-top:50px;
+  margin-bottom:300px;
+  } 
+  .presse{
+    margin-left:300px; 
+    float:left;
+    position:absolute;
+    top:150px;
+  }
+    .presse #p-style-h1{
+      font-family: 'Orbitron', sans-serif;
+    }
+    
+    .presse-btn{
+      position:absolute;
+      top:700px;
+      margin-left:600px;
+      text-align:center;
+    }
+    
+    #presse p{
+      height:500px;
+      width:300px;
+      margin-left:40px;
+      background:yellow;
+      height:200px;
+      padding:20px;
+      text-align:center;
+      margin-bottom:100px;
+      margin-right:20px;
+      text-align:center;
+    }
+    #presse a{
+    display:inline;
+    }
+
+    .content-presse .btn-primary{
+      font-size:1.2em;
+      padding:20px;
+      margin-top:10px;
+      width:350px;
+      height:500px;
+    }
+  span#B{
+      font-family: 'Anton', ;
+      font-size:1em;
+      margin-left:60px;
+      color:rgb(4, 4, 61);
+    }
+
+  /** Brunembert : presse media querries **/
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+
+  /* Styles pour cette Media Queries */
+  .content-presse{
+    margin:0;
+    margin-bottom:100px;
+    padding:0;
+    height:1000px;
+  }
+  #presse .btn-primary{
+    position:relative;
+    margin-bottom:0;
+    padding:10px;
+    width:100px;
+  } 
+  #presse .btn #sdb{
+    position:absolute;
+    margin-left:500px;
+  } 
+  .presse{
+    margin-left:300px; 
+    float:left;
+    position:absolute;
+    top:500px;
+  }
+    .presse #p-style-h1{
+      font-family: 'Orbitron', sans-serif;
+    }
+    .presse-btn{
+      position:absolute;
+      top:700px;
+      margin-left:200px;
+      text-align:center;
+    }
+}
+
+
+/** pour phone **/
+@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+  .content-presse{
+    margin:0;
+    margin-bottom:100px;
+    padding:0;
+  }
+  #presse h1{
+   padding-left:130px;
+   text-align:center;
+   font-size:3em;
+   width:100%;
+   background-color:silver;
+  }
+  .content-presse h2{
+    margin:10px;
+    padding:30px;
+    font-size:1.5em;
+  }
+  .banniere-presse-pc{
+    margin-top:150px;
+    padding:0;
+    padding-bottom:100px;
+  }
+  .content-presse .btn-primary{
+    font-size:1.2em;
+    padding:20px;
+    margin:20px;
+    width:330px;
+    height:auto;
+  }
+  .presse-btn{
+    margin-left:0;  }
+  .presse-btn a{
+    margin-top:20px;
+  } 
+  .presse{
+    margin-left:0;
+    top:400px;
+    padding:20px;
+  }
+}
+
+

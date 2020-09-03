@@ -1,0 +1,38 @@
+/** content Brunembert  **/
+  /** settings styles pc phone tab **/
+
+  h1{
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(11, 6, 63);
+  }
+    
+  h2{
+    color:rgb(24, 4, 245);
+    padding:10px;
+    text-align:center;
+  }
+
+  p{
+    font-family: 'Sen', sans-serif;
+    color:black;
+    font-size:1.4em;
+  }
+
+  a .popup{
+    background:none!important;
+  }
+    a:hover{
+      text-decoration:none;
+    } 
+
+  .btn-primary{
+    background-color:rgb(24, 4, 245)!important;
+    color:white!important;
+    padding:10px;
+    height:auto!important;
+  }
+
+/** /  content Brunembert pc **/
+
+
+

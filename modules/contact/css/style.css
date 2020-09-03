@@ -1,0 +1,238 @@
+/** Brunembert : contact media querries **/
+/** pour pc 
+CONTACT**/
+
+  .content-contact{
+    margin-top:90px;
+    text-align:center;
+    background:rgb(248, 248, 248);
+  }
+  .section-contact h1{
+    padding:20px;
+    margin:0;
+    text-align:center;
+  }
+  #img-mairie-pour-contact img{
+    min-height:300px;
+    max-height:800px;
+    height:auto;
+    min-width:200px;
+    max-width:500px;
+    width:auto;
+    float:left;
+    margin-left:100px;
+  }
+
+  .contactCentre{
+    text-align:center;
+    margin-left:650px;
+    width:400px;
+    height:335px;
+    padding:10px;
+    border:1px solid silver;
+  }
+  .intro-contact a{
+    color:rgb(5, 5, 75);
+    border-radius:10px;
+  }
+  section.section-contact p{
+    color:black;
+  }
+.permanences{
+  position:absolute;
+  top:530px;
+  padding:20px;
+  text-align:left;
+  margin-left:1200px;
+  background:rgb(236, 235, 235);
+  height:520px;
+  top:150px;
+}
+.la-page{
+  text-align:left;
+  margin-left:160px;
+
+}
+.la-page h2{
+  text-align:left;
+  margin-left:60px;
+} 
+.le-groupe{
+  margin-top:60px;
+}
+
+  .content-contact a:hover{
+    text-decoration:none;
+  }
+      .carte{
+        position:relative;
+        margin-left:150px;
+        margin-bottom:200px;
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+      .carte iframe{
+       width:380px;
+       height:200px;
+      }
+
+
+/** Brunembert : contact media querries **/
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+  /* Styles pour cette Media Queries */
+   .content-contact{
+    margin:0;
+    padding:0;
+    margin-top:150px;
+    text-align:center;
+    background:rgb(248, 248, 248);
+  }
+  #img-mairie-pour-contact img{
+    margin-left:20px;
+  }
+
+  h1{
+    margin-top:200px;
+    padding-top:250px;
+    margin-bottom:10px;
+  }
+  h2{
+    color:rgb(153, 169, 202)!important;
+    margin-top:50px;
+    margin-bottom:20px;
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .contactCentre{
+    margin-left:550px;
+    height:350px;
+  }
+  .permanences{
+    top:1050px;
+    height:650px;
+    margin-left:0;
+    padding:20px;
+  }
+
+  .carte{
+    position:relative;
+    margin-left:150px;
+    margin-bottom:800px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .carte iframe{
+   width:380px;
+   height:200px;
+  }
+}
+
+/** Brunembert : contact media querries **/
+/** pour phone **/
+@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+  .content-contact{
+    margin:20px;
+    padding:0;
+  }
+  .contactCentre{
+    text-align:center;
+    margin-left:0;
+    width:300px;
+    height:605px;
+    padding:10px;
+    border:1px solid silver;
+  }
+  .content-contact h1{
+    margin-top:80px;
+    width:205px;
+    padding:20px;
+    font-size:1.7em;
+  }
+  .content-contact h2{
+    padding:50px;
+    font-size:1.5em;
+    width:300px;
+  }
+  .intro-contact a{
+    margin:0;
+    padding:0;
+    background:none!important;
+    color:rgb(14, 141, 135);
+  }
+  .carte{
+    position:relative;
+    top:500px;
+    width:20%;
+    height:300px;
+    background:none;
+  }
+  .carte iframe{
+    width:300px;
+    height:200px;
+    margin:0;
+   }
+  section.section-contact{
+    margin:0;
+  }
+
+  #img-mairie-pour-contact img{
+    min-height:100px;
+    max-height:300px;
+    height:auto;
+    min-width:100px;
+    max-width:300px;
+    width:auto;
+    margin:0;
+  }
+
+  .contactCentre{
+    text-align:center;
+    margin-left:0;
+    width:300px;
+  }
+  .intro-contact a{
+    color:rgb(5, 5, 75);
+    border-radius:10px;
+  }
+  section.section-contact p{
+    color:black;
+  }
+.permanences{
+  position:relative;
+  top:530px;
+  padding:20px;
+  text-align:center;
+  margin-left:0;
+  background:rgb(235, 235, 236);
+  height:520px;
+}
+.la-page{
+  text-align:left;
+  margin-left:0;
+
+}
+.la-page h2{
+  text-align:left;
+  margin-left:0;
+} 
+.le-groupe{
+  margin-top:60px;
+}
+
+  .content-contact a:hover{
+    text-decoration:none;
+  }
+      .carte{
+        position:relative;
+        margin-left:0;
+        margin-bottom:200px;
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+      .carte iframe{
+       width:380px;
+       height:200px;
+      }
+
+}

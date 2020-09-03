@@ -1,0 +1,93 @@
+  span#B{
+    font-family: 'Anton', ;
+    color:rgb(199, 171, 15);
+  }
+  .content-faq{
+    margin-top:120px;
+  }
+  h1{
+    margin-top:100px;
+    text-align:center;
+  }
+  .p-faq{
+    text-align:center;
+  }
+    .panel-group{
+      width:auto;
+      margin-top:100px;
+      margin-bottom:30px;
+      padding-top:50px;
+      padding-bottom:20px;
+      padding-left:50px;
+      padding-right:50px;
+      text-align:center;
+      background:rgb(4, 4, 61);
+      color:white;
+    }
+    .panel-group a{
+      color:rgb(199, 171, 15);
+    }
+      .panel-body{
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:50px;
+        padding-bottom:50px;
+      }
+      
+    .label-primary{
+      background-color:rgb(199, 171, 15);
+      color:white;
+    }
+
+
+  /** tablette **/
+  @media only screen and (min-width :771px) and (max-width:1280px){
+    .content-faq{
+     min-width:771px;
+     max-width:1280px;
+     margin:0;
+     padding:50px;
+    }
+    .content-faq .banniere-faq-pc{
+      margin-top:100px;
+      }
+  }
+
+  /** phone **/
+  @media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+    .content-faq{
+      margin-left:10px;
+      margin-right:10px;
+      padding:0;
+    }
+    .content-faq h1{
+      font-size:2em;
+      margin-bottom:50px;
+    }
+    .banniere-faq-pc{
+      margin-top:100px;
+    }
+    .content-faq h2{
+      margin-top:20px;
+      margin-bottom:50px;
+      margin-right:20px;
+      font-size:1em;
+      width:100%;
+      background:rgb(199, 171, 15);
+      color:white;
+  }
+  .faq-container{
+    padding:0;
+    margin:0;
+  }
+  .content-faq .panel-group{
+      margin:0;
+      padding:0;
+      background:rgb(199, 171, 15);
+      color:white;
+    }
+    .content-faq .panel-body{
+      margin:0;
+      padding:0;
+    }
+}

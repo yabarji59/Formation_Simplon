@@ -1,0 +1,392 @@
+/** Brunembert : équipe
+ media querries **/
+/** pour pc **/
+    .content-equipe{
+        margin-top:50px;
+        margin-bottom:200px;
+    }
+        h1{
+            margin-top:200px;
+            margin-left:300px;
+        }
+        h2{
+            background:rgb(11, 6, 63);
+        }
+        .card-content h2 span{
+            font-size:0.7em!important;
+        }
+        #team{
+            margin-left:100px;
+        }
+    #map-departement{
+        float:right;
+    }
+    .describe{
+        margin-left:300px;
+        text-align:left;
+        float:left;
+    }
+    .content-equipe p{
+        margin-top:50px;
+    }
+    .content-equipe a{
+        color:rgb(24, 4, 245);
+    }
+    .banniere-equipe-pc{
+        height:300px;
+        margin-top:100px;
+        margin-left:50px;
+        width:500px;
+        float:left;
+    }
+    .content-equipe a:hover{
+        color:rgb(24, 4, 245);
+    }
+
+    nav#membres-conseil-municipal{
+        width:280px;
+        margin-left:10px;
+        background:#ffeb3b;
+        height:350px;
+    }
+    nav#membres-conseil-municipal li{
+        margin-bottom:10px;
+        font-size:0.7em;
+    }
+    p#que_voulez-vous{
+        top:0;
+        font-size:0.6em;
+        background-color:rgb(11, 6, 63);
+        color:white;
+        text-align:center;
+        height:auto;
+    }
+    button.membre-conseil-municipal{
+        background:none;
+        color:rgb(11, 6, 63);
+        border:none;
+        font-size:1em;
+        width:100%;
+        text-align:center;
+        margin-left:0;
+        border-radius:3px;
+    }
+
+    /**bootsnipp styles **/
+
+.card-container {
+    width: 1000px;
+    margin: 15px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+}
+
+    .card-container .custom-card {
+        position:relative;
+        background: #000;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: .5s;
+        height:350px;
+
+    }
+
+    .card-container .custom-card:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+
+    }
+        .card-container .custom-card .card-img-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+        }
+
+        .card-container .custom-card:hover .card-img-box {        
+            opacity: 0.5;
+        }
+
+        .card-container .custom-card .card-img-box img {
+            width:350px;
+            height: 100%;
+        }
+
+        .card-container .custom-card .card-content {
+            position: absolute;
+            width: 100%;
+            height: 60%;
+            bottom: -100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            transition: 0.5s;
+            padding-top: 30px;
+        }
+
+        .card-container .custom-card:hover .card-content {
+            bottom:0
+        }
+            
+        .card-container .custom-card:nth-child(1) {
+            background: linear-gradient(0deg, #c21833, transparent)
+        }
+        .card-container .custom-card:nth-child(2) {
+            background: linear-gradient(0deg, #8012a5, transparent)
+        }
+        .card-container .custom-card:nth-child(3) {
+            background: linear-gradient(0deg, #3a414c, transparent)
+        }
+
+        .card-container .custom-card .card-content h2 {
+            margin: 0 0 10px;
+            padding:0;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .card-container .custom-card .card-content h2 span {        
+            color: #ffeb3b;
+            font-size: 16px;
+        }
+
+        .card-container .custom-card .card-content p {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            font-size: 13px;
+        }
+
+        .card-container .custom-card .card-content ul {
+            display: flex;
+            margin: 10px 0 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-container .custom-card .card-content ul  li {
+            list-style: none;
+
+        }
+
+            .card-container .custom-card .card-content ul li a {
+                color: #fff;
+                padding: 0 10px;
+                font-size: 18px;
+                transition: 0.5s;
+            }
+    /* FontAwesome for working BootSnippet :> */
+
+/** Brunembert : equipe media querries **/
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+    /* Styles pour cette Media Queries */
+    .content-equipe{
+        min-width:771px;
+        max-width:1280px;
+        height:auto;
+        margin:0;
+    }
+    h1{
+        margin-top:200px;
+    }
+    h2{
+        margin:0;
+    }
+    .h2-text-center{
+        height:60px;
+    }
+    h1{
+        margin-top:200px;
+        margin-left:300px;
+    }
+    h2{
+        background:rgb(11, 6, 63);
+    }
+    #team{
+        margin-left:10px;
+    }
+    .banniere-equipe-pc{
+        height:300px;
+        margin-top:100px;
+        margin-left:50px;
+        float:none;
+    }
+    .describe{
+        position:inherit;
+        width:100%;
+        margin-left:400px;
+        padding-right:200px;
+    }
+    nav#membres-conseil-municipal{
+        position:relative;
+        float:left;
+        margin-top:100px;
+        width:280px;
+        margin-left:30px;
+        background:rgb(245, 245, 247);
+        height:600px;
+    }
+    nav#membres-conseil-municipal li{
+        margin-bottom:10px;
+    }
+    p#que_voulez-vous{
+        top:0;
+        padding:30px;
+        background-color:rgb(11, 6, 63);
+        color:white;
+        text-align:center;
+        height:auto;
+    }
+        
+    .card-container {
+        width: 900px;
+        margin: 0 auto 0;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 440px;
+        grid-gap: 40px;
+        margin-bottom:200px;
+    }   
+        .card-container .custom-card .card-img-box img {
+            width:300px;
+            height: 80%;
+        }
+
+    button.membre-conseil-municipal{
+        background:none;
+        color:rgb(11, 6, 63);
+        border:none;
+        font-size:1.3em;
+        width:100%;
+        text-align:center;
+        height:30px;
+        margin-left:0;
+        border-radius:3px;
+    }
+    nav#membres-conseil-municipal{
+        top:450px;
+        position:absolute;
+    }
+    #map-departement{
+        position: absolute;
+        margin-left:400px;
+        top:600px;
+    }
+    
+    button.membre-conseil-municipal{
+        color:rgb(0, 0, 41);
+    }
+    #team{
+        margin-left:0;
+        margin-right:300px;
+        margin-top:300px;
+    }
+        .h2-text-center{
+            margin-top:150px;
+        }
+    
+    .members{
+        position:relative;
+        max-width:500px;
+        margin-left:100px;
+        margin-right:200px;
+    }
+}
+
+  
+  /** pour phone **/
+  @media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+
+    .content-equipe{
+            min-width:280px;
+            max-width:770px;
+            margin-top:0;
+            margin-bottom:100px;
+          }
+          #map-department iframe{
+            width:280;
+            height:250; 
+        }
+        h1{
+            margin:0;
+            margin-top:100px;
+        }
+        h2{
+            width:100%;
+            height:100px;
+        }
+       .h2-text-center{
+           position:relative;
+           width:300px;
+            color:white!important;
+            margin-bottom:420px;
+        }
+        .banniere-equipe-pc{
+            height:300px;
+            width:300px;
+            margin:20px;
+        }
+        .describe{
+            margin-left:0;
+        }
+          .content-equipe #describe{
+            color:rgb(5, 5, 44)!important;
+          }
+          .content-equipe h1{
+            color:rgb(5, 5, 44);
+
+           }
+           .content-equipe #team{
+            color:rgb(5, 5, 44);
+           }
+           .content-equipe #team h4{
+            color:rgb(5, 5, 44);
+           }
+           .content-equipe #team .frontside.card-body p{
+            color:rgb(5, 5, 44);
+           }
+           .banniere-equipe-pc{
+               margin-top:100px;
+               padding:0;
+           }
+        #team {
+            max-width:300px;
+            top:0;
+            width:auto;
+            margin:0;
+            color:rgb(5, 5, 44);
+        }
+        .members{
+            margin:0;
+            margin-top:1000px;
+            padding:0;
+            float:none;
+            position:inherit;
+        }
+        #map-departement{
+            float:none;
+        }
+        .container-global{
+            height:auto;
+            width:300px;
+        }
+        .card-container{
+            display:block;
+            margin-top:120px;
+        }
+        .custom-card{
+            width:300px;
+            margin-top:20px;
+        }
+        
+        
+    }
+  

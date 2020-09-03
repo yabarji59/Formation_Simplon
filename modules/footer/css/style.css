@@ -1,0 +1,94 @@
+/** Brunembert : footer pc media querries **/
+/** pour pc **/
+@media only screen and (min-width :980px){
+    /* Styles pour cette Media Queries **/
+    footer{
+        min-width:1281px;
+        padding-top:10px;
+        padding-bottom:30px;
+        height:180px;
+        background-color:rgb(11, 6, 63);
+        text-align:center;
+        z-index:5;
+    }
+    footer p{
+        font-size:1.3em;
+        color:rgb(11, 6, 63);
+    }
+    footer a{
+        font-size:1em!important;
+        color:rgb(24, 4, 245)!important;
+    }
+        footer a:hover{
+            color:rgb(214, 12, 137);
+            text-decoration:none;
+        }
+        footer .footer-header{
+            background-color:rgb(11, 6, 63)!important;
+            display:inline-block;
+        }
+        footer .footer-header a.navbar-brand{
+           margin-bottom:20px!important;
+        }
+        footer #nav-footer{
+            margin-top:100px;
+            z-index:9999;
+        }
+    }
+
+
+/** Brunembert : footer media querries **/
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+    /* Styles pour cette Media Queries */
+    footer{
+       min-width:771px;
+       max-width:1280px;
+       margin:0;
+       padding:20px;
+       min-height:250px;
+       max-height:auto;
+       width:100%;
+       color:rgb(24, 24, 214);
+       text-align:center;
+    }
+    footer .navbar-header{
+        min-width :570px;
+        max-width:700px;
+        min-height:20px;
+        max-height:50px;
+        width:auto;
+        padding:0;
+    }
+    .navbar-header li.nav-item{
+        padding:0;
+    }
+    .navbar-header li.nav-item a{
+        font-size:1em!important;
+        color:rgb(213, 213, 231)!important;
+    }
+}
+  
+  
+/** Brunembert : footer media querries **/ 
+/** pour phone **/
+@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+    footer{
+        min-width:280px;
+        max-width:768px;
+        margin-top:1200px;
+        padding:20px;
+        min-height:300px;
+        max-height:auto;
+        min-width:280px;
+        width:100%;
+        z-index:300;
+        } 
+        footer #nav-footer{
+            margin-top:100px;
+            z-index:9999;
+        }
+        .footer-header li.nav-item{
+            padding-top:30px;
+        }
+}

@@ -1,0 +1,157 @@
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ */
+ body {
+  overflow-x: hidden;
+}
+
+/** le bouton JS affiche **/
+.img-responsive{
+  display:none;
+}
+.brunembert-info{
+display:none;
+}
+#sidebar-wrapper {
+  margin-left: 0;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left:-50rem;
+}
+
+#sidebar-wrapper {
+  position:absolute;
+  top:100px;
+  background:#f8f9fa!important;
+  border:none!important;
+  height:auto;
+  z-index:9999;
+  float:left;
+  margin-left:-200rem;
+  margin-bottom:50px;
+  min-width:200px;
+  max-width:300px;
+  -webkit-transition: margin .50s ease-out;
+  -moz-transition: margin .50s ease-out;
+  -o-transition: margin .50s ease-out;
+  transition: margin .50s ease-out;
+}
+
+  #sidebar-wrapper h2{
+    margin:0;
+    font-size:1em;
+    color:rgb(7, 1, 92)!important;
+    background:none!important;
+    padding:10px;
+  }
+  #sidebar-wrapper p{
+    color:white;
+  }
+
+  /** ARTICLES **/
+  .articles{
+    width:280px;
+    margin-left:10px;
+    margin-right:40px;
+  }
+    .article-brunembert-info h3{
+      color:rgb(21, 11, 156);
+      padding:10px;
+      text-align:center;
+      width:300px;
+    }
+    .article-brunembert-info h2{
+      color:white;
+      padding-left:30px;
+      width:200px;
+    }
+    .text-article p{
+      margin-top:20px;
+      width:300px;
+    }
+    .text-article a{
+      color:white!important;
+    }
+
+
+
+  /** FIN CSS ARTICLES **/
+
+  .d-flex .navbar-aside a{
+    font-size:2em;
+    margin-bottom:0;
+  }
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+
+  #sidebar-wrapper .list-group p {
+   color:blue;
+  }
+
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #sidebar-wrapper {
+    margin-left: 0;
+    margin-top:50px;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left:-50rem;
+  }
+  .list-group-flush {
+    margin:10px;
+  }
+  .list-group-flush button{
+    padding:5px;
+  }
+.list-group-flush a{
+  color:blue!important;
+}
+
+
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+  /* Styles pour cette Media Queries */
+  
+  #page-content-wrapper {
+      min-width:781px;
+      max-width:979px;
+      width:100%;
+    }
+    #sidebar-wrapper {
+      z-index:5;
+      top:650px;
+     }
+  }
+
+
+
+/** pour phone **/
+@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+
+  #sidebar-wrapper {
+   z-index:5;
+   top:530px;
+  }
+
+}

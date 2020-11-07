@@ -1,285 +1,46 @@
-.content-galerie{
-  margin-top:100px;
-  margin-bottom:200px;
-  background:rgb(251, 251, 255);
-  }
-  .banniere-galerie-pc img{
-    height:300px; 
-    width:58%;
-    text-align:center;
-    margin-left:400px;
+/* galerie.php mediaquerries brunembert.fr */
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
+  .content-galerie{
+    margin-top:150px;
+    margin-left:250px;
+    margin-right:250px;
   }
   h1{
-    width:58%;
-    margin-left:400px;
-    background-color:rgb(4, 4, 61); 
-    padding-bottom:30px;
-    text-align:center;
-    color:rgb(241, 241, 241);
-    font-size:2em;
-  }
-  h2{
-    background:none;
-    color:rgb(41, 41, 170)!important; 
-  }
-  h3{
-    color:rgb(6, 105, 112);
-    text-align:center;
-    margin-bottom:100px;
-  }
-
-  h4{
-    color:rgb(22, 108, 114);
-  }
-  p{
-  text-align:center;
-  }
-
-
-    /** section photos consultations **/
-    @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-    body{
-        font-family: 'Quicksand', sans-serif;
-    }
-    .gal-container{
-      padding: 12px;
-    }
-    .gal-item{
-      overflow: hidden;
-      padding: 3px;
-    }
-    .gal-item .box{
-      height: 350px;
-      overflow: hidden;
-    }
-    .box img{
-      height: 100%;
-      width: 100%;
-      object-fit:cover;
-      -o-object-fit:cover;
-    }
-    .gal-item a:focus{
-      outline: none;
-    }
-    .gal-item a:after{
-      content:"\e003";
-      font-family: 'Glyphicons Halflings';
-      opacity: 0;
-      background-color: rgba(0, 0, 0, 0.75);
-      position: absolute;
-      right: 3px;
-      left: 3px;
-      top: 3px;
-      bottom: 3px;
-      text-align: center;
-        line-height: 350px;
-        font-size: 30px;
-        color: #fff;
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        -moz-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
-    }
-    .gal-item a:hover:after{
-      opacity: 1;
-    }
-    .modal-open .gal-container .modal{
-      background-color: rgba(0,0,0,0.4);
-    }
-    .modal-open .gal-item .modal-body{
-      padding: 0px;
-    }
-    .modal-open .gal-item button.close{
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        background-color: #000;
-        opacity: 1;
-        color: #fff;
-        z-index: 999;
-        right: -12px;
-        top: -12px;
-        border-radius: 50%;
-        font-size: 15px;
-        border: 2px solid #fff;
-        line-height: 25px;
-        -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
-      box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
-    }
-    .modal-open .gal-item button.close:focus{
-      outline: none;
-    }
-    .modal-open .gal-item button.close span{
-      position: relative;
-      top: -3px;
-      font-weight: lighter;
-      text-shadow:none;
-    }
-    .gal-container .modal-dialogue{
-      width: 80%;
-    }
-    .gal-container .description{
-      position: relative;
-      height: 40px;
-      top: -40px;
-      padding: 10px 25px;
-      background-color: rgba(0,0,0,0.5);
-      color: #fff;
-      text-align: left;
-    }
-    .gal-container .description h4{
-      margin:0px;
-      font-size: 15px;
-      font-weight: 300;
-      line-height: 20px;
-    }
-    .gal-container .modal.fade .modal-dialog {
-        -webkit-transform: scale(0.1);
-        -moz-transform: scale(0.1);
-        -ms-transform: scale(0.1);
-        transform: scale(0.1);
-        top: 100px;
-        opacity: 0;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-
-    .gal-container .modal.fade.in .modal-dialog {
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform: translate3d(0, -100px, 0);
-        transform: translate3d(0, -100px, 0);
-        opacity: 1;
-    }
-    @media (min-width: 768px) {
-    .gal-container .modal-dialog {
-        width: 55%;
-        margin: 50 auto;
-    }
-    }
-    @media (max-width: 768px) {
-        .gal-container .modal-content{
-            height:250px;
-        }
-    }
-
-
-  /* Style the button used to pause/play the video */
-  #audio figure{
-    top:0;
-    padding-top:10px;
-    padding-left:120px;
-    margin-left:100px;
-    background-color:rgb(246, 247, 250);
-    width:100%;
-    height:80px;
-    padding-bottom:50px;
-    margin:0;
-    z-index:2;
-    position:fixed;
-  }
-  #audio figcaption{
-    z-index:3;
-    font-size:1.3em;
-    border-radius:20px;
-    color:rgb(12, 7, 61);
-    text-align:center;
-    padding:5px;
-    margin-left:500px;
-    position:fixed;
-    float:left;
-  }
-/** fin media pc **/
-
-/** Brunembert : galerie media querries **/
-/** pour tablette **/
-@media only screen and (min-width :771px) and (max-width:1280px){
-  /* Styles pour cette Media Queries */
-  .content-galerie{
-    min-width:771px;
-    max-width:1280px;
-    width:100%;
-    margin:0;
-    margin-bottom:100px;
-  }
-  .content-galerie h1{
-    text-align:center;
-    width:100%;
-    margin:0;
+    background:rgb(16, 66, 114);
+    color:rgb(179, 198, 206);
     padding:10px;
-    font-size:1.3em;
+    font-size:1.8em;
   }
-  .banniere-galerie-pc img{
-    height:auto; 
-    width:100%;
-    text-align:center;
-    margin:0;
-    margin-top:100px;
+  .hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+  }
+  
+  .thumbnail {
+    padding: 0;
+  }
+  
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+  }
+  #slider-thumbs {
+    padding:50px;
+    height: 565px;
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+  #slider{
+    margin:50px;
   }
 }
 
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+}
 
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
-@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
-  .content-galerie{
-    margin:0;
-    padding:0;
-    min-width:280px;
-    max-width:770px;
-    width:100%;
-  }
-  .banniere-galerie-pc img{
-    height:100px; 
-    width:100%;
-    text-align:center;
-    margin:0;
-    margin-top:100px;
-  }
-  h1{
-    width:100%;
-    margin:0;
-  }
-  .content-galerie h1{
-    position:absolute;
-    margin-top:0;
-    margin-left:0;
-    top:20px;
-    padding:20px;;
-    background:black;
-    color:rgb(14, 211, 152)!important;
-    font-size:1.5em;
-    width:100%;
-  }
-  .gallery_product{
-    margin:0;
-  }
-  div#slider figure img {
-    margin-top:0;
-    height:auto;
-    min-height:100px;
-    max-height:300px;
-    float: left; 
-  }
-  div#slider {  
-    margin:0;
-    margin-bottom:100px;
-    width:auto;
-    height:auto;
-    min-height:100px;
-    max-height:300px;
-    overflow: hidden 
-  }
-
-  /* Footer Style */
-  i.red{
-      color:#BC0213;
-  }
-  .gal-container{
-      padding-top :75px;
-      padding-bottom:75px;
-  }
-
-
 }

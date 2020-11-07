@@ -1,93 +1,132 @@
-  span#B{
-    font-family: 'Anton', ;
-    color:rgb(199, 171, 15);
-  }
-  .content-faq{
-    margin-top:120px;
-  }
-  h1{
-    margin-top:100px;
-    text-align:center;
-  }
-  .p-faq{
-    text-align:center;
-  }
-    .panel-group{
-      width:auto;
-      margin-top:100px;
-      margin-bottom:30px;
-      padding-top:50px;
-      padding-bottom:20px;
-      padding-left:50px;
-      padding-right:50px;
+  /* faq.php mediaquerries brunembert.fr */
+  
+  @media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
+    .content-faq{
+      margin-top:200px;
+      margin-left:400px;
+      margin-right:400px;
+    }
+    .banniere-faq img .banniere{
+      position:relative;
+      height:500px;
+      width:700px;
+    }
+    #select{
+      position:absolute;
+      color:rgb(9, 9, 39)!important;
+      width:58%;
+      height:50px;
+      margin-top:50px;
+      border-radius:10px;
+      color:black;
+      padding:10px;
+      font-size:1.9em;
+      z-index:12;
+    }
+    #div-answer{
+      margin-top:200px;
+    }
+    #div-answer p#q{
       text-align:center;
-      background:rgb(4, 4, 61);
-      color:white;
+      background-color:rgb(9, 9, 39);
+      color:rgb(238, 206, 26);
+      padding:8px;
+      font-size:1.8em;
     }
-    .panel-group a{
-      color:rgb(199, 171, 15);
+    #div-answer p#r{
+      color:rgb(9, 9, 39);
+      padding:20px;
+      font-size:1.5em;
     }
-      .panel-body{
-        padding-left:50px;
-        padding-right:50px;
-        padding-top:50px;
-        padding-bottom:50px;
-      }
-      
-    .label-primary{
-      background-color:rgb(199, 171, 15);
-      color:white;
+    h1{
+      background:rgb(238, 206, 26);
+      color:rgb(9, 9, 39);
+      font-size:1.9em;
+      padding:10px;
     }
 
-
-  /** tablette **/
-  @media only screen and (min-width :771px) and (max-width:1280px){
-    .content-faq{
-     min-width:771px;
-     max-width:1280px;
-     margin:0;
-     padding:50px;
+    .bouton
+    {
+        color:#0000ff;
+        font-size:24px;
+        cursor:pointer;
     }
-    .content-faq .banniere-faq-pc{
-      margin-top:100px;
+      .bouton:hover
+      {
+          text-decoration:underline;
       }
+    .texte
+    {
+        border:1px solid #333333;
+        background:#eeeeee;
+        padding:10px;
+        color:#333333;
+    }
+      .texte:hover
+      {
+          border:1px solid #000000;
+          background:#cccccc;
+          color:#000000;
+      }
+
   }
 
-  /** phone **/
-  @media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
-    .content-faq{
-      margin-left:10px;
-      margin-right:10px;
-      padding:0;
-    }
-    .content-faq h1{
-      font-size:2em;
-      margin-bottom:50px;
-    }
-    .banniere-faq-pc{
-      margin-top:100px;
-    }
-    .content-faq h2{
-      margin-top:20px;
-      margin-bottom:50px;
-      margin-right:20px;
-      font-size:1em;
-      width:100%;
-      background:rgb(199, 171, 15);
-      color:white;
-  }
-  .faq-container{
-    padding:0;
+  @media only screen and (min-width :768px) and (max-width:1366px){
+  /* Styles pour cette Media Queries *//** pour tablette **/
+  .content-faq{
+    min-width:771px;
+    max-width:1280px;
     margin:0;
+    padding:50px;
   }
-  .content-faq .panel-group{
-      margin:0;
-      padding:0;
-      background:rgb(199, 171, 15);
-      color:white;
+  .content-faq .banniere-faq-pc{
+    margin-top:100px;
     }
-    .content-faq .panel-body{
-      margin:0;
-      padding:0;
-    }
+  }
+
+
+  @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+  /** pour phone **/
+  .content-faq{
+    margin-left:10px;
+    margin-right:10px;
+    padding:0;
+  }
+  .content-faq h1{
+    font-size:2em;
+    margin-bottom:50px;
+  }
+  .banniere-faq-pc{
+    margin-top:100px;
+  }
+  .content-faq h2{
+    margin-top:20px;
+    margin-bottom:50px;
+    margin-right:20px;
+    font-size:1em;
+    width:100%;
+    background:rgb(15, 199, 174);
+    color:white;
 }
+.faq-container{
+  padding:0;
+  margin:0;
+}
+.content-faq .panel-group{
+    margin:0;
+    padding:0;
+    background:rgb(15, 199, 174);
+    color:white;
+  }
+  .content-faq .panel-body{
+    margin:0;
+    padding:0;
+  }
+}
+
+
+
+
+
+ 

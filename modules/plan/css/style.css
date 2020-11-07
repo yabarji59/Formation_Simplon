@@ -1,12 +1,11 @@
 /** Brunembert : plan media querries **/
-/** pour pc **/
-  /* Styles pour cette Media Queries */
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
   .content-plan{
     margin-bottom:100px;
     background-image:rgb(245, 245, 247);
     background-repeat:no-repeat;
-    height:11800px;
-    margin-bottom:200px;
+    height:10200px;
   }
   .content-plan footer{
     margin-top:5000px;
@@ -38,7 +37,7 @@
     border:1px solid blue;
     margin-bottom:100px;
     float:left;
-    top:60px;
+    top:220px;
   }
 
   .nav-select h2{
@@ -63,8 +62,6 @@
   a{
    text-align:center;
    font-size:1.8em;
-   padding:0;
-   margin:20px;
  }
  a:hover{
    text-decoration:none;
@@ -106,11 +103,12 @@
   }
  
 
+}
 
-/** Brunembert : plan media querries **/
-/** pour tablette **/
-@media only screen and (min-width :771px) and (max-width:1280px){
-  /* Styles pour cette Media Queries */
+
+
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
   .content-plan{
     min-width:771px;
     max-width:1280px;
@@ -150,7 +148,7 @@
     height:auto;
     margin-bottom:200px;
     width:300px;
-}
+  }
 
   .grey-right-part{
     color:rgb(4, 4, 44);
@@ -161,9 +159,8 @@
 }
 
 
-
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
-@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
   .content-plan{
     min-width:280px;
     max-width:828px;
@@ -230,3 +227,4 @@
       margin-bottom:200px;
   }
 }
+

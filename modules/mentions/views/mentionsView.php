@@ -69,16 +69,16 @@
                   <h2 class="title in-toc is-level-2" id="introduction" tabindex="-1">  Introduction  </h2>
                   <div class="text" data-controller="text">
                 <div data-target="text.textContainer">
-                  Les présentes Mentions Légales vous informent sur les services du site, sur la relation entre les utilisateurs du site et le Village de brunembert, sur les droits et responsabilités qui y sont applicables, de la simple consultation à l’utilisation de services spécifiques.
+                  Les présentes Mentions Légales vous informent sur les services du site, sur la relation entre les utilisateurs du site et le Village de Brunembert, sur les droits et responsabilités qui y sont applicables, de la simple consultation à l’utilisation de services spécifiques.
                 </div>
               </div>
 
       <h3 class="title  is-level-3" id="11-un-site-consultatif">  Un site consultatif  </h3>
       <div class="text" data-controller="text">
         <div data-target="text.textContainer">
-          Le site est essentiellement destiné à la diffusion de l’information municipale, portant sur la municipalité de brunembert, les communes alentours, son département-sa région et ses services. 
+          Le site est essentiellement destiné à la diffusion de l’information municipale, portant sur la municipalité de Brunembert, les communes alentours, son département-sa région et ses services. 
           <br> Le site a aussi vocation à informer sur les droits et devoirs des citoyens. 
-          <br> Sur l’ensemble du site, hors page spécifique, le Village de brunembert est seul à éditer du contenu. 
+          <br> Sur l’ensemble du site, hors page spécifique, le Village de Brunembert est seul à éditer du contenu. 
           Les présentes Mentions Légales sont applicables du seul fait de la consultation du site en tout ou partie.
         </div>
       </div>
@@ -113,7 +113,7 @@
           <h4 class="title  is-level-4" id="212-droit-dacces-de-modification-et-de-suppression">  Droit d'accès, de modification et de suppression  </h4>
             <div class="text" data-controller="text">
               <div data-target="text.textContainer">
-                le Village de brunembert informe les usagers des droits qu’ils possèdent un droit d’accès, 
+                le Village de Brunembert informe les usagers des droits qu’ils possèdent un droit d’accès, 
                 de rectification, et d’effacement, 
                 par le règlement UE/2016 du 27 avril 2016 relatif à la protection des données à caractère personnel et 
                 la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, modifiée.
@@ -147,25 +147,20 @@
       <h2 class="title in-toc is-level-2" id="propriete-intellectuelle" tabindex="-1">  Propriété intellectuelle  </h2>
       <div class="text-aside" data-controller="text">
         <div data-target="text.textContainer">
-          À l’exception des contenus provenant des contributeurs du site internet, les Contenus présents sur le site sont la propriété du Village de brunembert
+          À l’exception des contenus provenant des contributeurs du site internet, les Contenus présents sur le site sont la propriété du Village de Brunembert
           
           en vertu de l'article L.122-4 du Code de la Propriété Intellectuelle.
-            <br><h3> N'a pas fait l'objet d'un développement web, mais d'une intégration web</h3><br> 
+            <br><h3> N'a pas fait l'objet d'un développement web, mais d'une intégration web et sont soumis aux droits d'usage des collectes d'information respectives</h3><br> 
             Je cite : <br>
-            le widget météo qui provient de : 
-            <a href="http://www.meteofrance.com/previsions-meteo-france/brunembert/62240" target="_blanck">Meteo France</a>
-            <div style='clear:both'></div>
-            <br>
+
             Le widget "chat" provient de : 
             <a href="https://www.smartsupp.com/fr/" target="_blanck">Smartsupp</a>.
 
-            <br><br>
-            l'intégration de la carte dans <a href="index.php?page=equipe">la page "équipe"</a> qui provient de : 
-            <a href="https://www.pasdecalais.fr/" target="_blanck">du Département du Pas-de-Calais</a>.
-            <br><br>
+
             Le widget "sondage" provient de : 
             <a href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms" target="_blanck">Google forms</a>
             <br><br>
+
             L'intégration ou redirection vers les réseaux sociaux provient de : 
             <a href="https://www.facebook.com/groups/200912411341170/" target="_blanck">Facebook</a><br><br>
           
@@ -213,7 +208,7 @@
           Ainsi, les discours des élus s'apparentent à une exception au droit d'auteur. 
           La reprise de ces discours de façon partielle ou intégrale est ainsi autorisée,
           sous réserve bien entendu de la mention du nom de l'auteur et de la source.
-            La mention "site Internet du Village de brunembert" devra donc être indiquée.
+            La mention "site Internet du Village de Brunembert" devra donc être indiquée.
         </div>
       </div>
 
@@ -270,7 +265,7 @@
           Connexion et services de la partie consultative du site  </h3>
         <div class="text" data-controller="text">
           <div data-target="text.textContainer">
-            le Village de brunembert ne peut être tenu responsable de tout dommage issu d'une interruption, d'un dysfonctionnement quel qu'il soit, 
+            le Village de Brunembert ne peut être tenu responsable de tout dommage issu d'une interruption, d'un dysfonctionnement quel qu'il soit, 
             d'une suspension ou de la cessation du site, et ce pour quelque raison que ce soit ou encore de tout dommage matériel ou immatériel 
             qui résulterait d'une quelconque façon de la connexion au site. La connexion de l'utilisateur au site se fait sous son entière responsabilité.
           </div>
@@ -316,7 +311,7 @@
                 <img class="card-img-top" src="./img/logos/logo-hover-justine.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Justine Lemaire</h5>
-                  <p class="card-text">N° SIRET : 882 878 804 00013<br>chargée de mission numérique
+                  <p class="card-text">Chargée de mission numérique
                     Centre Social Espace Carnot</a> dans le cadre du dispositif des
                       <a href="https://www.csconnectesduboulonnais.eu/" target="_blanck">Centres Sociaux Connectés du Boulonnais</a>
                     qui vise à réduire la fracture numérique sur le bassin boulonnais. 
@@ -328,28 +323,29 @@
 
 
             <div id="logo-lea-photos">
-              <div class="card lea-card" style="width: 30rem;">
+              <div class="card lea-card" style="width: 30rem; font-size:1em;">
                 <img class="card-img-top" src="./img/presse/lea-tintillier.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Léa Tintillier</h5>
-                  <p class="card-text">qui a répondu présente pour la réalisation de quelques clichés 
+                  <p class="card-text" style="font-size:1.09em;">qui a répondu présente pour la réalisation de quelques clichés 
                     de Brunembert publiées sur www.brunembert.fr
                   </p>
                   <a href="https://www.facebook.com/lea.tintillier.50" class="btn">FACEBOOK</a>
                 </div>
               </div>
             </div>
+            <h2 class="title in-toc is-level-2" id="l-equipe-de-brunembert-fr" tabindex="-1">  Crédits </h2>
+            <div class="text" data-controller="text">
+              <div data-target="text.textContainer">
+                La Mairie de Brunembert reste propriétaire du site internet de son Village et de ses contenus à l'excéption des intégrations dont les contenus 
+                proviennent de sources différentes.
+              </div>
+            </div>
 
       </div><!-- classtext -->
     </div><!-- text.textContainer -->
                       
-    <h2 class="title in-toc is-level-2" id="l-equipe-de-brunembert-fr" tabindex="-1">  Crédits </h2>
-      <div class="text" data-controller="text">
-        <div data-target="text.textContainer">
-          La Mairie de Brunembert reste propriétaire du site internet de son Village et de ses contenus à l'excéption des intégrations dont les contenus 
-          proviennent de sources différentes.
-        </div>
-      </div>
+
 
   </div><!-- fin div mentions -->
 </div><!-- content-mentions-->

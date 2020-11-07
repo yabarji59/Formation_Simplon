@@ -71,8 +71,10 @@
             
             <a href="#" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" 
             title="Cliquez sur Brunembert.fr pour emprunter un raccourci vers la page d'accueil">
-              <a class="navbar-brand" href="index.php"><img src="./img/logos/brunembert.png" alt="logo brunembert"> </a>
-            </a> <!-- fin js info -->
+                <a class="navbar-brand" href="index.php">
+                  <img src="./img/logos/brunembert.png" alt="logo brunembert" style="height:100%; width:100%"; "> 
+                </a>
+            </a><!-- fin js info -->
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto ul-principal">
@@ -90,6 +92,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=articles">Articles</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="index.php?page=galerie">Galerie</a>
                         </li>
                         
@@ -100,6 +106,7 @@
                         <li class="nav-item">
                             <a class="nav-link contact-eloigne" href="index.php?page=contact"><i class="fa fa-envelope"></i> Contact</a>
                         </li>
+
                 </div>
                 
         </nav>
@@ -111,7 +118,7 @@
     <div class="content">
 
         <!-- my pages -->
-        <a href="#" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" title="Cliquez sur cette flèche pour revenir au début de la page">
+        <a href="#" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" title="Cliquez sur cette flèche pour revenir en haut de cette page">
             <i class="fas fa-arrow-circle-up"></i>
         </a>
 

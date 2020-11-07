@@ -26,10 +26,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron&display=swap" rel="stylesheet">   
         <!-- le B de Brunembert -->
         <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <!-- bouton voir plus -->
+        <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 
 
         <!-- On importe la bibliothèque JQuery-->
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 
         <!-- Fontawesome îcones & Bootstrap GRID, JS -->   
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"

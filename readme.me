@@ -1,3 +1,152 @@
+@mediaquerries
+                @media only screen and (min-width:1367px){
+                /** Brunembert : Home media querries **//** pour pc**/
+                }
+
+                @media only screen and (min-width :768px) and (max-width:1366px){
+                /* Styles pour cette Media Queries *//** pour tablette **/
+                }
+
+
+                @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+                /** pour phone **/
+                }
+
+
+Créer un cookie ex: "rester connecté"
+                                    ( conserver les infos du visiteur ) 
+                                        setcookie(name, value, expire, path, domain, secure, httponly)
+                                        setcookie('user_pref', 'documents, time()+3600*24, '/', brunembert.fr, true, true)
+
+                                    créons un cookie pour enregistrer les consultations de documents pendant un an
+                                    ( avant le head )
+                                        <?php 
+                                            setcookie('user_id', '1234');
+                                            setcookie('user_pref', 'documents', time()+3600*8760, '/', brunembert.fr, true, true)
+                                        ?>
+
+                                    récupérons le cookie dans le body - content 
+                                        <?php 
+                                            if(isset($_COOKIE['user_id']))
+                                            {
+                                            echo 'Votre ID de session est le ' .$_COOKIE['user_id'];
+                                            }
+                                            echo ' Votre ID de session est le ' .$_COOKIE['user_id'];
+                                        ?>
+
+PDO pour relier bdd au site ex: database.php
+                                            ! ne pas oublier: require_once 'database.php'; dans index.php 
+                                            <?php 
+                                                $db= new PDO('mysql:host=localhost;dbname=brunembert', 'root', '');
+                                                $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                                            ?> 
+
+
+0.2 ADMIN interface 
+
+<div class="content-admin">
+  <div id="admin">
+    <?php
+      if(!$_SESSION['admin'])
+      {
+            echo '
+                <h2 style="width:100%; position:absolute; top:0; z-index:1000; background:blue; color:white;">Merci de vous connecter</h2>';
+            echo '
+            <div class="container">
+                <div class="sidenav">
+                
+                <div class="login-main-text">
+                    <img src="./img/logos/blason.png" alt="blason de brunembert">
+                    <h2>  Administrateurs du site<br>
+                    Vous êtes sur la page de connexion
+                    <span><i>Enregistrez-vous avec vos accès confidentiels.</i></span></h2>
+                </div>
+        
+            </div>
+    
+    
+          <div class="main">
+            <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+
+                <form action ="index.php?page=admin.php" method="POST">
+                <h1>Se connecter</h1>
+                <a href="index.php">Vous souhaitez retourner sur la page d\'accueil du site?</a>
+                <p>Merci d\'entrer votre titre et votre mot de passe</p>
+                    <div class="form-group">
+                        <label>Votre titre</label>
+                        <input type="text" class="form-control" placeholder="Votre titre" name="titre">
+                    </div>
+                    <div class="form-group">
+                        <label>Mot de passe</label>
+                        <input type="password" class="form-control" placeholder="Mot de passe" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-black">Connexion</button>
+                    <button type="submit" class="btn btn-secondary">M\'inscrire</button>
+                </form>
+        
+            </div>
+            </div>
+        </div>';
+        if(isset($_POST) AND !empty($_POST))
+        {
+            if(!empty(htmlspecialchars($_POST['titre'])) AND !empty(htmlspecialchars($_POST['password'])))
+            {
+                $req = $db ->prepare( 'SELECT * FROM users WHERE titre = :titre AND password = :password');
+                $req ->execute([
+                    'titre' => $_POST['titre'],
+                    'password' => $_POST['password']
+                ]);
+                $user = $req-> fetch();
+                if($user){
+                    $_SESSION['admin'] = $_POST['titre'];
+                    echo '<div class="welcome-admin"> Bienvenue '. $_SESSION['admin'] .'</div>';
+   
+                }
+                else{
+                    $error = "identifiants incorrects!";
+                }
+            }
+            else
+            {
+                $error = "Veuillez remplir tous les champs!";
+            }
+        }
+        if(isset($error))
+        {
+            echo '<div class="error">'. $error .'</div>';
+        }
+    
+    }
+    else
+    {
+        /** affiche dashboard echo ' bienvenue"  */
+        echo '<div class="welcome-admin"> Bienvenue '. $_SESSION['admin'] .'</div>';
+    }
+    
+      ?>
+
+      /1.ADMIN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
 -- COLORS CHARTE GRAPHIQUE -- 
     blanc = color:rgb(255, 255, 255);
     bleu foncé = background:rgb(11, 6, 63)!important;
@@ -37,7 +186,104 @@ plugin emmet "!"+"ENTREE" pour avoir le code html de base
   
 
 
-      --MEDIA QUERRIES  -- 
+
+
+/** Brunembert : admin  media querries **/
+/** pour tablette **/
+@media only screen and (min-width :771px) and (max-width:1280px){
+  /* Styles pour cette Media Queries */
+}
+
+/** Brunembert : admin media querries **/
+/** pour phone **/
+@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+
+
+}
+
+
+ADMIN TEST 
+
+<div class="content-admin">
+  <div id="admin">
+    <?php
+      if(!$_SESSION['admin'])
+      {
+            echo '<h2 style="width:100%; position:absolute; top:0; z-index:1000; background:blue; color:white;">Merci de vous connecter</h2>';
+            echo '
+            <div class="container">
+                <div class="sidenav">
+                
+                <div class="login-main-text">
+                    <img src="./img/logos/blason.png" alt="blason de brunembert">
+                    <h2>  Administrateurs du site<br>
+                    Vous êtes sur la page de connexion
+                    <span><i>Enregistrez-vous avec vos accès confidentiels.</i></span></h2>
+                </div>
+        
+            </div>
+    
+    
+          <div class="main">
+            <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+
+                <form action ="index.php?page=admin.php" method="POST">
+                <h1>Se connecter</h1>
+                <a href="index.php">Vous souhaitez retourner sur la page d\'accueil du site?</a>
+                <p>Merci d\'entrer votre titre et votre mot de passe</p>
+                    <div class="form-group">
+                        <label>Votre titre</label>
+                        <input type="text" class="form-control" placeholder="Votre titre" name="titre">
+                    </div>
+                    <div class="form-group">
+                        <label>Mot de passe</label>
+                        <input type="password" class="form-control" placeholder="Mot de passe" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-black">Connexion</button>
+                    <button type="submit" class="btn btn-secondary">M\'inscrire</button>
+                </form>
+        
+            </div>
+            </div>
+        </div>';
+        if(isset($_POST) AND !empty($_POST))
+        {
+            if(!empty(htmlspecialchars($_POST[''])) AND !empty(htmlspecialchars($_POST['password'])))
+            {
+                $req = $db ->prepare( 'SELECT * FROM users WHERE  = : AND password = :password');
+                $req ->execute([
+                    '' => $_POST[''],
+                    'password' => $_POST['password']
+                ]);
+                $user = $req-> fetch();
+                if($user){
+                    $_SESSION['admin'] = $_POST[''];
+                    echo '<div class="welcome-admin"> Bienvenue '. $_SESSION['admin'] .'</div>';
+   
+                }
+                else{
+                    $error = "identifiants incorrects!";
+                }
+            }
+            else
+            {
+                $error = "Veuillez remplir tous les champs!";
+            }
+        }
+        if(isset($error))
+        {
+            echo '<div class="error">'. $error .'</div>';
+        }
+    
+    }
+    else
+    {
+        /** affiche dashboard echo ' bienvenue"  */
+        echo '<div class="welcome-admin"> Bienvenue '. $_SESSION['admin'] .'</div>';
+    }
+    
+      ?>
 
 
 
@@ -48,28 +294,6 @@ plugin emmet "!"+"ENTREE" pour avoir le code html de base
 
 
 
-
-
-
-
-
-
-
-
- Back-office -
-- PDO 
-    -- <?php
-    $bdd = new PDO('mysql:host=localhost;dbname=mairie_de_brunembert62240;charset=utf8', 'root', 'root');
-        ?>
-    --
--- / PDO 
-
--- BDD MySQL 
--- Transfet via Filezilla 
- base de données -- 
--- dans bdd.inc.php -- 
--- treatment.php pour les requêtes 
--- ! serveur IP : localhost ou non 
 
 
 ## video Brunembert à venir ##

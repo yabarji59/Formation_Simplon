@@ -1,56 +1,62 @@
-/** Brunembert : footer pc media querries **/
-/** pour pc **/
-@media only screen and (min-width :980px){
-    /* Styles pour cette Media Queries **/
+/** Brunembert : footer media querries **/
+@media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
     footer{
         min-width:1281px;
+        margin-top:300px;
         padding-top:10px;
         padding-bottom:30px;
         height:180px;
-        background-color:rgb(11, 6, 63);
+        background-color:rgb(10, 30, 53);
         text-align:center;
         z-index:5;
     }
     footer p{
         font-size:1.3em;
-        color:rgb(11, 6, 63);
+        color:rgb(6, 42, 63);
     }
     footer a{
         font-size:1em!important;
-        color:rgb(24, 4, 245)!important;
+        color:rgb(81, 141, 160)!important;
     }
-        footer a:hover{
-            color:rgb(214, 12, 137);
-            text-decoration:none;
-        }
-        footer .footer-header{
-            background-color:rgb(11, 6, 63)!important;
+        footer .rappel-navHeader li{
             display:inline-block;
+            font-size:1em;
+            padding-right:30px;
         }
         footer .footer-header a.navbar-brand{
            margin-bottom:20px!important;
+           width:100%;
         }
         footer #nav-footer{
             margin-top:100px;
             z-index:9999;
         }
-    }
+        .carte{
+            position:relative;
+            padding-top:10px;
+            padding-bottom:10px;
+          }
+            .carte iframe{
+            width:1200px;
+            height:200px;
+            }
+}
 
+/** Brunembert : Home media querries **/
 
-/** Brunembert : footer media querries **/
-/** pour tablette **/
-@media only screen and (min-width :771px) and (max-width:1280px){
-    /* Styles pour cette Media Queries */
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
     footer{
-       min-width:771px;
-       max-width:1280px;
-       margin:0;
-       padding:20px;
-       min-height:250px;
-       max-height:auto;
-       width:100%;
-       color:rgb(24, 24, 214);
-       text-align:center;
+        min-width:771px;
+        max-width:1280px;
+        margin:0;
+        padding:20px;
+        min-height:250px;
+        max-height:auto;
+        width:100%;
+        color:rgb(24, 24, 214);
+        text-align:center;
     }
     footer .navbar-header{
         min-width :570px;
@@ -60,6 +66,9 @@
         width:auto;
         padding:0;
     }
+    footer a{
+        color:rgb(23, 212, 180)!important;
+    }
     .navbar-header li.nav-item{
         padding:0;
     }
@@ -67,13 +76,14 @@
         font-size:1em!important;
         color:rgb(213, 213, 231)!important;
     }
+
 }
-  
-  
-/** Brunembert : footer media querries **/ 
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
-@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
     footer{
+        margin-top:300px;
         min-width:280px;
         max-width:768px;
         margin-top:1200px;
@@ -84,6 +94,9 @@
         width:100%;
         z-index:300;
         } 
+        footer a{
+            color:rgb(23, 212, 180)!important;
+        }
         footer #nav-footer{
             margin-top:100px;
             z-index:9999;

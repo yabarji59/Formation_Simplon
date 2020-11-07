@@ -1,495 +1,218 @@
-*{
--moz-text-decoration-style: none;
-text-decoration: none;
-}
-
 /** Brunembert : illectronisme media querries **/
-/** pour pc  **/
-
-.content-illectronisme .h3-illectronisme{
- color:rgb(11, 6, 63);
-}
-.learning{
-  text-align:center;
-  padding-right:400px;
-  padding-left:200px;
-  padding-bottom:100px;
-}
- span#informatique{
-   color:rgba(243, 184, 20, 0.836);
-   font-size:2em;
- }  
- .learning2{
-  text-align:center;
-  padding-right:400px;
-  padding-left:200px;
-  padding-bottom:100px;
-}
- .articles-wrapper .article .wrap {
-    min-height: 100px;
-    max-height:400px;
-    position: relative;
-  }
-
-  .articles-wrapper .article .wrap .source {
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-  }
-
-  .articles-wrapper .article .wrap .source .logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #ddd no-repeat center center/cover;
-    margin-right: 20px
-  }
-
-  .articles-wrapper .article .wrap .source .author p {
-    margin: 0;
-    font-size: 14px;
-    color: #eee
-  }
-
-  .articles-wrapper .article .wrap .source {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2
-  }
-
-  .articles-wrapper .article .wrap .bottom,.articles-wrapper .article .wrap .top {
-    width: 100%;
-    min-height: 200px;
-    padding: 20px;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    cursor: default;
-    transition: all .4s
-  }
-
-  .articles-wrapper .article .wrap .bottom h5,.articles-wrapper .article .wrap .top h5 {
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-    line-height: 27px;
-    color: #fff
-  }
-
-  .articles-wrapper .article .wrap .top {
-    background: transparent no-repeat center center/cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    z-index: 1;
-    position: relative
-  }
-
-  .articles-wrapper .article .wrap .top .vignette {
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1
-  }
-
-  .articles-wrapper .article .wrap .top h5 {
-    position: relative;
-    z-index: 2
-  }
-
-  .articles-wrapper .article .wrap .bottom {
-    background: #f1f3f6;
-    z-index: 2
-  }
-
-  .articles-wrapper .article .wrap .bottom h5 {
-    margin: 70px 0 20px 0;
-    color: rgba(46,46,46,.8)
-  }
-
-  .articles-wrapper .article .wrap .bottom .description {
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 16px;
-    color: #2e2e2e
-  }
-
-  .articles-wrapper .article .wrap .hover-area {
-    width: 100%;
-    height: 50%;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    text-align: center;
-    background: transparent no-repeat center center/cover;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    transition: all .4s
-  }
-
-  .articles-wrapper .article .wrap .hover-area .sharer a {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin: 0 10px;
-    background: transparent no-repeat center center;
-    background-size: 80% 80%;
-    cursor: pointer
-  }
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
+    .content-illectronisme{
+      margin-top:150px;
+      margin-bottom:200px;
+      margin-left:300px;
+      margin-right:300px;
+      background-color:rgb(12, 23, 70);
+    }
+    .banniere-illectronisme img{
+      height:200px;
+      width:auto;
+    }
+    h1{
+      color:rgb(122, 174, 218);
+    }
+      h2{
+        text-align:center;
+        color:rgb(72, 165, 252);
+      }
+        h3{
+          color:rgb(136, 195, 243);
+          padding-left:250px;
+          padding-right:250px;
+          text-align:center;
+        }
+    .description{
+    padding:50px;
+    text-align:center;
+    margin-left:950px;
+    margin-right:200px;
+    background:white;
+    border:2px solid silver;
+    padding:10px;
+    color:blue;
+    height:400px;
+    width:600px;
+    font-size:1.5em;
+    }
+    nav.boutons{
+      margin-left:200px;
+    }
+    nav.boutons .btn-primary{
+      width:300px;
+      height:200px;
+      padding:40px;
+      margin-bottom:50px;
+      border-radius:none;
+      float:left;
+      font-size:1.5em;
+    }
+    nav.boutons li{
+      display:inline-block;
+    }
 
 
-  .articles-wrapper .article .wrap .hover-area .sharer {
-    position: relative;
-    z-index: 2
-  }
-
-  .articles-wrapper .article .wrap .hover-area .flare {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(180deg,transparent 0,rgba(21,163,237,.65) 50%)
-  }
-
-  .articles-wrapper .article .wrap .hover-area .apply {
-    padding: 5px 20px;
-    margin: 40px auto 15px;
-    border: none;
-    display: block;
-    background: #041622;
-    color:rgb(39, 39, 223);
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 17px;
-    color: #fff;
-    cursor: pointer;
-    outline: 0;
-    transition: background .2s;
-    position: relative;
-    z-index: 2
-  }
-
-  .articles-wrapper .article .wrap .hover-area .apply:hover {
-    background: #030323
-  }
-
-  .articles-wrapper .article .wrap .hover-area a.learn-more {
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 2
-  }
-
-  .articles-wrapper .article:hover .hover-area {
-    height: 100%;
-    opacity: 1
-  }
-
-  .articles-wrapper .article.no-image .wrap {
-    min-height: 200px
-  }
-
-  .articles-wrapper .article.no-image .wrap .source .author p {
-    color: rgba(46,46,46,.8)
-  }
-
-  .articles-wrapper .article.no-image .wrap .bottom {
-    height: 100%
-  }
-
-  .articles-wrapper .article.no-image .wrap .hover-area {
-    height: 100%;
-    background: 0 0
-  }
-
-
-  .articles-wrapper .preloader.visible {
-    max-height: 50px;
-    opacity: 1
-  }
-
-  .articles-wrapper .preloader.top {
-    position: relative;
-    top: -15px
-  }
-
-  .articles-wrapper .preloader.bottom {
-    margin-top: 40px
-  }
-
-  .articles-wrapper>.article {
-    display: none
-  }
-
-  .article {
-    width: 100%;
-    max-width: 1280px;
-    margin: 40px auto 0 auto;
-    box-sizing: border-box;
-    padding: 0 20px
-  }
-
-
-  .article .left-section p {
-    max-width: 100%
-  }
-
-  .article .left-section a {
-    color: #14a3ec
-  }
-
-  .article .left-section img {
-    display: inline-block;
-    padding: 10px
-  }
-
-  .article .left-section img.alignright {
-    float: right
-  }
-
-  .article .left-section img.alignleft {
-    float: left
-  }
-
-  .article .left-section iframe {
-    max-width: 100%;
-    display: block
-  }
-
-  .article .left-section .sharer a {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin: 0 10px;
-    background: transparent no-repeat center center;
-    background-size: 80% 80%;
-    cursor: pointer
-  }
-
-  .article .right-section h5 {
-    margin-bottom: 20px;
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color: #b1b1b1
-  }
-
-  .article .right-section .related-article {
-    padding: 10px 30px 10px 15px;
-    margin-bottom: 20px;
-    border: 1px solid #14a3ec;
-    position: relative
-  }
-
-  .article .right-section .related-article .source {
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-  }
-
-  .article .right-section .related-article .source .logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #ddd no-repeat center center/cover;
-    margin-right: 20px
-  }
-
-  .article .right-section .related-article .source .author p {
-    margin: 0;
-    font-size: 14px;
-    color: #eee
-  }
-
-  .article .right-section .related-article .source {
-    margin-bottom: 20px
-  }
-
-  .article .right-section .related-article .source .author p {
-    color: #b1b1b1
-  }
-
-  .article .right-section .related-article a {
-    font-family: sofia_prolight,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 27px;
-    color: #14a3ec
-  }
-
-
-
-  /* Add some content at the bottom of the video/page */
-  .content-illectronisme{
-    margin-top:20px;
-    margin-bottom:200px;
-  }
-
-  .banniere-illectronisme-pc{
-    margin:0;
-  }
-  span#B{
-    font-family: 'Anton', ;
-    font-size:1.3em;
-    color:rgb(21, 17, 238);
-  }
-
-  h1.post-title{
-    font-size:3em;
-    background:black;
-    color:rgb(255, 255, 255);
-    margin-bottom:80px;
-    padding-top:50px;
-    padding-left:100px;
-  }
-  p.mds{
-    font-size:1em;
-  }
-  span.apply a{
-    color:black;
-    font-size:1.2em;
-    text-decoration:none;
-    background-color:white;
-  }
-  .label-success{
-    background-color:blue;
-  }
-    .label-success a{
-      background-color:blue;
+    nav ul.button-help-numerique a{
       color:white;
     }
-
-      /** boutons **/
-  .btn-primary{
-    font-size:1em!important;
   }
 
-  .textIn4
-  {
-    font-size: 2em;
-    top:-110%;
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+.content-illectronisme{
+  min-width:771px;
+  max-width:1280px;
+  margin:0;
+}
+.content-illectronisme .post-title{
+  position: absolute;
+  margin:0;
+  top:350px;
+  min-width:771px;
+  max-width:1280px;
+  width:100%;
+  background:none;
+  color:silver;
+}
+.content-illectronisme section.explain-illect{
+top:300px;
+width:100%;
+margin-bottom:100px;
+padding:100px;
+background:none;
+}
+.banniere-illectronisme-pc{
+  margin:0;
+}
+section.explain-illect .articles-wrapper {
+  color:black!important;
+  margin:0;
+}
+section.intro-illect{
+  margin-top:700px;
+  margin-bottom:100px;
+  margin-left:100px;
+  margin-right:100px;
+  width:100%;
+}
+section.intro-illect p{
+  text-align:center;
+}
+.box-item{
+  width:100%;
+  margin-bottom:10px;
+  padding:0;
+  font-size:2em;
+}
+
+  .img-mds{
+    width:80%;
   }
+  .MDS{
+    text-align:left;
+    margin-right:200px;
+    width:60%;
+  }
+}
 
 
-  button:hover .textOut4 
-  {
-    top: 100%;
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+/** pour phone **/
+.content-illectronisme{
+  min-width:280px;
+  max-width:770px;
+  width:100%;
+  margin:0;
+  padding:0;
+  margin-bottom:100px;
+}
+.content-illectronisme h1{
+  margin:0;
+  margin-bottom:50px;
+  text-align:center;
+  font-size:1.2em;
+  padding:20px;
+}
+.content-illectronisme h2{
+  font-size:0.9em;
+}
+.banniere-illectronisme-pc{
+  margin-top:150px;
+  min-width:280px;
+  max-width:770px;
+  width:100%;
+ }
 
-  }
+ span#informatique{
+   color:rgba(243, 184, 20, 0.836);
+   font-size:1.3em;
+ }  
 
-  button:hover .textIn4 
-  {
-    top: 0%;
-  }
+ .content-illectronisme section.explain-illect{
+  width:90%;
+  top:300px;
+  background:none;
+ }
 
-  span.label.label-success{
-    background:none;
-  }
-  .box-item{
-    width:85%;
-    margin-bottom:10px;
-    padding-left:200px;
-    padding-right:200px;
-    font-size:2em;
-  }
-  #info-illect{
-    min-height:50px;
-    max-height:150px;
-    padding-left:200px;
-    margin-left:100px;
-    margin-bottom:50px;
-    color:rgb(0, 4, 255);
-  }
-  .label-success a{
-    font-size:2em;
-    background:rgb(199, 12, 90);
-    color:rgb(64, 78, 126);
-    padding:50px;
-    margin-bottom:200px;
-  }
-  /** fin btn **/
+ section.explain-illect .articles-wrapper{
+   position:relative;
+   margin-bottom:150px;
+   top:0;
+   min-width:280px;
+   max-width:770px;
+   width:100%;
+   margin-top:0;
+   padding:20px;
+   font-size:0.7em;
+ }
+ section.explain-illect .articles-wrapper h2{
+  font-size:2em;
+  margin-top:0;
+}
+ section.intro-illect{
+  margin:0;
+  padding:0;
+ }
+ .learning{
+  text-align:center;
+  padding:20px;
+  margin-top:800px;
+}
+ .learning2{
+  text-align:center;
+  padding:20px;
+  margin-top:50px;
+  background-color:rgb(246, 248, 248);
+}
+ .box-item{
+ margin:20px;
+ padding:0;
+ font-size:1em;
+ margin-top:800px; 
+ text-align:center;
+ }
 
-  section.corpsDeTexte a{
-    color:rgb(243, 12, 166);
+.box-post{
+ position:relative;
+  padding:0;
+  font-size:1em;
+  margin:0;
+  margin-top:1000px; 
+  text-align:center;
   }
-  section.adressMDS{
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding-top:60px;
-    padding-bottom:30px;
-    font-size:1.3em;
+  .MDS{
+    margin:0;
+    margin-top:50px;
   }
-  section.intro-illect{
-    margin-left:500px;
-    margin-bottom:200px;
+  .MDS img{
+  height:auto;
+  width:300px;
+  margin:10px;
   }
-
-  section.explain-illect{
-    background:rgb(244, 246, 247);
-    width:500px;
-    position:absolute;
-    top:605px;
-    margin-bottom:0;
-    float:left;
-    height:auto;
-  }
-  .box-post{
-   margin-left:300px;
-   margin-right:200px;
-   margin-bottom:200px;
-    }
-
+}
 
 
 @media only screen and (min-width: 980px) and (max-width:1299px),only screen and (min-width:1300px) {
@@ -543,159 +266,4 @@ text-decoration: none;
 
 
 
-/** Brunembert : illectronisme media querries **/
-/** pour tablette **/
-@media only screen and (min-width :771px) and (max-width:1280px){
-  /* Styles pour cette Media Queries */
-  .content-illectronisme{
-    min-width:771px;
-    max-width:1280px;
-    margin:0;
-  }
-  .content-illectronisme .post-title{
-    position: absolute;
-    margin:0;
-    top:350px;
-    min-width:771px;
-    max-width:1280px;
-    width:100%;
-    background:none;
-    color:silver;
-  }
-  .content-illectronisme section.explain-illect{
-  top:300px;
-  width:100%;
-  margin-bottom:100px;
-  padding:100px;
-  background:none;
-  }
-  .banniere-illectronisme-pc{
-    margin:0;
-  }
-  section.explain-illect .articles-wrapper {
-    color:black!important;
-    margin:0;
-  }
-  section.intro-illect{
-    margin-top:700px;
-    margin-bottom:100px;
-    margin-left:100px;
-    margin-right:100px;
-    width:100%;
-  }
-  section.intro-illect p{
-    text-align:center;
-  }
-  .box-item{
-    width:100%;
-    margin-bottom:10px;
-    padding:0;
-    font-size:2em;
-  }
 
-    .img-mds{
-      width:80%;
-    }
-    .MDS{
-      text-align:left;
-      margin-right:200px;
-      width:60%;
-    }
-
-}
-
-/** Brunembert : illectronisme media querries **/
-/** pour phone **/
-@media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
-  .content-illectronisme{
-      min-width:280px;
-      max-width:770px;
-      width:100%;
-      margin:0;
-      padding:0;
-      margin-bottom:100px;
-    }
-    .content-illectronisme h1{
-      margin:0;
-      margin-bottom:50px;
-      text-align:center;
-      font-size:1.2em;
-      padding:20px;
-    }
-    .content-illectronisme h2{
-      font-size:0.9em;
-    }
-    .banniere-illectronisme-pc{
-      margin-top:150px;
-      min-width:280px;
-      max-width:770px;
-      width:100%;
-     }
-
-     span#informatique{
-       color:rgba(243, 184, 20, 0.836);
-       font-size:1.3em;
-     }  
-
-     .content-illectronisme section.explain-illect{
-      width:90%;
-      top:300px;
-      background:none;
-     }
-
-     section.explain-illect .articles-wrapper{
-       position:relative;
-       margin-bottom:150px;
-       top:0;
-       min-width:280px;
-       max-width:770px;
-       width:100%;
-       margin-top:0;
-       padding:20px;
-       font-size:0.7em;
-     }
-     section.explain-illect .articles-wrapper h2{
-      font-size:2em;
-      margin-top:0;
-    }
-     section.intro-illect{
-      margin:0;
-      padding:0;
-     }
-     .learning{
-      text-align:center;
-      padding:20px;
-      margin-top:800px;
-    }
-     .learning2{
-      text-align:center;
-      padding:20px;
-      margin-top:50px;
-      background-color:rgb(246, 248, 248);
-    }
-     .box-item{
-     margin:20px;
-     padding:0;
-     font-size:1em;
-     margin-top:800px; 
-     text-align:center;
-     }
-
-   .box-post{
-     position:relative;
-      padding:0;
-      font-size:1em;
-      margin:0;
-      margin-top:1000px; 
-      text-align:center;
-      }
-      .MDS{
-        margin:0;
-        margin-top:50px;
-      }
-      .MDS img{
-      height:auto;
-      width:300px;
-      margin:10px;
-      }
-}

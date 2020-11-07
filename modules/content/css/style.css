@@ -1,5 +1,7 @@
-/** content Brunembert  **/
-  /** settings styles pc phone tab **/
+/** /  content Brunembert pc **/
+
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
 
   h1{
     font-family: 'Orbitron', sans-serif;
@@ -7,7 +9,7 @@
   }
     
   h2{
-    color:rgb(24, 4, 245);
+    color:rgb(9, 9, 39);
     padding:10px;
     text-align:center;
   }
@@ -17,22 +19,32 @@
     color:black;
     font-size:1.4em;
   }
-
   a .popup{
     background:none!important;
   }
     a:hover{
       text-decoration:none;
-    } 
+    }
+
 
   .btn-primary{
-    background-color:rgb(24, 4, 245)!important;
-    color:white!important;
+    background-color:rgb(144, 187, 25)!important;
+    border:rgb(144, 187, 25);
+    color:#f4faf9!important;
     padding:10px;
     height:auto!important;
   }
+}
 
-/** /  content Brunembert pc **/
+  /** Brunembert : Content media querries **/
 
+  @media only screen and (min-width :768px) and (max-width:1366px){
+  /* Styles pour cette Media Queries *//** pour tablette **/
+  }
+
+
+  @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+  /** pour phone **/
+  }
 
 

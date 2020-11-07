@@ -1,3 +1,5 @@
 <div class="content">
 
-    <?php echo $myPage; ?>
+    <?php 
+        echo $myPage; 
+    ?>

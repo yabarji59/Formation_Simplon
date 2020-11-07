@@ -1,7 +1,11 @@
 <?php 
 
+// inclusion database requise // 
+require_once 'database.php';
+
 // inclusion vue du admin
-require './modules/admin/views/adminView.php';
+require_once './modules/admin/views/adminView.php';
+
 
 // inclusion css du admin
 echo '<link rel="stylesheet" href="./modules/admin/css/style.css">';

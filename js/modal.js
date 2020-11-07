@@ -1,1 +1,0 @@
-/****** fenetre modale pour sondage */

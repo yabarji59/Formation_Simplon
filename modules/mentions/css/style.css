@@ -1,149 +1,152 @@
 /** Brunembert : mentions media querries **/
-/** pour pc  **/
+
+@media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
     .content-mentions{
-    margin:0;
-    background:linear-gradient(white, rgb(120, 120, 134),white);
-    }
-
-    .intro-content-mentions a{
-        font-size:2em;
-        color:blue;
-    }
-
-    .avec-articles{
-        color:rgb(6, 9, 29);
-        margin-left:300px;
-        margin-right:100px;
-        font-size:1.3em;
-        width:800px;
-    }
-    .toc-nav{
-        background:white;
-        color:rgb(8, 32, 99);
-        opacity:0.8;
-        margin-top:200px;
-        margin-left:50px;
-        width:200px;
-        padding:20px;
-        float:left;
-        position:fixed;
-    }
-    .toc-nav a{
-        color:rgb(12, 21, 34);
-        font-size:1.3em;
-    }
-    .is-lead a{
-        color:blue!important;
-    }
-    #pdf-mentions{
-        background:rgb(0, 4, 255);
-        padding:5px;
-        text-align:center;
-        margin-bottom:30px;
-        border-radius:2px;
-        position:inherit;
-    }
-    #pdf-mentions a{
-        font-size:1.2em;
-        color:white!important;
-    }
-    .brunembert-container .avec-articles{
-        margin-left:400px;
-    }
-    .brunembert-container .text-aside a{
-        color:rgb(12, 12, 199)!important;
-    }
-
-    h1{
-        margin-top:100px;
-        padding:30px;
-    }
-    h2{
-        padding:30px;
-        margin:20px;
-    }
-    h3{
-        color:rgb(43, 48, 61);
-        padding:10px;
-    }
-    .adresse-mentions{
-    padding-left:400px;
-    }
-    #logo-justine-dev{
-        margin-left:50px;
-    }
-    #logo-lea-photos{
-        margin-left:300px;
-    }
-
-        p#btn-smartsupp{
+        margin:0;
+        margin-bottom:200px;
+        background:linear-gradient(white, rgb(120, 120, 134),white);
+        }
+    
+        .intro-content-mentions a{
+            font-size:2em;
+            color:blue;
+        }
+    
+        .avec-articles{
+            color:rgb(6, 9, 29);
+            margin-left:300px;
+            margin-right:100px;
+            font-size:1.3em;
+            width:800px;
+        }
+        .toc-nav{
+            background:white;
+            color:rgb(8, 32, 99);
+            opacity:0.8;
+            margin-top:200px;
+            margin-left:50px;
+            width:200px;
+            padding:20px;
+            float:left;
+            position:fixed;
+        }
+        .toc-nav a{
+            color:rgb(12, 21, 34);
+            font-size:1.3em;
+        }
+        .is-lead a{
+            color:blue!important;
+        }
+        #pdf-mentions{
+            background:rgb(0, 4, 255);
+            padding:5px;
+            text-align:center;
+            margin-bottom:30px;
+            border-radius:2px;
+            position:inherit;
+        }
+        #pdf-mentions a{
+            font-size:1.2em;
             color:white!important;
         }
-
-        .justine-card {
-            float:left;
-            margin-bottom:300px;
+        .brunembert-container .avec-articles{
+            margin-left:400px;
         }
-        .justine-card p{
-            font-size:1.1em;
+        .brunembert-container .text-aside a{
+            color:rgb(12, 12, 199)!important;
         }
-
-    .l-equipe-de-brunembert-fr .card{
-            min-height:400px;
-            max-height:400px;
-            height:400px;
+    
+        h1{
+            margin-top:150px;
+            padding:30px;
+        }
+        h2{
+            padding:30px;
+            margin:20px;
+        }
+        h3{
+            color:rgb(43, 48, 61);
+            padding:10px;
+        }
+        .adresse-mentions{
+        padding-left:400px;
+        }
+        #logo-justine-dev{
+            margin-left:50px;
+        }
+        #logo-lea-photos{
+            margin-left:300px;
+        }
+    
+            p#btn-smartsupp{
+                color:white!important;
+            }
+    
+            .justine-card {
+                float:left;
+                margin-bottom:300px;
+            }
+            .justine-card p{
+                font-size:1.1em;
+            }
+    
+        .l-equipe-de-brunembert-fr .card{
+                min-height:400px;
+                max-height:400px;
+                height:400px;
+        }
+        .l-equipe-de-brunembert-fr .card{
+           margin-bottom:100px;
+        }
     }
-    .l-equipe-de-brunembert-fr .card{
-       margin-bottom:100px;
-        }
-/** Brunembert : mentions media querries **/
-/** pour tablette **/
-@media only screen and (min-width :771px) and (max-width:1280px){
-    /* Styles pour cette Media Queries */
-        .content-mentions{
-          min-width:781px;
-          max-width:979px;
-          margin:0;
-      }
-      .avec-articles{
-        color:rgb(6, 9, 29);
-        margin-left:300px;
-        margin-right:50px;
-        margin-bottom:100px;
-        font-size:1.3em;
-        width:500px;
+
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+    .content-mentions{
+        min-width:781px;
+        max-width:979px;
+        margin:0;
+    }
+    .avec-articles{
+    color:rgb(6, 9, 29);
+    margin-left:300px;
+    margin-right:50px;
+    margin-bottom:100px;
+    font-size:1.3em;
+    width:500px;
     }
     .toc-nav{
-        margin-top:100px;
-        margin-left:10px;
+    margin-top:100px;
+    margin-left:10px;
     }
     h1{
-        margin-top:150px;
+    margin-top:150px;
     }
     #logo-justine-dev{
-        margin:0;
+    margin:0;
     }
     #logo-lea-photos{
-        margin:0;
-        width:400px;
+    margin:0;
+    width:400px;
     }
-  }
-  
-  
-  /** pour phone **/
-  @media only screen and (min-device-width : 280px) and (max-device-width : 770px) {
+}
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+/** pour phone **/
     .content{
-      color:white;
+        color:white;
     }
-      .content-mentions{
+        .content-mentions{
         background:none;
         min-width:280px;
         max-width:828px;
         margin:20px;
         padding:0;
         color:rgb(6, 6, 63);
-      }
-      .avec-articles{
+        }
+        .avec-articles{
         width:280px;
         margin:0;
         padding:0;
@@ -187,6 +190,10 @@
     }
     .adresse-mentions{
         padding:0;
-        }
+    }   
+}
+
+  
+ 
     
 }

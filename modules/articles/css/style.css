@@ -1,0 +1,99 @@
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
+  .articles{
+    margin-top:200px;
+  }
+  .container{
+      margin-left:100px;
+  }
+  h4{
+    color:rgb(0, 183, 255);
+  }
+  .img-size{
+    min-height:100px;
+    max-height:400px;
+    max-width:300px;
+    min-width:30px;
+    width:auto;
+    height:auto;
+  }
+  #astucesetbonsplans{
+    color:rgb(3, 22, 73);
+  }
+  .question{
+    background-color:rgb(19, 4, 39);
+    padding:2px;
+    color:white;
+  }
+  .vertical-align-mid{
+    color:rgb(3, 22, 73);
+  }
+  p.answer{
+    color:rgb(73, 167, 184);
+  }
+  .btn-articles{
+    background:rgb(0, 183, 255);
+    border:1px solid rgb(0, 183, 255);
+    padding:5px;
+    min-width:100px;
+    max-width:auto;
+    color:white;
+  }
+  .firma-card{
+      background: #fff;
+      border: 1px solid;
+      border-color: #c7bdbd40;
+      margin: 1rem auto;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
+      margin-bottom: 1.6%;
+      width:1200px;
+      overflow: hidden;
+    }
+    .firma-aciklama{
+      padding-left:100px;
+      padding-right:300px;
+    }
+    .firma-resim{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding:50px;
+      background-size: cover;
+      background-position: center;
+      transition: -webkit-transform .2s;
+      transition: transform .2s;
+    }
+    .firmalar{
+      background: #f1f4f5c7;
+    }
+  
+  }
+
+  /** Brunembert : Home media querries **/
+
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+}
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+/** pour phone **/
+
+  .firma-logo{
+        width: calc(33.66667% - .75rem);
+        height: 6.5rem;
+        margin: 5px .375rem;
+  }
+  .firma-resim {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+  }
+  .img-padding-no{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

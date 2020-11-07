@@ -49,7 +49,7 @@
           <!-- / nav rappel admin -->
           <div id="nav-footer">
             <p>
-              <a href="index.php?page=admin"><i class="fas fa-user-shield"></i></a>
+              <a href="index.php?page=login"><i class="fas fa-user-shield"></i></a>
               © 2020 Mairie de Brunembert, site développé par Justine Lemaire | lire les <a href="index.php?page=mentions">Mentions légales</a>. 
             | <a href="index.php?page=illectronisme">Illectronisme</a> | <a href="index.php?page=faq">FAQ Foire aux questions</a> | 
               <a href="index.php?page=plan">plan du site</a> | <a href="index.php?page=presse">presse</a> | <a href="index.php?page=contact">contact</a> 

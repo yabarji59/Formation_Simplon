@@ -1,10 +1,8 @@
 <?php 
 
-// inclusion database requise // 
-require_once 'database.php';
-
 // inclusion vue du admin
 require_once './modules/admin/views/adminView.php';
+
 
 
 // inclusion css du admin

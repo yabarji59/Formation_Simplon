@@ -60,3 +60,19 @@
     </head>
 
 <body>
+    <div id="content">
+        <!-- tester si l'utilisateur est connecté -->
+        <?php
+            session_start();
+            if($_SESSION['titre'] !== ""){
+                $titre= $_SESSION['titre'];
+                // afficher un message
+                echo "<div id='admin_connect'>
+                Bonjour, 
+                vous êtes connecté sur www.brunembert.fr avec le titre: $titre
+                <a href='index.php?page=admin'><button class='btn-admin'>Mon tableau de bord</button></a>
+                </div>";
+            }
+        ?>
+        
+    </div>

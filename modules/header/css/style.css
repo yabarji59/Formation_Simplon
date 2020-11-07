@@ -33,8 +33,8 @@
         font-size:1.6em;
     }
     header .navbar-header li.nav-item a:hover{
-        background-color:#076270!important;
-        color:rgba(215, 230, 19, 0.932)!important;
+        background-color:rgb(255, 255, 255)!important;
+        color:rgb(9, 30, 77)!important;
         padding-left:10px;
         padding-right:10px;
         font-size:1.4em;

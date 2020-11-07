@@ -55,7 +55,7 @@
       padding:10px;
     }
       #sidebar-wrapper p{
-        color:white;
+        color:silver;
       }
 
     /** ARTICLES **/
@@ -90,7 +90,7 @@
           text-align:center;
           margin-left:250px;
           width:200px;
-          font-size:1.2em;
+          font-size:1em;
         }
         
 

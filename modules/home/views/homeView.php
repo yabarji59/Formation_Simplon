@@ -9,18 +9,9 @@
 
 
     <div class="up-window-information">
-
-        <i class="far fa-lightbulb" style="color:yellow;"></i> 
-        <span id="sondage-alert">
-            
-            Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
-        </span>
-        <br><br>
-
         <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer <br>Mairie (+33) 03 21 32 31 87, adresse: 12 place Servois 62240 BRUNEMBERT 
 
             <br>
-
             <a href="#actus">
                 <i class="fas fa-info"></i>
                  <span id="actu-span"> Découvrir les actualités </span>
@@ -46,7 +37,10 @@
 
                     <div class="list-group list-group-flush">
                          <div class="formulaire-sondage" id="article-6">
-                                    
+                         <i class="far fa-lightbulb" style="color:yellow;"></i> 
+                            <span id="sondage-alert">
+                                Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
+                            </span>
                                     <p>* Brunembert ne collecte pas vos informations personnelles </p>
                                     <a href=https://docs.google.com/forms/d/e/1FAIpQLSdGA9IXEmYvnodn6s9qYqkpDVoshcaJyGVR3A6GvntqO7pJeg/viewform?usp=sf_link" target="_blanck"<button class="btn-primary">
                                             <button class="btn-sondage-css-simple-sidebar"> Cliquez ici pour répondre au sondage </button>

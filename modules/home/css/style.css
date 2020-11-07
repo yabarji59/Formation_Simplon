@@ -19,7 +19,6 @@
     widows: 16px;
     margin-left:850px;
     opacity:0.8;
-    font-family: 'Ranchers', cursive;
     color:silver;
     padding:10px;
     font-size:2em;
@@ -43,14 +42,18 @@
     z-index:1000;
     width:100%;
     padding:10px;
-    opacity:0.86;
+    opacity:0.8;
     background:rgb(144, 187, 25);
     text-align:center;
-    color:white;
+    color:rgb(16, 35, 36);
     font-size:1.3em;
+  }
+  .up-window-information span{
+    padding-top:50px;
   }
   .up-window-information a{
     color:rgb(5, 26, 32);
+    padding-top:50px;
   }
 
   .bouton-fermer-sondage{
@@ -182,7 +185,6 @@
       top:100px;
       z-index:3000;
       margin-left:70px;
-      font-family: 'Ranchers', cursive;
       font-size:1em;
     }
     

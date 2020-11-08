@@ -49,14 +49,14 @@
           <!-- / nav rappel admin -->
           <div id="nav-footer">
             <p>
-              <a href="index.php?page=login"><i class="fas fa-user-shield"></i></a>
+              <a href="index.php?page=connexion"><i class="fas fa-user-shield"></i></a>
               © 2020 Mairie de Brunembert, site développé par Justine Lemaire | lire les <a href="index.php?page=mentions">Mentions légales</a>. 
             | <a href="index.php?page=illectronisme">Illectronisme</a> | <a href="index.php?page=faq">FAQ Foire aux questions</a> | 
               <a href="index.php?page=plan">plan du site</a> | <a href="index.php?page=presse">presse</a> | <a href="index.php?page=contact">contact</a> 
             </p>  
            
             <a href="https://www.facebook.com/brunembert/" target="_blanck">
-             <i class="fa fa-facebook" style="font-size:3em; color:white;" aria-hidden="true"></i>
+             <i class="fa fa-facebook" style="font-size:3em; color:#0f3a64; padding-bottom:50px;" aria-hidden="true"></i>
              </a>
         </div>
      </footer>

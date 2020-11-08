@@ -2,13 +2,18 @@
     position:relative;
     background:blue;
     z-index:2000px;
-    height:50px;
-    font-size:1.3em;
+    height:60px;
+    font-size:1em;
     padding:10px;
 }
+#admin_connect a{
+   color:silver;
+}
 .btn-admin{
-    background:rgb(238, 206, 26);
-    color:rgb(9, 9, 39);
-    padding:5px;
-    font-size:1.2em;
+    background:rgb(9, 9, 39);
+    border-radius:10px;
+    border:1px solid rgb(9, 9, 39);
+    color:rgb(238, 206, 26);
+    padding:10px;
+    font-size:1em;
 }

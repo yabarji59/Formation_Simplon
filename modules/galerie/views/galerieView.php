@@ -12,94 +12,94 @@
                     <img src="./img/logos/brunembert.png" alt="logo brunembert">
                         <!-- Bottom switcher of slider -->
                         <ul class="hide-bullets">
-                            <li class="col-sm-12 box active" onclick="changeImage(this)">
+                            <li class="col-sm-12 box active">
                                 <a class="thumbnail" id="carousel-selector-0">
                                     <img src="./img/equipe/adjoints.jpg" alt="adjoints et city-stade">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-1">
                                  <img src="./img/histoire/sculpture.JPG" alt="la vierge et son enfant sculpture">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box box">
                                 <a class="thumbnail" id="carousel-selector-2">
                                     <img src="./img/histoire/monument.JPG" alt="monument aux morts">        
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-3">
                                     <img src="./img/histoire/chevaux.JPG" alt="chevaux">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-4">
                                     <img src="./img/archives/boulangerie.JPG"alt="la boulangerie">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-5">
                                     <img src="./img/archives/arbreNoel.JPG" alt="arbre de noël">
                                 </a>
                             </li>
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-6">
                                     <img src="./img/archives/ecole.JPG" alt="école primaire">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-7">  
                                     <img src="./img/archives/fetedelapomme.JPG" alt="fête de la pomme">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-8">
                                  <img src="./img/archives/intervillages.JPG" alt="intervillages">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-9">
                                     <img src="./img/archives/cuisine.JPG" alt="cuisine">
                                 </a>
                             </li>
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-10">
                                     <img src="./img/archives/quillier.jpg" alt="quillier">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-11">
                                     <img src="./img/signees/paysage4.JPG" alt="paysage4">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-12">
                                     <img src="./img/archives/quilles.JPG" alt="les quilles">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-13">
                                     <img src="./img/archives/1912.JPG" alt="la mairie archive 1912">
                                 </a>
                             </li>
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-14">
                                     <img src="./img/signees/mairie.JPG" alt="la mairie 2020">
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box" onclick="changeImage(this)">
+                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-15">
                                 <img src="./img/signees/bus.JPG" alt="arrêt de bus">
                                 </a>

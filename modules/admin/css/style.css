@@ -7,7 +7,7 @@ section h1{
     float:left;
     padding:20px;
     width:200px;
-    height:800px;
+    height:auto;
     background-color:rgb(9, 9, 39);
     border:3px solid rgb(9, 9, 39);
 }
@@ -42,12 +42,12 @@ section.article-homeDashboard{
     margin-left:450px;
     height:auto;
     max-width:1200px;
-    background:rgb(247, 253, 255);
+    background:rgb(248, 252, 253);
     padding:10px;
 }
     section.article-homeDashboard .article{
         width:350px;
-        height:500px;
+        height:620px;
         background:rgb(252, 252, 252);
         border:2px solid rgb(233, 241, 240);
         color:white;
@@ -62,9 +62,10 @@ section.article-homeDashboard{
         font-size:1em;
     }
     button.primary{
-        height:60px;
-        width:120px;
+        height:80px;
+        width:100px;
         margin:10px;
+        padding:10px;
         background-color:rgb(233, 241, 240);
         border:2px solid rgb(233, 241, 240);
         border-radius:10px;
@@ -76,21 +77,27 @@ section.article-homeDashboard{
         button i.fas{
             font-size:2em;
         }
-        button.delete i{
-            color:rgb(224, 21, 21);
+        button.delete{
+            background-color:rgb(224, 21, 21);
+            border:1px solid rgb(224, 21, 21);
         }
-        button.create i{
-            color:rgb(11, 14, 54);
+        button.create{
+            background-color:rgb(169, 221, 255);
+            border:1px solid rgb(169, 221, 255);
         }
-        button.update i{
-            color:rgb(243, 133, 30);
+        button.update{
+            background-color:rgb(243, 133, 30);
+            border:1px solid rgb(243, 133, 30);
         }
-        button.read i{
-            color:rgb(19, 165, 38);
+        button.read{
+            background-color:rgb(19, 165, 38);
+            border:1px solid rgb(19, 165, 38);
         }
-        button.share i{
-            color:rgb(19, 165, 38);
+        button.share{
+            background-color:rgb(247, 216, 46);
+            border:1px solid rgb(247, 216, 46);
         }
-        button.archives i{
-            color:rgb(1, 10, 22);
+        button.archives{
+            background-color:rgb(226, 227, 241);
+            border:1px solid rgb(226, 227, 241);
         }

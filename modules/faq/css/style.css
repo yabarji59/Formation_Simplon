@@ -15,9 +15,10 @@
     #select{
       position:absolute;
       color:rgb(9, 9, 39)!important;
-      width:58%;
+      width:40%;
       height:50px;
-      margin-top:50px;
+      margin-top:30px;
+      margin-left:150px;
       border-radius:10px;
       color:black;
       padding:10px;
@@ -26,6 +27,7 @@
     }
     #div-answer{
       margin-top:200px;
+      box-shadow: 0 2px 4px -1px rgb(29, 57, 100);
     }
     #div-answer p#q{
       text-align:center;
@@ -74,14 +76,19 @@
 
   @media only screen and (min-width :768px) and (max-width:1366px){
   /* Styles pour cette Media Queries *//** pour tablette **/
-  .content-faq{
-    min-width:771px;
-    max-width:1280px;
-    margin:0;
-    padding:50px;
-  }
-  .content-faq .banniere-faq-pc{
-    margin-top:100px;
+    .content-faq{
+      margin:0;
+      padding:50px;
+    }
+    #select{
+      width:80%;
+      margin:20px;
+    }
+    #select option{
+      color:#000000;
+    }
+    #div-answer p{
+      color:#000000;
     }
   }
 

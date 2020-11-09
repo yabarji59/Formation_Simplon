@@ -27,6 +27,7 @@
         margin:0!important;
     }
     header .navbar-header li.nav-item a{
+        box-shadow: 0 3px 10px -1px rgb(44, 85, 218);
         margin-top:50px;
         color:linear-gradient(rgb(9, 30, 77),rgb(221, 221, 236))!important;
         font-family: 'Orbitron', sans-serif;
@@ -34,6 +35,7 @@
     }
     header .navbar-header li.nav-item a:hover{
         background-color:rgb(255, 255, 255)!important;
+        box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
         color:rgb(9, 30, 77)!important;
         padding-left:10px;
         padding-right:10px;
@@ -65,45 +67,46 @@
     /* Styles pour cette Media Queries */
     /** pour tablette **/
     body{
-        color:white;
+        background-color:rgb(255, 255, 255);     
+        color:rgb(255, 255, 255);
+        }
+    body p{
+        color:rgb(255, 255, 255);
+        text-align:center;
+    }
+    footer p{
+        color:rgb(9, 9, 39);
     }
     .content{
-        min-width :770px;
-        max-width:1280px;
-        padding:0;
-        margin:0;
-      }
-    header{
-        position:relative;
-    } 
-    header.navbar{
-        height:100%;
-        width:100%;
-        padding:0;
+        margin:50px;
+        top:0;
+        background:rgb(255, 255, 255);
+        color:rgb(9, 9, 39);
     }
-    .navbar-header li.nav-item{
-        padding:0;
-        margin-left:300px;
-    }
-    .navbar-header li.nav-item a{
-        font-size:1em!important;
-    }
-  
-      .fa-arrow-circle-up{
-        z-index:3000;
-    }
-    .fa-arrow-circle-up img{
-        margin-left:300px;
-        height:10px; 
-        width:50px;
-    }
-    header #pheader{
-        font-size:0.3em!important;
-        width:60px;
-        border-radius:10px;
-        background:rgb(233, 161, 7);
-        text-align:right;
-    }
+        /** header brunembert.fr **/
+        .navbar-header{
+            width:100%;
+            margin-left:130px;
+            height:450px;
+            width:500px;
+            }
+            .navbar-toggler{
+                margin-left:-300px;
+            }
+                .navbar-brand{
+                    background:rgb(9, 9, 39);
+                    margin-right:80px;
+                }
+            .navbar-header li.nav-item{
+                font-size:2em;
+                margin-left:100px;
+                text-align:center;
+            }
+            .fa-arrow-circle-up{
+                position:fixed;
+                margin-top:380px;
+                font-size:2.5em;
+                }
   }
 
 

@@ -10,18 +10,24 @@
   #click-and-develop-the-page{
     /** bouton découvrir brunembert **/
     position:absolute;
-    top:600px;
+    top:760px;
     z-index:30000;
     background:#0f3a64;
     border:1px solid silver;
     border-radius:10px;
     text-align:center;
     widows: 16px;
-    margin-left:850px;
-    opacity:0.8;
+    width:100%;
+    height:80px;
     color:silver;
     padding:10px;
-    font-size:2em;
+  }
+  #click-and-develop-the-page i{
+    /** bouton découvrir brunembert **/
+    font-size:8em;
+    top:0;
+    padding:0;
+    margin:0;
   }
   #click-and-develop-the-page:hover{
     background:silver;
@@ -37,6 +43,7 @@
   .up-window-information{
     position:absolute;
     float:left;
+    box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
     top:155px;
     height:120px;
     z-index:1000;
@@ -71,6 +78,8 @@
     margin-left:300px;
     margin-right:300px;
     margin-bottom:200px;
+    box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+
   }
       .texte-de-bienvenue{
         margin-top:30px;
@@ -94,17 +103,19 @@
           padding:50px;
         }
       h2{
-        background:#076270;
-        color:rgb(144, 187, 25)!important;
+        background:#fbfeff;
+        box-shadow: 0 1px 2px -1px rgb(29, 57, 100);
+        color:rgb(93, 230, 230)!important;
         font-family: 'Orbitron', sans-serif;
       }
       h3{
-        color:#076270;
+        color:#0f3a64;
         margin:20px;
       }
       section .pics-history{
        width:700px;
        margin-left:450px;
+       padding-bottom:100px;
       }
       section .pics-history h2{
         color:rgb(4, 4, 43);
@@ -127,6 +138,11 @@
         background:none!important;
       }
 
+        .slideshow{
+          margin-top:20px;
+          padding-left:300px;
+          padding-right:300px;
+        }
       span.carousel-control-next-icon{
         width:100px;
         height:100px;
@@ -140,8 +156,8 @@
       }
 
       img.w-100{
-        height:1000px;
-        width:1200px;
+        height:100%;
+        width:100%;
       }
       /** actus **/
       .infos-js-dashboard-auto-actus{
@@ -151,6 +167,7 @@
         padding:50px;
         float:right;
         margin-bottom:100px;
+        box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
       }
       .infos-js-dashboard-auto-actus .card{
         margin-right:10px; 

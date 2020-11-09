@@ -2,27 +2,63 @@
 /** CONTACT brunembert.fr media querries **/
 @media only screen and (min-width:1367px){
   /** Brunembert : Home media querries **//** pour pc**/
-  
+
   .contact{
     margin-top:400px;
-    margin-bottom:500px;
+    margin-bottom:700px;
   }
   h1{
-      color:rgb(238, 206, 26);
+      color:silver;
       padding:30px;
       width:100%;
       background:rgb(9, 9, 39);
   }
   /** section infos contact **/
+
+  span{
+      font-size:15px;
+  }
+
+  .box{
+      padding:60px 0px;
+      margin:20px;
+  }
+  .btn-primary{
+    box-shadow: 0 4px 10px 5px rgb(18, 168, 81);
+    background-color:rgb(18, 168, 81)!important;
+  }
+  .col-sm-4 {
+     display:block;
+     margin-right:50px;
+  }
+
+  .box-part{
+      background:rgb(9, 9, 39);
+      color:rgb(248, 251, 252);
+      border:1px solid silver;
+      border-radius:0;
+      padding:60px 10px;
+      width:250px;
+      height:250px;
+  }
+  .text{
+      margin:20px 0px;
+  }
+
+  .fa{
+      color:rgb(9, 9, 39)!important;
+  }
+  img.mairie{
+    height:180px;
+    width:280px;
+  }
   .info-contact{
     position:absolute;
     top:120px;
-    margin-left:500px;
     height:300px;
     padding:60px;
     width:750px;
-    color:rgb(238, 206, 26);
-    background:rgb(253, 255, 255);
+        background:rgb(253, 255, 255);
   }
   .info-contact i{
     color:rgb(196, 226, 230);
@@ -40,93 +76,53 @@
   }
   /** formulaire **/
   form{
-  border:1px solid rgb(248, 241, 241);
-  width:750px;
-  height:1150px;
-  margin-left:500px;
-  margin-right:200px;
-  margin-top:300px;
-  padding:50px;
-  background:linear-gradient(rgb(9, 9, 39),#f1f1f1);
-  font-size:1.3em;
-  }
-  input{
-  width:600px;
-  height:30px;
-  background-color:rgb(252, 252, 252);
-  margin:20px;
+  position:absolute;
+  margin-left:900px;
+  box-shadow: 0 2px 4px -1px rgb(29, 57, 100);
   padding:20px;
-  color:rgb(9, 9, 39);
-  border-radius:5px;
-  border:1px solid rgb(199, 199, 218);
+  top:60px;
   }
-      input.send{
-          background:rgb(9, 9, 39);
-          border: 1px solid rgb(9, 9, 39);
-          font-size:1.2em;
-          color:rgb(238, 206, 26);
-          width:200px;
-          padding-bottom:20px;
-          height:60px;
-      }
-  textarea{
-  min-width:600px;
-  min-height:100px;
-  color:rgb(9, 9, 39);
+  form h1{
+    width:400px;
   }
-  textarea.message{
-    color:rgb(9, 9, 39);
-    padding:20px;
+  form input{
+    width:400px;
+    height:30px;
+    margin-top:10px;
+    font-size:1.3em;
+    color:blue;
+  }
+  input.message{
+    padding:0;
+    height:200px;
+    color:blue;
+  }
+  .send{
+    color:white; 
+    background:linear-gradient(rgb(4, 63, 65),#aabce2);
+    box-shadow: 0 1px 2px -1px rgb(29, 57, 100);
+    padding:5px;
+    height:50px;
+    width:200px;
     font-size:1.5em;
   }
-  }
+}
 
 @media only screen and (min-width :768px) and (max-width:1366px){
 /* Styles pour cette Media Queries *//** pour tablette **/
-  .content-contact{
-    margin:0;
-    padding:0;
-    margin-top:150px;
-    text-align:center;
-    background:rgb(248, 248, 248);
-  }
-  #img-mairie-pour-contact img{
-    margin-left:20px;
-  }
-
-  h1{
-    margin-top:200px;
-    padding-top:250px;
-    margin-bottom:10px;
-  }
-  h2{
-    color:rgb(153, 169, 202)!important;
-    margin-top:50px;
-    margin-bottom:20px;
-    margin-left:30px;
-    margin-right:30px;
-  }
-  .contactCentre{
-    margin-left:550px;
-    height:350px;
-  }
-  .permanences{
-    top:1050px;
-    height:650px;
-    margin-left:0;
-    padding:20px;
+.info-contact p{
+  color:rgb(9, 9, 39);
+}
+img.mairie{
+  height:400px;
+  width:100%;
+}
+  input{
+  width:100%;
   }
 
-  .carte{
-    position:relative;
-    margin-left:150px;
-    margin-bottom:800px;
-    padding-top:10px;
-    padding-bottom:10px;
-  }
-  .carte iframe{
-  width:380px;
-  height:200px;
+  .send{
+    color:rgb(9, 9, 39);
   }
 }
 

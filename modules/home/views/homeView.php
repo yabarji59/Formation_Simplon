@@ -37,6 +37,7 @@
 
                     <div class="list-group list-group-flush">
                          <div class="formulaire-sondage" id="article-6">
+                         www.brunembert.fr<BR>
                          <i class="far fa-lightbulb" style="color:yellow;"></i> 
                             <span id="sondage-alert">
                                 Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
@@ -60,7 +61,7 @@
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <a href="#welcome-content">
-                <button id="click-and-develop-the-page">DÉCOUVRIR BRUNEMBERT<br><p id="p-button">www.brunembert.fr</p>
+                <button id="click-and-develop-the-page"><i class="fas fa-arrow-alt-circle-down"></i><br><p id="p-button"></p>
                 </button>
             </a>
 

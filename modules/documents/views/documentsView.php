@@ -4,7 +4,7 @@
         <img src="./img/bannieres/banniere-documents.png" style="width:100%;" alt="banniere-documents-pc">
            <!-- Js Info -->
             <a href="#" class="" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" title="Cliquez sur l'un de ces documents pour le faire apparaître et le télécharger si besoin">
-              <h1>Consultez, téléchargez, imprimez les documents de votre choix</h1> 
+              <h1>Consultez, téléchargez, imprimez les documents de votre choix</h1>         
             </a>
             <!-- /Js Info -->
               <a href="https://www.facebook.com/brunembert/" target="_blank">
@@ -17,6 +17,8 @@
     <nav class="selectionnez-votre-document">
         <ul class="liste-des-documents">
           <h3>Sélectionnez La thématique de votre document</h3>
+          <p>documents <span class="label label-primary">18</span></p> 
+              <p>vidéo <span class="label label-primary">1</span></p>
             <a href="#sante2" class="a-select" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" title="relative aux actualités sanitaires">
               <li><button class="doc-btn" id="sante">Santé</button></li>
             </a>

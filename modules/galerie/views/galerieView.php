@@ -3,6 +3,7 @@
             <div id="main_area">
                 <img class="baniere" src="./img/bannieres/banniere-photos.png" alt="banniere-photos" style="height:100%; width:100%;">
                 <h1>Brunembert vous offre un regard neuf sur le passé</h1> 
+                <p>Photos <span class="label label-primary">16</span></p> 
             </div>
                     
 

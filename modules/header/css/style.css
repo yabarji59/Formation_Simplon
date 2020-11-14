@@ -50,11 +50,10 @@
     }
     .content .popup:hover{
         color:rgb(13, 101, 128);
-        margin-left:1800px;
     }    
     .fa-arrow-circle-up{
         position:fixed;
-        margin-top:780px;
+        margin-top:750px;
         font-size:2.5em;
         }
 /** / header brunembert.fr **/
@@ -67,46 +66,41 @@
     /* Styles pour cette Media Queries */
     /** pour tablette **/
     body{
-        background-color:rgb(255, 255, 255);     
-        color:rgb(255, 255, 255);
+        min-width:768px;
+        max-width: 1366px;
         }
-    body p{
-        color:rgb(255, 255, 255);
-        text-align:center;
-    }
-    footer p{
-        color:rgb(9, 9, 39);
-    }
-    .content{
-        margin:50px;
-        top:0;
-        background:rgb(255, 255, 255);
-        color:rgb(9, 9, 39);
-    }
-        /** header brunembert.fr **/
-        .navbar-header{
-            width:100%;
-            margin-left:130px;
-            height:450px;
-            width:500px;
+        body p{
+            color:rgb(255, 255, 255);
+            text-align:center;
+        }
+ 
+        .content{
+            background-color:white;  
+            color:white;  
+        }
+
+    /** header brunembert.fr **/
+    .navbar-header{
+        min-width:768px;
+        max-width: 1366px;
+        width:100%;
+        padding-bottom:50px;
+        font-size:1.5em;
+        background-color:rgb(248, 250, 250)!important; 
+        }
+        .navbar-brand{
+            height:auto;
+        }
+        .content .popup{
+            color:rgb(3, 34, 48);
+            font-size:3em;
+            margin-left:950px;
+        }
+        .fa-arrow-circle-up{
+            position:absolute;
+            position:fixed;
+            margin-top:620px;
             }
-            .navbar-toggler{
-                margin-left:-300px;
-            }
-                .navbar-brand{
-                    background:rgb(9, 9, 39);
-                    margin-right:80px;
-                }
-            .navbar-header li.nav-item{
-                font-size:2em;
-                margin-left:100px;
-                text-align:center;
-            }
-            .fa-arrow-circle-up{
-                position:fixed;
-                margin-top:380px;
-                font-size:2.5em;
-                }
   }
 
 
@@ -117,10 +111,25 @@
 @media only screen and (min-device-width : 280px) and (max-device-width : 770px){
  /* Styles pour cette Media Queries 
 /** pour phone **/
+body{
+    min-width : 280px;
+    max-width:770px;
+}
     .fa-arrow-circle-up{
+        position:absolute;
         margin-left:300px;
         margin-top:600px;
+        font-size:3em;
         z-index:10;
+        position:fixed;
+        color:rgb(220, 220, 236);
+    }
+    .content{
+        margin:0;
+        padding:5px;
+        top:0;
+        background:rgb(10, 21, 78);
+        color:rgb(10, 21, 78);
     }
 
     .info-btn{
@@ -143,9 +152,11 @@
         header .navbar-header li.nav-item a{
             margin:0;
             text-align:center;
-            color:white;
+            background-color:rgb(10, 21, 78)!important;
+            color:white!important;
+            padding:5px;
             font-family: 'Orbitron', sans-serif;
-            font-size:1.6em;
+            font-size:3em;
         }
 
     /** / header brunembert.fr **/

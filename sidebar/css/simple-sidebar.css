@@ -147,11 +147,32 @@
   /* Styles pour cette Media Queries *//** pour tablette **/
  
 
-
+  .formulaire-sondage{
+    width:600px;
+    padding:20px;
+  }
+  .btn-sondage-css-simple-sidebar{
+    text-align:center;
+    width:300px;
+    height:50px;
+    font-size:1.5em;
+    background:powderblue;
+    border:1px solid powderblue;
+    color:black;
+  }
 }
 
 
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
   /** pour phone **/
-
+  .formulaire-sondage{
+    width:100%;
+    padding:20px;
+  }
+  .btn-sondage-css-simple-sidebar{
+    margin-left:0;
+    background:green;
+    color:black;
+  }
+  
     }

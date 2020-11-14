@@ -1,17 +1,13 @@
 @media only screen and (min-width:1367px){
   /** Brunembert : Home media querries **//** pour pc**/
-  .articles{
+
+  .content-articles{
     margin-top:150px;
-  }
-  .container{
       margin-left:100px;
   }
-
   .img-size{
-    min-height:100px;
-    max-height:400px;
-    max-width:300px;
-    min-width:30px;
+    max-height:100px;
+    max-width:100px;
     width:auto;
     height:auto;
   }
@@ -33,64 +29,109 @@
     background:rgb(0, 183, 255);
     border:1px solid rgb(0, 183, 255);
     padding:5px;
-    min-width:100px;
+    min-width:200px;
+    font-size:2em;
     max-width:auto;
     color:white;
   }
-  .firma-card{
-    float:left;
-      background: #fff;
-      border: 1px solid;
-      border-color: #c7bdbd40;
-      margin: 1rem auto;
-      border-radius: 5px;
-      box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
-      color:rgb(8, 8, 29);
-      margin-bottom: 1.6%;
-      padding:20px;
-      width:280px;
-      height:280px;
-      font-size:1em;
-      overflow: hidden;
-      display:inline-block;
-    }
+
   .details{
     box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
     padding:50px;
     font-size:1em;
-    margin-left:350px;
-    width:800px;
-    height:280px;
+    width:500px;
+    height:auto;
+    display:inline-block;
   }  
-    .fun-mooc-img{
-      width:90%;
-    }
+
 }
 
   /** Brunembert : Home media querries **/
 
 @media only screen and (min-width :768px) and (max-width:1366px){
 /* Styles pour cette Media Queries *//** pour tablette **/
-body{
-  margin:0;
-  min-width:768px;
-  max-width:1366px;
+.content-articles{
+  color:rgb(19, 4, 39);
+  padding:20px;
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:100px;
 }
 
-  .firma-card{
-    width:300px;
+.details{
+  background:rgb(19, 4, 39);
+  color:silver;
+  width:300px;
+  margin-top:20px;
+  padding:20px;
+  display:inline-block;
+}
+.btn-articles{
+  background:rgb(0, 183, 255);
+  border:1px solid rgb(0, 183, 255);
+  padding:5px;
+  max-width:auto;
+  color:white;
+}
+.img-size{
+  min-height:100px;
+  max-height:300px;
+  max-width:200px;
+  min-width:30px;
+  width:auto;
+  height:auto;
+}
+  .firma-logo{
+        width: calc(33.66667% - .75rem);
+        height: 6.5rem;
+        margin: 5px .375rem;
   }
-    .card-body{
-      background:black;
-      width:600px;
-      margin:0;
-    }
+  .firma-resim {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+  }
+  .img-padding-no{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
-
+.content-articles{
+  color:white;
+  margin-bottom:100px;
+  max-width:767px;
+  width:auto;
+  height:auto;
+}
+.content-articles p{
+ width:280px;
+}
+.details{
+  max-width:290px;
+  background:rgb(9, 39, 136);
+  color:white;
+  padding:10px;
+  margin-bottom:20px;
+}
+.btn-articles{
+  background:rgb(0, 183, 255);
+  border:1px solid rgb(0, 183, 255);
+  padding:5px;
+  max-width:auto;
+  color:white;
+}
+.img-size{
+  min-height:100px;
+  max-height:300px;
+  max-width:200px;
+  min-width:30px;
+  width:auto;
+  height:auto;
+}
   .firma-logo{
         width: calc(33.66667% - .75rem);
         height: 6.5rem;

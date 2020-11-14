@@ -67,3 +67,5 @@
 
         </div><!-- /product -->
 
+</div><!-- content -->
+</div><!-- div src -->

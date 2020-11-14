@@ -51,25 +51,28 @@
 @media only screen and (min-width :768px) and (max-width:1366px){
 /* Styles pour cette Media Queries *//** pour tablette **/
     footer{
-       margin:50px;
+       margin-top:200px;
+       margin-bottom:50px;
+       padding:10px;
+       background:rgb(52, 108, 212);
     }
-    footer .navbar-header{
-        min-width :570px;
-        max-width:700px;
-        min-height:20px;
-        max-height:50px;
-        width:auto;
-        padding:0;
-    }
+        /* Styles pour cette Media Queries *//** pour tablette **/
     footer a{
-        color:rgb(23, 212, 180)!important;
+        color:rgb(236, 233, 248);
+        font-size:1.2em;
+     }
+     footer p{
+        color:rgb(3, 34, 48);
+        font-size:1.3em;
+        text-align:center;
+        padding:20px;
+     }
+
+    footer .nav-headerFooter li{
+        display:inline-block;
     }
-    .navbar-header li.nav-item{
-        padding:0;
-    }
-    .navbar-header li.nav-item a{
-        font-size:1em!important;
-        color:rgb(213, 213, 231)!important;
+    #logotypes{
+        text-align:center;
     }
 
 }
@@ -78,19 +81,20 @@
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
     footer{
-        margin-top:300px;
+        margin:0;
+        background:white;
+        margin-bottom:50px;
         min-width:280px;
         max-width:768px;
-        margin-top:1200px;
         padding:20px;
         min-height:300px;
         max-height:auto;
-        min-width:280px;
-        width:100%;
-        z-index:300;
         } 
         footer a{
-            color:rgb(23, 212, 180)!important;
+            color:rgb(9, 9, 39)!important;
+        }
+        .nav-headerFooter{
+            text-align:center;
         }
         footer #nav-footer{
             margin-top:100px;

@@ -349,5 +349,3 @@
 
   </div><!-- fin div mentions -->
 </div><!-- content-mentions-->
-
-</div>

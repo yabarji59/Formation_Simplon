@@ -128,15 +128,6 @@
         font-size:1.3em;
       }
 
-      /** btn-brunembert-info **/
-
-      #phone-responsive{
-        position:relative;
-        margin-left:1600px;
-        top:800px;
-        height:0;
-        background:none!important;
-      }
 
         .slideshow{
           margin-top:20px;
@@ -187,7 +178,114 @@
 @media only screen and (min-width :768px) and (max-width:1366px){
   /* Styles pour cette Media Queries *//** pour tablette **/
  
+  .content-home{
+    min-width: 768px;
+    max-width:1366px;
+    width:100%;
+    color:rgb(5, 26, 32);
+    margin-left:250px;
+    margin-right:200px;
+  }
+  .content-home{
+    margin-bottom:200px;
+  }
+    #click-and-develop-the-page{
+      /** bouton découvrir brunembert **/
+      margin-left:-800px;
+    }
 
+    .up-window-information{
+      height:100px;
+      color:white;
+      background-color:rgb(9, 5, 68);
+      width:600px;
+      padding:20px;
+    }
+    .up-window-information span{
+      padding-top:10px;
+    }
+    .up-window-information a{
+      padding-top:10px;
+    }
+
+  
+    /** section histoire " découvrir brunembert **/
+    .welcome-content-home{
+      width:600px;
+      padding:0;
+      padding-bottom:50px;
+      margin-top:50px;
+      margin-right:200px;
+      margin-bottom:10px;
+      box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+  
+    }
+    .welcome-content-home p{
+      color:rgb(9, 5, 68);
+    }
+    h2{
+     padding:10px;
+     background:blanchedalmond;
+    }
+    h3{
+      padding:20px;
+    }
+        .texte-de-bienvenue{
+          margin-top:30px;
+          margin-left:0;
+          margin-right:0;
+          color:rgb(9, 5, 68);
+        }
+          .texte-de-bienvenue-part-one{
+            padding:30px;
+            margin-left:20px;
+            color:rgb(9, 5, 68);
+          }
+          .texte-de-bienvenue-part-two{
+            margin-left:20px;
+            padding:20px;
+            color:rgb(9, 5, 68);
+          }
+
+        section .pics-history{
+         padding-bottom:10px;
+        }
+          .card{
+            margin:30px;
+          }
+        section .pics-history h2{
+          color:rgb(178, 178, 206);
+          margin:0;
+          text-align:left;
+         }
+         section .pics-history p{
+          color:silver;
+         }
+         
+         section .pics-history .card-img-top{
+          width:60%;
+        }
+  
+        section .pics-history .btn-primary{
+          margin-left:10px;
+          background-color:rgb(9, 5, 68);
+          border:1px solid rgb(9, 5, 68);
+          color:silver;
+        }
+
+
+      .slideshow .slide{
+        height:50%;
+        width:600px;
+      }
+        /** actus **/
+        .infos-js-dashboard-auto-actus{
+          top:100px;
+          widows: 300px;
+        }
+          .infos-js-dashboard-auto-actus .card img{
+            width:15rem; 
+          }
 
 }
 
@@ -195,14 +293,95 @@
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
   /** pour phone **/
   .content-home{
-    margin-bottom:0;
+    min-width:280px;
+    max-width:767px;
+    width:100%;
+    color:rgb(5, 26, 32);
+    margin-right:5px;
+  }
+  .content-home{
+    margin-bottom:200px;
   }
     #click-and-develop-the-page{
       /** bouton découvrir brunembert **/
-      top:100px;
-      z-index:3000;
-      margin-left:70px;
-      font-size:1em;
+     margin-left:-800px;
     }
+
+    .up-window-information{
+      height:100px;
+      background:blue;
+      width:100%;
+      padding:10px;
+    }
+    .up-window-information span{
+      padding-top:10px;
+    }
+    .up-window-information a{
+      padding-top:10px;
+    }
+
+  
+    /** section histoire " découvrir brunembert **/
+    .welcome-content-home{
+      width:100%;
+      padding:0;
+      margin-top:50px;
+      margin-left:0;
+      margin-right:0;
+      margin-bottom:100px;
+      box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+    }
+    .welcome-content-home h3{
+      color:rgb(163, 207, 236);
+      margin-bottom:20px;
+    }
+        .texte-de-bienvenue{
+          margin-top:30px;
+          margin-left:0;
+          margin-right:0;
+          color:white;
+        }
+          .texte-de-bienvenue-part-one{
+            width:100%;
+            padding:20px;
+            color:white;
+          }
+          .texte-de-bienvenue-part-two{
+            width:100%;
+            padding:20px;
+            color:white;
+          }
+
+        section .pics-history{
+         width:260px;
+         margin-left:20px;
+         padding-bottom:10px;
+        }
+        section .pics-history h2{
+          color:rgb(178, 178, 206);
+          margin:0;
+          text-align:left;
+         }
+         section .pics-history p{
+          color:silver;
+         }
+  
+        section .pics-history .btn-primary{
+          margin-left:10px;
+        }
+
+          .slideshow .slide{
+            height:50%;
+            width:100%;
+          }
+        /** actus **/
+        .infos-js-dashboard-auto-actus{
+          top:100px;
+          widows: 300px;
+        }
+          .infos-js-dashboard-auto-actus .card img{
+            width:5rem; 
+          }
+  
     
   }

@@ -40,12 +40,25 @@
 
 @media only screen and (min-width :768px) and (max-width:1366px){
 /* Styles pour cette Media Queries *//** pour tablette **/
-#slider{
-  margin-top:150px;
-  }
+.content-galerie{
+  color:rgb(20, 50, 63);
+}
+.content-galerie p{
+  color:rgb(20, 50, 63);
+}
+  #slider{
+    margin-top:150px;
+    }
 }
 
 
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
+  .content-galerie{
+    color:rgb(212, 229, 236);
+  }
+  .content-galerie p{
+    color:rgb(212, 229, 236);
+  }
+
 }

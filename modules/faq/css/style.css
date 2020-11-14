@@ -79,6 +79,7 @@
     .content-faq{
       margin:0;
       padding:50px;
+      color:rgb(3, 34, 48);
     }
     #select{
       width:80%;
@@ -98,7 +99,8 @@
   .content-faq{
     margin-left:10px;
     margin-right:10px;
-    padding:0;
+    padding:10px;
+    background:white;
   }
   .content-faq h1{
     font-size:2em;
@@ -114,21 +116,23 @@
     font-size:1em;
     width:100%;
     background:rgb(15, 199, 174);
-    color:white;
-}
-.faq-container{
-  padding:0;
-  margin:0;
-}
-.content-faq .panel-group{
+    color:rgb(10, 21, 78)!important;
+  }
+  .faq-container{
     margin:0;
     padding:0;
-    background:rgb(15, 199, 174);
-    color:white;
   }
+  .content-faq .panel-group{
+      margin:0;
+      background:rgb(15, 199, 174);
+      color:white;
+    }
   .content-faq .panel-body{
     margin:0;
     padding:0;
+  }
+  #select{
+    width:100%;
   }
 }
 

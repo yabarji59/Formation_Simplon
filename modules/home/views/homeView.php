@@ -42,7 +42,7 @@
                             <span id="sondage-alert">
                                 Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
                             </span>
-                                    <p>* Brunembert ne collecte pas vos informations personnelles </p>
+                                    <p>* Brunembert collecte vos réponses pour améliorer ses projets </p>
                                     <a href=https://docs.google.com/forms/d/e/1FAIpQLSdGA9IXEmYvnodn6s9qYqkpDVoshcaJyGVR3A6GvntqO7pJeg/viewform?usp=sf_link" target="_blanck"<button class="btn-primary">
                                             <button class="btn-sondage-css-simple-sidebar"> Cliquez ici pour répondre au sondage </button>
                                     </a>    

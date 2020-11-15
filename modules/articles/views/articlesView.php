@@ -48,7 +48,7 @@
                     <p>              
                         Ce n'est pas parce que le passé n'est plus que nous ne pouvons plus y avoir accès, 
                         ni même se le remémorer. 
-                        L'Ina, L'Institut National de l'Audiovisuel diffuse sur son site internet des archives, 
+                        L'INA, L'Institut National de l'Audiovisuel diffuse sur son site internet des archives, 
                         et nous permet de consulter des documents de façon gratuite. 
                         Et si on on se regardait le tour de France à Metz en 1930 ? 
                         <a href="https://www.ina.fr/video/I13172578/le-tour-de-france-a-metz-video.html" target="_blank">

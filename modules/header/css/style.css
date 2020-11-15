@@ -29,11 +29,13 @@
     header .navbar-header li.nav-item a{
         box-shadow: 0 3px 15px -1px rgb(153, 168, 221);
         height:55px;
+        width:100px;
+        text-align:center;
         margin-top:35px;
         border-radius:2px;
         color:rgb(9, 30, 77)!important;
         font-family: 'Orbitron', sans-serif;
-        font-size:1.3em;
+        font-size:1.1em;
     }
     header .navbar-header li.nav-item a:hover{
         background-color:rgb(255, 255, 255)!important;

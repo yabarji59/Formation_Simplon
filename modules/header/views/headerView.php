@@ -88,7 +88,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=equipe">Équipe communale </a>
+                            <a class="nav-link" href="index.php?page=equipe">Conseil</a>
                         </li>
 
                         <li class="nav-item">
@@ -104,7 +104,7 @@
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=faq">Foire aux questions </a>
+                            <a class="nav-link" href="index.php?page=faq">FAQ </a>
                         </li>
 
                         <li class="nav-item">

@@ -37,7 +37,6 @@ if(isset($_POST['mailform']))
 <div class="contact">
 
   <section class="info-contact">
-  <h1>Contact</h1>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div class="box-part text-center">            
         
@@ -82,7 +81,7 @@ if(isset($_POST['mailform']))
 
 
   <form action="" class="" method="post" style="text-align:center;">
-  <h3>Formulaire de contact</h3>
+  <h1>Formulaire de contact</h1>
  
       <div class="">
         <input type="text" id="name" name="name" placeholder="Nom" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; }?>">

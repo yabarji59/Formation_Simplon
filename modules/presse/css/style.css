@@ -34,8 +34,9 @@
       
       .presse-btn{
         position:absolute;
-        top:700px;
-        margin-left:400px;
+        top:660px;
+        height:100px;
+        margin-left:300px;
         text-align:center;
       }
       .content-presse .presse-btn img{

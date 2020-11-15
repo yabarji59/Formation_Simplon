@@ -40,12 +40,12 @@
       margin-left:200px;
     }
     nav.boutons .btn-primary{
-      width:300px;
-      height:200px;
-      padding:40px;
+      width:230px;
+      height:140px;
+      padding:20px;
       margin-bottom:50px;
       margin-right:20px;
-      font-size:1.5em;
+      font-size:1.2em;
       float:left;
       border:1px solid rgb(73, 143, 180);
     }

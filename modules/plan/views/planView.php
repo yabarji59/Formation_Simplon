@@ -6,7 +6,7 @@
     </div>
      <img src="./img/bannieres/banniere-plan.png" style="width:100%;" alt="banniere-plan">
     <p><span class="label label-primary">11</span>pages</p>
-</span>
+
         <div id="texte" class="texte">
                 <a href="index.php"><h2>1. Accueil</h2>
                 <p>

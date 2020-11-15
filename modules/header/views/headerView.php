@@ -74,6 +74,10 @@
                 <a class="navbar-brand" href="index.php">
                   <img src="./img/logos/brunembert.png" alt="logo brunembert" style="height:100%; width:100%"; "> 
                 </a>
+                <br>
+                    <a href=https://docs.google.com/forms/d/e/1FAIpQLSdGA9IXEmYvnodn6s9qYqkpDVoshcaJyGVR3A6GvntqO7pJeg/viewform?usp=sf_link" target="_blank">
+                        <button class="btn-sondage-css-simple-sidebar"> SONDAGE </button>
+                    </a> 
             </a><!-- fin js info -->
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">

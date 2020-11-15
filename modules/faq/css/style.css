@@ -4,29 +4,31 @@
     /** Brunembert : Home media querries **//** pour pc**/
     .content-faq{
       margin-top:200px;
-      margin-left:400px;
-      margin-right:400px;
+      margin-left:150px;
+      margin-right:150px;
+      background-color:rgb(9, 9, 39);
+    }
+    h1{
+      text-align:center;
     }
     .banniere-faq img .banniere{
       position:relative;
-      height:500px;
-      width:700px;
     }
     #select{
+      top:260px;
       position:absolute;
-      color:rgb(9, 9, 39)!important;
-      width:40%;
+      background-color:rgb(9, 9, 39);
       height:50px;
-      margin-top:30px;
-      margin-left:150px;
       border-radius:10px;
-      color:black;
+      color:rgb(238, 206, 26);
       padding:10px;
+      text-align:center;
       font-size:1.9em;
       z-index:12;
     }
     #div-answer{
-      margin-top:200px;
+      margin-top:100px;
+      text-align:center;
       box-shadow: 0 2px 4px -1px rgb(29, 57, 100);
     }
     #div-answer p#q{
@@ -37,7 +39,7 @@
       font-size:1.8em;
     }
     #div-answer p#r{
-      color:rgb(9, 9, 39);
+      color:rgb(238, 206, 26);
       padding:20px;
       font-size:1.5em;
     }
@@ -77,19 +79,25 @@
   @media only screen and (min-width :768px) and (max-width:1366px){
   /* Styles pour cette Media Queries *//** pour tablette **/
     .content-faq{
+      background-color:rgb(9, 9, 39);
       margin:0;
       padding:50px;
-      color:rgb(3, 34, 48);
+      color:rgb(193, 207, 214);
+    }
+    .banniere-faq img .banniere{
+      position:relative;
+      height:100%;
+      width:100%;
     }
     #select{
       width:80%;
       margin:20px;
     }
     #select option{
-      color:#000000;
+      color:rgb(193, 207, 214);
     }
     #div-answer p{
-      color:#000000;
+      color:rgb(193, 207, 214);
     }
   }
 
@@ -100,11 +108,15 @@
     margin-left:10px;
     margin-right:10px;
     padding:10px;
-    background:white;
+    margin-bottom:150px;
+    background-color:rgb(9, 9, 39);
+    color:rgb(238, 206, 26);
   }
   .content-faq h1{
     font-size:2em;
+    margin-top:100px;
     margin-bottom:50px;
+    color:rgb(238, 206, 26);
   }
   .banniere-faq-pc{
     margin-top:100px;
@@ -115,24 +127,20 @@
     margin-right:20px;
     font-size:1em;
     width:100%;
-    background:rgb(15, 199, 174);
     color:rgb(10, 21, 78)!important;
   }
   .faq-container{
     margin:0;
     padding:0;
   }
-  .content-faq .panel-group{
-      margin:0;
-      background:rgb(15, 199, 174);
-      color:white;
-    }
   .content-faq .panel-body{
     margin:0;
     padding:0;
   }
   #select{
     width:100%;
+    background-color:rgb(9, 9, 39);
+    color:rgb(238, 206, 26);
   }
 }
 

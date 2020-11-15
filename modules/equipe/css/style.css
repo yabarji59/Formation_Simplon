@@ -20,10 +20,11 @@
         .equipe-intro{
             position:absolute;
             float:left;
-            top:150px;
+            top:130px;
+            width:350px;
             z-index:1000;
             margin-left:50px;
-            height:150px;
+            height:60px;
             padding:20px;
             border-radius:10px;
             border-radius:10px;
@@ -50,12 +51,12 @@
             padding-left:100px;
             padding-right:50px;
             padding-top:20px;
-            margin-left:650px;
+            margin-left:50px;
             border:1px solid rgb(238, 240, 247);
             width:auto;
         }
-            .product.main-img{
-                margin:auto;
+            .product .main-img{
+                margin-left:500px;
                 max-width: 500px;
                 display:block;
             }
@@ -105,26 +106,28 @@
             margin-left:50px;
             margin-right:50px;
             margin-bottom:100px;
+            background-color:rgb(9, 9, 39);
         }
         .equipe-intro{
             margin-left:120px;
             padding:20px;
         }
+        .equipe-intro p{
+            color:white;
+        }
         .product .main-img img{
-            width:40%;
-            height:40%;
-            margin-left:250px;
+            width:70%;
+            height:70%;
+            margin-left:150px;
         }
         .thumb-img{
             position:absolute;
-            top:250px;
+            top:500px;
             float:left;
             width:7%;
             height:7%;
         }
-        .equipe-intro p{
-            color:rgb(9, 9, 39); 
-        }
+
     }
 
 
@@ -134,11 +137,13 @@
         margin-left:10px;
         margin-right:10px;
         margin-bottom:100px;
+        height:800px;
         color:rgb(9, 9, 39);
     }
     .equipe-intro{
         padding:20px;
         color:white;
+        margin-top:300px;
         margin-left:50px;
     }
     .equipe-intro p{
@@ -151,9 +156,9 @@
     .product .main-img img{
         position:absolute;
         width:60%;
-        height:30%;
+        height:38%;
        top:180px;
-       margin-left:100px;
+       margin-left:80px;
     }
     .thumb-img{
         position: absolute;

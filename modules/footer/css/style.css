@@ -89,8 +89,10 @@
         padding:20px;
         min-height:300px;
         max-height:auto;
+        font-size:1.1em;
         } 
         footer a{
+            font-size:1.1em;
             color:rgb(9, 9, 39)!important;
         }
         .nav-headerFooter{

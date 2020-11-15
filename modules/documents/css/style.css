@@ -5,29 +5,27 @@
     .content-documents
     {
       margin:200px;
-      margin-bottom:200px;
+      margin-right:100px;
+      margin-bottom:100px;
     }
     nav.selectionnez-votre-document{
       float:left;
     }
-    nav.selectionnez-votre-document li{
-      display:block;
-    }
       nav.selectionnez-votre-document button{
-        width:300px;
+        width:150px;
         height:50px;
         background:white;
         color:rgb(55, 102, 163);
         border:1px solid rgb(219, 224, 233);
-        font-size:2em;
+        font-size:1.3em;
       }
 
     section.les-documents{
       position:relative;
       background:white;
       height:3500px;
-      width:800px;
-      margin-left:500px;
+      width:400px;
+      margin-left:400px;
     }
     section .container-docs{
       background:rgb(249, 250, 252);
@@ -75,6 +73,8 @@
       margin-right:100px;
       margin-bottom:100px;
       color:rgb(55, 102, 163);
+      background-color:rgb(9, 9, 39);
+      padding:30px;
     }
 
     nav.selectionnez-votre-document button{
@@ -85,12 +85,24 @@
       border:1px solid rgb(219, 224, 233);
       font-size:2em;
     }
+    section.les-documents{
+      height:3600px;
+      width:600px;
+    }
+    section .container-docs{
+      height:500px;
+      width:600px;
+    }
     img.logos-thematiques{
+      background-color:rgb(55, 102, 163);
+      padding:20px;
       min-height:50px;
       max-height:100px;
-      min-width:80px;
+      height:auto;
+      width:auto;
       max-width:100px;
       margin-top:50px;
+      margin-bottom:50px;
     }
     footer{
       margin-top:100px;

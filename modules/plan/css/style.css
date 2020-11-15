@@ -56,46 +56,15 @@
     margin-bottom:100px;
     margin-left:0;
     margin-right:0;
-    background-repeat:no-repeat;
+    background-color:rgb(9, 9, 39);
+    padding:100px;
   }
-  .nav-select{
-    position:absolute;
-    margin-bottom:100px;
-    background:none;
-    border:none;
-    margin:0;
-    padding:0;
-    float:left;
-    top:200px;
-    width:300px;
-    position:fixed;
-    z-index:12;
-    height:auto;
-  }
-  .nav-select a{
-    font-size:3em;
-    color:rgb(12, 12, 173);
-  }
-    .nav-select h2{
-      font-size:0.4em;
-      text-align:left;
-    }
-  .screens{
-    float:right;
-    position:absolute;
-    top:580px;
-    margin-left:200px;
-    height:auto;
-    margin-bottom:200px;
+
+  .plan-du-site .texte p{
     width:300px;
   }
 
-  .grey-right-part{
-    color:rgb(4, 4, 44);
-    padding:20px;
-    margin:0;
-    font-size:1em;
-  }
+
 }
 
 

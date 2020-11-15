@@ -1,6 +1,8 @@
 <div class="content-home">
 
     <div class="up-window-information">
+
+    
         <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer <br>Mairie (+33) 03 21 32 31 87, adresse: 12 place Servois 62240 BRUNEMBERT 
 
             <br>
@@ -23,22 +25,20 @@
 
         <!-- Sidebar -->
         <div class="d-flex sidebar" id="wrapper">
+       
             <div class="bg-light border-right" id="sidebar-wrapper" id="infos">
        
                 <div class="sidebar-heading"></div>
 
                     <div class="list-group list-group-flush">
+                 
                          <div class="formulaire-sondage" id="article-6">
                          www.brunembert.fr<BR>
-                         <i class="far fa-lightbulb" style="color:yellow;"></i> 
                             <span id="sondage-alert">
                                 Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
                             </span>
                                     <p>* Brunembert collecte vos réponses pour améliorer ses projets </p>
-                                    <a href=https://docs.google.com/forms/d/e/1FAIpQLSdGA9IXEmYvnodn6s9qYqkpDVoshcaJyGVR3A6GvntqO7pJeg/viewform?usp=sf_link" target="_blanck"<button class="btn-primary">
-                                            <button class="btn-sondage-css-simple-sidebar"> Cliquez ici pour répondre au sondage </button>
-                                    </a>    
-                                  
+
                         </div><!-- article-6 -->
                     </div><!-- list-group list-group-flush -->
 
@@ -52,10 +52,6 @@
     <section class="slideshow">
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <a href="#welcome-content">
-                <button id="click-and-develop-the-page"><i class="fas fa-arrow-alt-circle-down"></i><br><p id="p-button"></p>
-                </button>
-            </a>
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -161,7 +157,8 @@
                         </div>
                     </div>
 
-            <p style="text-align:right;" id="info-history">Textes repris de la documentation de Brunembert disponible dans les <a href="index.php?page=documents">Documents</a> du site Brunembert.fr  <p>
+            <p id="info-history">Textes repris de la documentation de Brunembert disponible dans les <a href="index.php?page=documents">Documents</a> du site Brunembert.fr  <p>
+       
         </section><!-- fin pics-history-->
 
         <section class="infos-js-dashboard-auto-actus" id="actus">

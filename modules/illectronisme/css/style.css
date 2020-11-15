@@ -3,9 +3,10 @@
   /** Brunembert : Home media querries **//** pour pc**/
     .content-illectronisme{
       margin-top:150px;
+      max-width:1400px;
       margin-bottom:200px;
-      margin-left:300px;
-      margin-right:300px;
+      margin-left:200px;
+      margin-right:150px;
       background-color:rgb(12, 23, 70);
     }
     .banniere-illectronisme img{
@@ -25,17 +26,14 @@
           padding-right:250px;
           text-align:center;
         }
-    .description{
+    .description p{
     padding:50px;
+    margin-left:450px;
     text-align:center;
-    margin-left:950px;
-    margin-right:200px;
-    background:white;
-    border:2px solid silver;
     padding:10px;
-    color:blue;
+    color:rgb(99, 126, 212);
     height:400px;
-    width:600px;
+    width:500px;
     font-size:1.5em;
     }
     nav.boutons{
@@ -46,12 +44,10 @@
       height:200px;
       padding:40px;
       margin-bottom:50px;
-      border-radius:none;
-      float:left;
+      margin-right:20px;
       font-size:1.5em;
-    }
-    nav.boutons li{
-      display:inline-block;
+      float:left;
+      border:1px solid rgb(73, 143, 180);
     }
 
 
@@ -65,7 +61,10 @@
 .content-illectronisme{
   min-width:768px;
   max-width:1366px;
+  height:auto;
+  padding-bottom:200px;
   margin:0;
+  background-color:rgb(9, 9, 39);
 }
 
 h1{
@@ -82,31 +81,32 @@ h1{
       padding-right:250px;
       text-align:center;
     }
+    nav.boutons .btn-primary a{
+      color:white;
+    }
   .description{
     padding:50px;
     text-align:center;
-    margin-left:200px;
-    margin-right:200px;
-    background:white;
+    margin-left:100px;
+    width:700px;
     border:2px solid silver;
     padding:10px;
     color:blue;
-    height:400px;
-    width:400px;
     font-size:1.5em;
   }
   nav.boutons{
-    margin-top:100px;
     margin-left:200px;
   }
   nav.boutons .btn-primary{
     width:200px;
     height:100px;
     padding:10px;
+    text-align:center;
+    margin-left:0;
     margin-bottom:50px;
     border-radius:none;
-    float:left;
-    font-size:1.3em;
+    font-size:0.8em;
+    display:inline;
   }
 
 }

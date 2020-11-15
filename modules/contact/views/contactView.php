@@ -26,10 +26,10 @@ if(isset($_POST['mailform']))
     ';
     
     mail("lemairejustine01@gmail.com", $message, $header);
-    $msg = "<p style='color:white; background:linear-gradient(rgb(4, 63, 65),#aabce2); padding:10px; width:100%; text-align:center; position:absolute; top:0;; z-index:1000;'>Votre message a bien été envoyé! </p>";
+    $msg = "<p id='msg-confirme'>Votre message a bien été envoyé! </p>";
   }
   else{
-      $msg = "<p style='color:rgb(255, 193, 193); background:linear-gradient(rgb(65, 4, 27),#a0535f); width:100%; margin:0; padding:50px; height:120px; text-align:center; position:absolute; z-index:12; top:0px;'>Tous les champs doivent être complétés!</p>";
+      $msg = "<p id='msg-error'>Tous les champs doivent être complétés!</p>";
   }
 }
 ?>
@@ -37,44 +37,52 @@ if(isset($_POST['mailform']))
 <div class="contact">
 
   <section class="info-contact">
-
+  <h1>Contact</h1>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div class="box-part text-center">            
         
                 <div class="text">
-                  <span>    
-                    12, Place Servois<br>62240 BRUNEMBERT<br>
+            
+                </div>
+                    <a href="https://goo.gl/maps/CFH2WLhh9h7xn9hZ8" target="_blank"><button class="btn-primary">Géolocaliser<br><i class="fas fa-location-arrow"></i></button></a>  
+                    <span>    
+                    <br><br>12, Place Servois<br>62240 BRUNEMBERT<br>
                     Accès PMR | Parking
-                  </span>
+                  </span>     
                 </div>
-                    <a href="https://goo.gl/maps/CFH2WLhh9h7xn9hZ8" target="_blank"><button class="btn-primary">Géolocaliser<br><i class="fas fa-location-arrow"></i></button></a>       
-                </div>
+        
              </div>	 
              
              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                <div class="box-part text-center">
      
                  <div class="text">
-                   <span>(+33) 03 21 32 31 87 </span>
+               
                  </div>  
-                 <a href="tel:+3321323187"><button class="btn-primary"> Appeler <br>  <i class="fas fa-phone-square-alt"></i></button></a>          
+                 <a href="tel:+3321323187"><button class="btn-primary"> Appeler <br>  <i class="fas fa-phone-square-alt"></i></button></a>  
+                   
+                 <span>   <br><br>
+                 (+33) 03 21 32 31 87 </span>      
                 </div>
+    
              </div>	 
              
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                <div class="box-part text-center">                        
                 
                  <div class="text">
-                  <span>mairie.brunembert@wanadoo.fr</span>
+         
                  </div>
-                 <a href="mailto:mairie.brunembert@wanadoo.fr?subject=VISITEUR SITE"><button class="btn-primary">Envoyer un mail <br> <i class="fas fa-share"></i></button></a>       
+                 <a href="mailto:mairie.brunembert@wanadoo.fr?subject=VISITEUR SITE"><button class="btn-primary">Envoyer <br> <i class="fas fa-share"></i></button></a>      
+                 <span>   <br><br>mairie.brunembert@wanadoo.fr</span> 
                 </div>
+          
              </div>	 
 
 
 
   <form action="" class="" method="post" style="text-align:center;">
-  <h1>Formulaire de contact</h1>
+  <h3>Formulaire de contact</h3>
  
       <div class="">
         <input type="text" id="name" name="name" placeholder="Nom" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; }?>">

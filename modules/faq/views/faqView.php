@@ -1,9 +1,6 @@
 <div class="content-faq" id="faq">
 
-      <img class="banniere" src="./img/bannieres/banniere-faq.png" style="width:100%; height:100%;" alt="banniere-faq">
-        <h1>Retrouvez les réponses aux questions fréquentes que vous vous posez</h1>
-
-        <select name="select" id="select">
+<select name="select" id="select">
             <option select="selected" value="merci de sélectionner votre question">Cliquez ici pour découvrir les réponses aux questions fréquentes</option>
 
             <option value="<iframe width='300' height='315' src='https://www.youtube.com/embed/LhE7dKIGoNo' frameborder='0' 
@@ -32,6 +29,9 @@
             </option>
        
         </select>
+      <img class="banniere" src="./img/bannieres/banniere-faq.png" style="width:100%; height:100%;" alt="banniere-faq">
+        <h1>Retrouvez les réponses aux questions fréquentes que vous vous posez</h1>
+
 
         <div id="div-answer">
           <p id="q">Sélectionnez votre question</p>

@@ -10,7 +10,7 @@
       float:left;
       position:absolute;
       top:200px;
-      font-size:2em;
+      font-size:1.3em;
     }
       #presse p{
         height:500px;
@@ -35,7 +35,7 @@
       .presse-btn{
         position:absolute;
         top:700px;
-        margin-left:600px;
+        margin-left:400px;
         text-align:center;
       }
       .content-presse .presse-btn img{
@@ -77,12 +77,13 @@
     margin-bottom:100px;
     padding:0;
     height:auto;
+    padding-bottom:100px;
   }
   h2{
     color:blue;
     background:silver;
     padding:20px;
-    height:200px;
+    height:80px;
   }
   #presse .btn-primary{
     position:relative;
@@ -113,7 +114,7 @@
     }
     .presse-btn{
       position:absolute;
-      top:700px;
+      top:900px;
       margin-left:200px;
       text-align:center;
     }

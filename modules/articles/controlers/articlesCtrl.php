@@ -1,7 +1,5 @@
 <?php 
 
-// inclusion database requise // 
-require_once 'database.php';
 
 // inclusion vue du articles
 require_once './modules/articles/views/articlesView.php';

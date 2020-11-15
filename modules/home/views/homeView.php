@@ -1,12 +1,4 @@
 <div class="content-home">
-    <a href="#infos" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" 
-                    title="Cliquez sur ce bouton Brunembert info pour ouvrir ou refermer le sondage">
-
-            <button class="bouton-fermer-sondage btn" id="menu-toggle" href="#infos">
-                    X
-            </button> 
-    </a><!-- fin href popup -->
-
 
     <div class="up-window-information">
         <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer <br>Mairie (+33) 03 21 32 31 87, adresse: 12 place Servois 62240 BRUNEMBERT 
@@ -159,8 +151,7 @@
                     </div>
 
                 <h3>La montagne aux fontaines</h3>
-                    <div class="card card-brunnesbercha">
-                        <img class="card-img-top" src="./img/signees/entree.jpg" alt="entree">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">La liane</h5>
                             <p class="card-text">"Brunnesbercha" tel est le nom que portait au douzième siècle le village de Brunembert,

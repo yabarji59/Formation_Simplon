@@ -3,7 +3,7 @@
             <div id="main_area">
                 <img class="baniere" src="./img/bannieres/banniere-photos.png" alt="banniere-photos" style="height:100%; width:100%;">
                 <h1>Brunembert vous offre un regard neuf sur le passé</h1> 
-                <p>Photos <span class="label label-primary">16</span></p> 
+                <p>Photos <span class="label label-primary">8</span></p> 
             </div>
                     
 
@@ -38,40 +38,6 @@
                             </li>
 
                             <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-4">
-                                    <img src="./img/archives/boulangerie.JPG"alt="la boulangerie">
-                                </a>
-                            </li>
-
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-5">
-                                    <img src="./img/archives/arbreNoel.JPG" alt="arbre de noël">
-                                </a>
-                            </li>
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-6">
-                                    <img src="./img/archives/ecole.JPG" alt="école primaire">
-                                </a>
-                            </li>
-
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-7">  
-                                    <img src="./img/archives/fetedelapomme.JPG" alt="fête de la pomme">
-                                </a>
-                            </li>
-
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-8">
-                                 <img src="./img/archives/intervillages.JPG" alt="intervillages">
-                                </a>
-                            </li>
-
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-9">
-                                    <img src="./img/archives/cuisine.JPG" alt="cuisine">
-                                </a>
-                            </li>
-                            <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-10">
                                     <img src="./img/archives/quillier.jpg" alt="quillier">
                                 </a>
@@ -83,17 +49,6 @@
                                 </a>
                             </li>
 
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-12">
-                                    <img src="./img/archives/quilles.JPG" alt="les quilles">
-                                </a>
-                            </li>
-
-                            <li class="col-sm-12 box">
-                                <a class="thumbnail" id="carousel-selector-13">
-                                    <img src="./img/archives/1912.JPG" alt="la mairie archive 1912">
-                                </a>
-                            </li>
                             <li class="col-sm-12 box">
                                 <a class="thumbnail" id="carousel-selector-14">
                                     <img src="./img/signees/mairie.JPG" alt="la mairie 2020">
@@ -136,29 +91,6 @@
                                             <img src="./img/histoire/chevaux.JPG" alt="chevaux">
                                             </div>
 
-                                            <div class="item" data-slide-number="4">
-                                            <img src="./img/archives/boulangerie.JPG"alt="la boulangerie">
-                                            </div>
-
-                                            <div class="item" data-slide-number="5">
-                                            <img src="./img/archives/arbreNoel.JPG" alt="arbre de noël">
-                                            </div>
-                                            
-                                            <div class="item" data-slide-number="6">
-                                            <img src="./img/archives/ecole.JPG" alt="école primaire">
-                                            </div>
-                                            
-                                            <div class="item" data-slide-number="7">
-                                                <img src="./img/archives/fetedelapomme.JPG" alt="fête de la pomme">
-                                            </div>
-                                            
-                                            <div class="item" data-slide-number="8">
-                                            <img src="./img/archives/intervillages.JPG" alt="intervillages">
-                                            </div>
-                                            
-                                            <div class="item" data-slide-number="9">
-                                                <img src="./img/archives/cuisine.JPG" alt="cuisine">
-                                            </div>
                                             
                                             <div class="item" data-slide-number="10">
                                             <img src="./img/archives/quillier.jpg" alt="quillier">
@@ -168,13 +100,6 @@
                                             <img src="./img/signees/paysage4.JPG" alt="paysage4">
                                             </div>
                                             
-                                            <div class="item" data-slide-number="12">
-                                            <img src="./img/archives/quilles.JPG" alt="les quilles">
-                                            </div>
-
-                                            <div class="item" data-slide-number="13">
-                                            <img src="./img/archives/1912.JPG" alt="la mairie archive 1912">
-                                            </div>
 
                                             <div class="item" data-slide-number="14">
                                             <img src="./img/signees/mairie.JPG" alt="la mairie 2020">

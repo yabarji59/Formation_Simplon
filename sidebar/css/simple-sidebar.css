@@ -171,8 +171,10 @@
   }
   .btn-sondage-css-simple-sidebar{
     margin-left:0;
-    background:green;
-    color:black;
+    background:rgb(61, 199, 61);
+    border:1px solid rgb(61, 199, 61);
+    padding:10px;
+    color:white;
   }
   
     }

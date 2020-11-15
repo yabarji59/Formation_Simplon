@@ -83,22 +83,7 @@
                 color:white!important;
             }
     
-            .justine-card {
-                float:left;
-                margin-bottom:300px;
-            }
-            .justine-card p{
-                font-size:1.1em;
-            }
-    
-        .l-equipe-de-brunembert-fr .card{
-                min-height:400px;
-                max-height:400px;
-                height:400px;
-        }
-        .l-equipe-de-brunembert-fr .card{
-           margin-bottom:100px;
-        }
+
     }
 
 @media only screen and (min-width :768px) and (max-width:1366px){

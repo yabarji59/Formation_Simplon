@@ -3,9 +3,8 @@
     <div class="banniere-equipe-pc">
     
         <div class="equipe-intro">
-            <img src="./img/logos/blason.png" class="img_team" alt="blason de Brunembert"><br>
                 <p> 
-                    <img src="./img/equipe/team-conseil.jpg" style="height:100p; width:500px;" alt="tous">
+                        <br>
                         <br>
                      Les attributions du conseil municipal
                     Articles L. 2121-29 à L. 2121-34 du CGCT.<br>
@@ -18,6 +17,7 @@
                             Cliquez ici pour vous rendre sur le site référence " collectivités locales "
                     </a>
                 </p>
+
         </div><!--equipe-intro -->
 
         <div class="product">

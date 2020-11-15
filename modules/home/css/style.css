@@ -10,7 +10,7 @@
   #click-and-develop-the-page{
     /** bouton découvrir brunembert **/
     position:absolute;
-    top:760px;
+    top:740px;
     z-index:30000;
     background:#0f3a64;
     border:1px solid silver;
@@ -63,18 +63,12 @@
     padding-top:50px;
   }
 
-  .bouton-fermer-sondage{
-    position:relative;
-    background-color:#076270;
-    color:rgb(144, 187, 25);
-    font-size:1em;
-    z-index:12;
-  }
-
 
   /** section histoire " découvrir brunembert **/
   .welcome-content-home{
     margin-top:100px;
+    padding-top:150px;
+    padding-right:50px;
     margin-left:300px;
     margin-right:300px;
     margin-bottom:200px;
@@ -89,13 +83,13 @@
         margin-bottom:20px;
       }
         .texte-de-bienvenue-part-one{
-          width:400px;
+          width:300px;
           padding:50px;
           float:left;
           margin-left:400px;
         }
         .texte-de-bienvenue-part-two{
-          width:400px;
+          width:300px;
           margin-left:700px;
           top:0;
           color:black;
@@ -113,7 +107,9 @@
         margin:20px;
       }
       section .pics-history{
-       width:700px;
+       min-width:450px;
+       max-width:550px;
+       width:auto;
        margin-left:450px;
        padding-bottom:100px;
       }
@@ -124,32 +120,46 @@
        }
 
       section .pics-history .btn-primary{
-        margin-left:500px;
-        font-size:1.3em;
+        margin-left:250px;
+        font-size:1em;
       }
 
 
         .slideshow{
-          margin-top:20px;
-          padding-left:300px;
-          padding-right:300px;
+          padding-top:20px;
+          padding-left:250px;
+          padding-right:250px;
         }
-      span.carousel-control-next-icon{
-        width:100px;
-        height:100px;
-        background-size:80%;
-      }     
-      span.carousel-control-prev-icon{
-        background-color:transparent;
-        width:100px;
-        height:100px;
-        background-size:80%;
+          .slideshow .slide .carousel-inner{
+            height:100%;
+            width:100%;
+          }
+            .slideshow .w-100{
+              height:auto;
+              width:auto;
+            }
+
+            span.carousel-control-next-icon{
+              width:100px;
+              height:100px;
+              background-size:80%;
+            }     
+            span.carousel-control-prev-icon{
+              background-color:transparent;
+              width:100px;
+              height:100px;
+              background-size:80%;
+            }
+
+      .pics-history .card-img-top{
+        min-height:400px;
+        max-height:500px;
+        height:auto;
+        min-width:300px;
+        max-width:600px;
+        width:auto;
       }
 
-      img.w-100{
-        height:100%;
-        width:100%;
-      }
       /** actus **/
       .infos-js-dashboard-auto-actus{
         position:absolute;
@@ -382,6 +392,4 @@
           .infos-js-dashboard-auto-actus .card img{
             width:5rem; 
           }
-  
-    
   }

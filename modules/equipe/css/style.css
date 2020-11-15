@@ -20,7 +20,7 @@
         .equipe-intro{
             position:absolute;
             float:left;
-            top:70px;
+            top:150px;
             z-index:1000;
             margin-left:50px;
             height:150px;
@@ -39,6 +39,11 @@
             border-radius:10px;
             text-align:center;
         }
+        .equipe-intro img{
+            height:320px; 
+            width:500px;
+        }
+
 
         /** à droite **/
         .product{

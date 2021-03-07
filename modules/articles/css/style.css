@@ -11,6 +11,12 @@
     width:auto;
     height:auto;
   }
+  h3#brunembertInfo{
+    color:rgb(55, 102, 163);
+    background:rgb(204, 219, 228);
+    font-size:1.2em;
+    padding:5px;
+}
   #astucesetbonsplans{
     color:rgb(3, 22, 73);
   }

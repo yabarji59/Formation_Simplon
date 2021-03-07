@@ -95,10 +95,10 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Attestation de déplacement dérogatoire confinement n°2</h5>
+                        <h5 class="card-title">Attestation de déplacement confinement week-end (62)</h5>
                         <p class="card-text">
-                        Publiée le 31 Octobre 2020.</p>
-                        <a href="./docs/documents/attestation-deplacement.jpg" class="btn btn-primary">Afficher</a>
+                        Publiée le 07 Mars 2021</p>
+                        <a href="./docs/documents/attestation-deplacement-we.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
@@ -109,10 +109,10 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Attestation de déplacement adaptée confinement n°2</h5>
+                        <h5 class="card-title">Justificatif de déplacement professionnel, couvre-feu 18H00</h5>
                         <p class="card-text">
-                         Attestation à destination des personnes en situation d'handicap</p>
-                         <a href="./docs/documents/attestation-PH.jpg" class="btn btn-primary">Afficher</a>
+                        Publiée le 07 Mars 2021</p>
+                         <a href="./docs/documents/justificatif-pro-couvreFeu.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
@@ -123,10 +123,10 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Justificatif de déplacement scolaire confinement n°2</h5>
+                        <h5 class="card-title">Justificatif de déplacement scolaire, couvre-feu 18H00</h5>
                         <p class="card-text">
-                        Publiée le 31 Octobre 2020. </p>
-                         <a href="./docs/documents/justificatif-scolaire.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 07 Mars 2021 </p>
+                         <a href="./docs/documents/just-scolaire.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
@@ -156,6 +156,23 @@
                           </p>
                           <video src="./video/pdc.mp4" width=100%; class="btn btn-primary"
                                 height=100% controls poster="./img/logos/pdc.jpg" allowfullscreen sandbox>
+                                Cette vidéo ne peut être affichée sur votre navigateur Internet.
+                          </video>
+                       
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Surprise</h5>
+                          <p class="card-text">
+                           <i>En attente</i>
+                          </p>
+                          <video src="" width=100%; class="btn btn-primary"
+                                height=100% controls poster="./img/logos/brunembert.jpg" allowfullscreen sandbox>
                                 Cette vidéo ne peut être affichée sur votre navigateur Internet.
                           </video>
                        
@@ -201,6 +218,25 @@
                   </div>
                 </div>
               </div>
+
+              
+              <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Bulletin municipal</h5>
+                          <p class="card-text">
+                           <i> N° Janvier 2021</i>
+                           </p>
+                        
+                           <a href="https://fr.calameo.com/read/0044099695184b5db15c3?fbclid=IwAR2JB95BYESYQHGc-EvheEFve5wZatrw9pjx2O3O8wBHiA3v48QItekdbxI" target="_blank" class="btn btn-primary">Afficher</a>
+                     
+                       
+                       
+                      </div>
+                    </div>
+                </div>
+
               </div><!-- /container-docs -->
               </div><!-- container-de-documents-par-thematiques -->
 

@@ -61,3 +61,43 @@ $(document).ready(function(){
         }
 /** / event.changeImage */
 
+
+
+
+function displayDivInfo(evt,text){
+
+if(!document.getElementById('divInfo')){
+
+var divInfo = document.createElement('p');
+
+divInfo.id = 'divInfo';
+divInfo.style.position = 'absolute';
+document.body.appendChild(divInfo);
+}
+
+
+var el=document.getElementById('divInfo')
+
+if(text){
+
+    el.innerHTML =text;
+	el.style.display='block'
+
+	evt.currentTarget.onmousemove=function(evt){
+
+		var el=document.getElementById('divInfo')
+		var dde=document.body.scrollTop ? document.body : document.documentElement;
+		evt =(!evt) ? window.event : evt;
+		var XX =evt.clientX + dde.scrollLeft;
+		var YY =evt.clientY + dde.scrollTop;
+		el.style.top=YY-15+'px'
+		el.style.left=XX+15+'px'
+	}
+
+}
+
+else{
+el.onmousemove = '';
+el.style.display='none'
+}
+}

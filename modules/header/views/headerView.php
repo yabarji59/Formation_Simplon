@@ -59,26 +59,29 @@
 
 <body>
  
-    <header>
-        <!-- menu de navigation -->
+    <header>       
+            <a href="tel:+3321323187"><button class="btn-primary" style="width:80px; height:30px;"> <i class="fas fa-phone-square-alt"></i></button></a>  
 
+        <!-- menu de navigation -->
         <nav class="navbar navbar-light bg-light navbar-expand-lg navbar-header">
                 <!-- hamburger / MENU PHONE -->
                 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+            <a href="https://www.facebook.com/brunembert" target="_blank"><img src="./img/logos/facebook-logo.png" width=40px; height=40px;> </a>
+       
             <a href="#" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" 
             title="Cliquez sur Brunembert.fr pour emprunter un raccourci vers la page d'accueil">
+     
                 <a class="navbar-brand" href="index.php">
                   <img src="./img/logos/brunembert.png" alt="logo brunembert" style="height:100%; width:100%"; "> 
                 </a>
-                <br>
-                    <a href=https://docs.google.com/forms/d/e/1FAIpQLSdGA9IXEmYvnodn6s9qYqkpDVoshcaJyGVR3A6GvntqO7pJeg/viewform?usp=sf_link" target="_blank">
-                        <button class="btn-sondage-css-simple-sidebar"> SONDAGE </button>
-                    </a> 
-            </a><!-- fin js info -->
+            <br> 
+            </a><!-- fin js info -->  
+            
+            <br>
+                <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer</span>  
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto ul-principal">
@@ -110,9 +113,8 @@
                         <li class="nav-item">
                             <a class="nav-link contact-eloigne" href="index.php?page=contact"><i class="fa fa-envelope"></i> Contact</a>
                         </li>
-
-                </div>
-                
+                        
+                        </div>
         </nav>
 
     </header>

@@ -10,10 +10,7 @@
         <meta name="author" content="Justine Lemaire">
         <meta name="category" content="site vitrine collectivité">
         <meta name="copyright" content="Mairie de Brunembert">
-        <meta name="description" content="Le site officiel de la mairie de Brunembert créé en 2019.
-                    Brunembert ou Brunnesbercha. Un village au passé marqué. La montagne aux fontaines, c'est le nom que portait 
-                    au douzième siècle le village de Brunembert, situé dans le coin le plus oriental de la fosse Boulonnaise
-                    entre Quesques et Longueville.">
+        <meta name="description" content="Le site officiel de la mairie de Brunembert créé en 2020.">
         <meta name="keywords" content="mairie, brunembert, philippe, delbarre, village, collectivité, aînés,
                     quillier, quilles, Ô comme 3 pommes, auberge, cheval, blanc, boulangerie, fayolle, leduc, pomme, cidre, stade,
                     château, justine, lemaire, monument, morts, blason, vierge, enfant, jésus, drapeau, français.">

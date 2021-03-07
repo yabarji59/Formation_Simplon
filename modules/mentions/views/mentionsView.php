@@ -154,15 +154,15 @@
             Je cite : <br>
 
             Le widget "chat" provient de : 
-            <a href="https://www.smartsupp.com/fr/" target="_blanck">Smartsupp</a>.
+            <a href="https://www.smartsupp.com/fr/" target="_blank">Smartsupp</a>.
+            <br>
 
-
-            Le widget "sondage" provient de : 
-            <a href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms" target="_blanck">Google forms</a>
-            <br><br>
-
+            Le widget "Météo France" provient de : 
+            <a href="https://meteofrance.com/widgets" target="blank">Météo France</a>.
+            <br>
+            
             L'intégration ou redirection vers les réseaux sociaux provient de : 
-            <a href="https://www.facebook.com/groups/200912411341170/" target="_blanck">Facebook</a><br><br>
+            <a href="https://www.facebook.com/groups/200912411341170/" target="_blank">Facebook</a><br><br>
           
             
 

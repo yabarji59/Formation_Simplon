@@ -1,53 +1,5 @@
 <div class="content-home">
 
-    <div class="up-window-information">
-
-    
-        <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer <br>Mairie (+33) 03 21 32 31 87, adresse: 12 place Servois 62240 BRUNEMBERT 
-
-            <br>
-            <a href="#actus">
-                <i class="fas fa-info"></i>
-                 <span id="actu-span"> Découvrir les actualités </span>
-            </a>
-
-            <a href="https://www.facebook.com/brunembert" target="_blank" id="facebook">
-                <i class="fa fa-facebook"></i> 
-                    <span id="fa-facebook">Page Facebook du Village de Brunembert</span>
-            </a> 
-
-        </span>    
-        
-    </div>
- 
-
-    <section class="infos">
-
-        <!-- Sidebar -->
-        <div class="d-flex sidebar" id="wrapper">
-       
-            <div class="bg-light border-right" id="sidebar-wrapper" id="infos">
-       
-                <div class="sidebar-heading"></div>
-
-                    <div class="list-group list-group-flush">
-                 
-                         <div class="formulaire-sondage" id="article-6">
-                         www.brunembert.fr<BR>
-                            <span id="sondage-alert">
-                                Un nouveau sondage est disponible en ligne. Vous pouvez y participer.
-                            </span>
-                                    <p>* Brunembert collecte vos réponses pour améliorer ses projets </p>
-
-                        </div><!-- article-6 -->
-                    </div><!-- list-group list-group-flush -->
-
-            </div><!-- bg -->
-        </div><!-- /#wrapper d-flex -->
-
-    </section><!-- fin section info -->
-
-    
     <!-- slideshow -->
     <section class="slideshow">
 
@@ -88,8 +40,113 @@
         </div>
     </section><!-- / section caroussel pics -->
 
-    <section class="welcome-content-home" id="welcome-content">
+    <section class="artualites">
+        <div class="col-xl-4 stretch-card grid-margin">
+        
+                <div class="card-body scroller">
+                <h2>Dernières nouvelles...</h2>
+                <img src="./img/logos/brunembert.png" alt="logo brunembert" style="width:200px; height:30px;">
 
+                <div
+                    class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between"
+                >
+                    <div class="pr-3">
+                    <h5>Une nouvelle attestation <i> est disponible</i></h5>
+                    <div class="fs-12">
+                    <span class="mr-2">    
+                        <a href="index.php?page=articles"><button class="btn-primary">Lire l'article complet</button></a></span>
+                    </div>
+                    </div>
+                    <div class="rotate-img">
+                    <img
+                    src="./img/logos/gestes.png" style="width:100px; height:50px;" alt="sante"
+                        alt="thumb"
+                        class="img-fluid img-lg"
+                    />
+                    </div>
+                </div>
+
+                <div
+                    class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between"
+                >
+                    <div class="pr-3">
+                    <h5>Le bulletin municipal Janvier 2021 <i>est disponible</i></h5>
+                    <div class="fs-12">
+                        <span class="mr-2">
+                        <a href="index.php?page=articles"><button class="btn-primary">Lire l'article complet</button></a></span>
+                    </div>
+                    </div>
+                    <div class="rotate-img">
+                    <img
+                    src=" ./img/logos/blason.png" style="width:50px; height:50px;" alt="blason"
+                        alt="thumb"
+                        class="img-fluid img-lg"
+                    />
+                    </div>
+                </div>
+                
+                <div
+                    class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between"
+                >
+                    <div class="pr-3">
+                    <h5>Trois nouveaux articles<i> sont disponibles</i></h5>
+                    <div class="fs-12">
+                        <span class="mr-2">
+                        <a href="index.php?page=articles"><button class="btn-primary">Afficher</button></a></span>
+                    </div>
+                    </div>
+                    <div class="rotate-img">
+                    <img
+                    src=" ./img/logos/brunembert.png" style="width:150px; height:30px;" alt="blason"
+                        alt="thumb"
+                        class="img-fluid img-lg"
+                    />
+                    </div>
+                </div>
+
+
+                <p>©Brunembert</p>
+                </div>
+                </div>
+            </div>
+
+            </div>
+    </section>  
+              
+
+    <section class="pics-history">
+            <h2>BRUNEMBERT OU BRUNNESBERCHA</h2>
+                <h3>Lieu de paix après la tempête </h3>
+                    <div class="card">
+                        <img class="card-img-top" src="./img/archives/archiveMonument.jpg" alt="Monument aux morts">
+                        <div class="card-body">
+                            <h5 class="card-title">Le monument aux morts</h5>
+                            <p class="card-text">  Ce lieu maintenant si paisible et si tranquille,<br>
+                                                        où rien ne se fait entendre, <br>hormis le
+                                                        laborieux bruissement de la ferme, <br>a été le théâtre de sanglants combats.<br>
+                                                    On peut y voir son monument aux morts <br>classé au patrimoine historique.</p>
+                            <a href="index.php?page=documents" class="btn btn-primary">Documents de Brunembert</a>
+                        </div>
+                    </div>
+
+                <h3>La montagne aux fontaines</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">La liane</h5>
+                            <p class="card-text">"Brunnesbercha" tel est le nom que portait au douzième siècle le village de Brunembert,
+                                                        situé dans le coin le plus oriental de la fosse Boulonnaise
+                                                        entre <a href="http://quesques.fr/" target="_blanck">Quesques</a> et Longueville.</p>
+                            <a href="index.php?page=documents" class="btn btn-primary">Documents de Brunembert</a>
+                        </div>
+                    </div>
+
+            <p id="info-history">Textes repris de la documentation de Brunembert disponible dans les <a href="index.php?page=documents">Documents</a> du site Brunembert.fr  <p>
+       
+        </section><!-- fin pics-history-->
+
+    <section class="welcome-content-home" id="welcome-content">
+    <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/621790"> </iframe>
+        
         <div class="texte-de-bienvenue-part-one">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom navbar-aside" style="font-family: 'Cinzel', serif;background:none!important; border:none!important;">
                 <div class="collapse navbar-collapse navbar-collapse-aside" id="navbarSupportedContent">
@@ -131,58 +188,8 @@
                 </p>
         </div><!-- fin div class texte-de-bienvenue -->
 
-        <section class="pics-history">
-            <h2>BRUNEMBERT OU BRUNNESBERCHA</h2>
-                <h3>Lieu de paix après la tempête </h3>
-                    <div class="card">
-                        <img class="card-img-top" src="./img/archives/archiveMonument.jpg" alt="Monument aux morts">
-                        <div class="card-body">
-                            <h5 class="card-title">Le monument aux morts</h5>
-                            <p class="card-text">  Ce lieu maintenant si paisible et si tranquille,<br>
-                                                        où rien ne se fait entendre, <br>hormis le
-                                                        laborieux bruissement de la ferme, <br>a été le théâtre de sanglants combats.<br>
-                                                    On peut y voir son monument aux morts <br>classé au patrimoine historique.</p>
-                            <a href="index.php?page=documents" class="btn btn-primary">Documents de Brunembert</a>
-                        </div>
-                    </div>
-
-                <h3>La montagne aux fontaines</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">La liane</h5>
-                            <p class="card-text">"Brunnesbercha" tel est le nom que portait au douzième siècle le village de Brunembert,
-                                                        situé dans le coin le plus oriental de la fosse Boulonnaise
-                                                        entre <a href="http://quesques.fr/" target="_blanck">Quesques</a> et Longueville.</p>
-                            <a href="index.php?page=documents" class="btn btn-primary">Documents de Brunembert</a>
-                        </div>
-                    </div>
-
-            <p id="info-history">Textes repris de la documentation de Brunembert disponible dans les <a href="index.php?page=documents">Documents</a> du site Brunembert.fr  <p>
-       
-        </section><!-- fin pics-history-->
-
-        <section class="infos-js-dashboard-auto-actus" id="actus">
-            <img src="./img/logos/brunembert.png" alt="logo brunembert" style="width:200px; height:30px;">
-
-            <div class="card">
-             <img class="card-img-top" src="./img/equipe/adjoints.jpg" alt="adjoints">
-            <div class="card-body">
-                <p class="card-text">Les ajoints au maire ont été élus!</p>
-                <a href="index.php?page=equipe"><button class="btn-primary">Voir tout le conseil municipal</button></a>
-            </div>
-            </div>
-
-            <div class="card">
-            <img class="card-img-top" src=" ./img/presse/city-stade.jpg" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Le terrain city-stade est construit!</p>
-            </div>
-            </div>
 
 
-              
-
-            </section><!--infos-js-dashboard-auto-actus-->
     </section><!-- fin welcome-content-home-->
 
 

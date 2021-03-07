@@ -15,161 +15,19 @@
         #p-button:hover{
           color:#0f3a64;
         }
-  .up-window-information{
-    position:absolute;
-    box-shadow: 0 4px 6px -1px rgb(16, 35, 36);
-    text-align:right;
-    top:145px;
-    height:100px;
-    z-index:1000;
-    width:100%;
-    padding:10px;
-    opacity:0.8;
-    height:80px;
-    background:rgb(144, 187, 25);
-    text-align:center;
-    color:rgb(16, 35, 36);
-    font-size:1.3em;
-  }
- .up-window-information .list-group-flush {
-    /** fenêtre gauche droite js **/
-    -webkit-transition: margin .50s ease-out;
-    -moz-transition: margin .50s ease-out;
-    -o-transition: margin .50s ease-out;
-    transition: margin .50s ease-out;
-  }
-  .list-group-flush button.btn-sondage{
-    color:#0f3a64!important;
-    background:rgb(144, 187, 25)!important;
-    border-radius:8px;
-    text-align:center;
-    margin-left:250px;
-    width:200px;
-    font-size:1em;
-  }
-  .up-window-information span{
-    padding-top:50px;
-  }
-  .up-window-information a{
-    color:rgb(5, 26, 32);
-    padding-top:50px;
-  }
-/** récupération du css simple-sidebar **/
-
-
-  #sidebar-wrapper {
-    /** fenêtre gauche droite js **/
-    position:absolute;
-    top:95px;
-    background:#0f3a64!important;
-    background:transparent;
-    border:none!important;
-    height:80px;
-    z-index:9999;
-    float:left;
-    margin-bottom:50px;
-    width:430px;
-    -webkit-transition: margin .50s ease-out;
-    -moz-transition: margin .50s ease-out;
-    -o-transition: margin .50s ease-out;
-    transition: margin .50s ease-out;
-  }
-
-    #sidebar-wrapper h2{
-      margin:0;
-      font-size:1em;
-      color:rgb(43, 46, 32)!important;
-      background:none!important;
-      padding:10px;
-    }
-      #sidebar-wrapper p{
-        color:silver;
-      }
-
-    /** ARTICLES **/
-    .articles{
-      width:200px;
-      height:80px;
-      margin-left:10px;
-      margin-right:40px;
-    }
-      .article-brunembert-info h3{
-        padding:10px;
-        text-align:center;
-        width:300px;
-      }
-      .article-brunembert-info h2{
-        padding-left:30px;
-        width:200px;
-      }
-      .text-article p{
-        margin-top:20px;
-        width:300px;
-      }
-      .list-group a{
-        background:none!important;
-      }
-      .formulaire-sondage p{
-        float:left;
-      }
- /** le bouton sondage dans le heade **/
-
-    /** FIN CSS ARTICLES **/
-
-    .d-flex .navbar-aside a{
-      font-size:2em;
-      margin-bottom:0;
-    }
-    #sidebar-wrapper .sidebar-heading {
-      padding: 0.875rem 1.25rem;
-      font-size: 1.2rem;
-    }
-
-    #sidebar-wrapper .list-group p {
-    color:silver;
-    }
-
-    #page-content-wrapper {
-      min-width: 100vw;
-    }
-
-    #wrapper.toggled #sidebar-wrapper {
-      margin-left: 0;
-    }
-
-    #sidebar-wrapper {
-      margin-left: 0;
-      margin-top:50px;
-    }
-
-    #page-content-wrapper {
-      min-width: 0;
-      width: 100%;
-    }
-
-    #wrapper.toggled #sidebar-wrapper {
-      margin-left:-50rem;
-    }
-    .list-group-flush {
-      margin:10px;
-    }
-    .list-group-flush button{
-      padding:5px;
-    }
-
-  .sidebar-wapper a.btn-primary{
-    background-color:none!important;
-  }
-
 
   /** section histoire " découvrir brunembert **/
+  #widget_autocomplete_preview{
+    float:left;
+  }
   .welcome-content-home{
-    margin-top:50px;
+    width:1000px;
+    margin-top:20px;
     padding-top:50px;
     padding-right:50px;
-    margin-left:100px;
+    margin-left:200px;
     margin-right:100px;
-    margin-bottom:200px;
+    margin-bottom:20px;
     box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
   }
       .texte-de-bienvenue{
@@ -184,6 +42,10 @@
           padding:30px;
           float:left;
           margin-left:100px;
+        }
+        .texte-de-bienvenue-part-one .navbar a{
+          font-family: sans-serif;
+          color:#0f3a64;
         }
         .texte-de-bienvenue-part-two{
           width:400px;
@@ -225,71 +87,81 @@
         font-size:1em;
       }
 
+      
+ /** Infos articles**/
+ .stretch-card{
+  position:left;
+  background-color:#0f3a64;
+  color:rgb(230, 248, 252);
+  top:180px;
+  height:280px;
+  width:470px;
+  margin-left:720px;
+}
+  .stretch-card img{
+    height:160px;
+    width:250px;
+  }
+   .border-bottom-blue{
+     background:transparent;
+     border:1px solid rgb(255, 174, 0);
+     padding:10px;
+   }
+   .stretch-card h2{
+     background:none;
+     color:rgb(255, 174, 0)!important;
+   }
+      .scroller {
+        width: 470px;
+        height: 280px;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+      }
 
         .slideshow{
-          padding-top:20px;
+        position:absolute;
+        box-shadow: 0 3px 15px -1px;
+        top:240px;  
+         position:right;
+         margin-left:200px;
+         width:500px;
+         height:300px;
         }
-            .slideshow .w-100{
-              height:auto;
-              width:auto;
-            }
-
             span.carousel-control-next-icon{
-              width:100px;
-              height:100px;
-              background-size:80%;
+              position:left;
+              position:relative;
+              color:#0f3a64;
             }     
             span.carousel-control-prev-icon{
-              background-color:transparent;
-              width:100px;
-              height:100px;
-              background-size:80%;
+              position:right;
+              position:inherit;
+              margin-left:30px;
             }
 
-      .pics-history .card{
-        max-width:500px;
-        width:auto;
-      }
-      
-      .pics-history .card-img-top{
-        min-height:200px;
-        max-height:300px;
-        height:auto;
-        min-width:100px;
-        max-width:500px;
-        width:auto;
-      }
-
-      /** actus **/
-      .infos-js-dashboard-auto-actus{
-        position:absolute;
-        top:1600px;
-        text-align:center;
-        padding:50px;
-        float:right;
-        margin-bottom:100px;
-        background:#0f3a64;
-        color:rgb(144, 187, 25);
-        box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
-      }
-      .infos-js-dashboard-auto-actus .card{
-        margin-right:10px; 
-        margin-bottom:5px;
-        padding:20px;
-        background-color:#0f3a64;
-        color:rgb(144, 187, 25);
-      }
-      .infos-js-dashboard-auto-actus .card-text{
-        color:rgb(144, 187, 25);
-      }
-        .infos-js-dashboard-auto-actus .card img{
-          width:25rem; 
-        }
-
-        p#info-history{
-          font-size:0.9em;
-          margin-top:50px;
-        }
+            /*** pics-history***/
+            .pics-history{
+              position:absolute;
+              margin-left:1250px;
+              float:right;
+              top:240px;
+            }
+              .pics-history .card{
+                max-width:500px;
+                width:auto;
+              }
+              .pics-history .card-img-top{
+                min-height:200px;
+                max-height:300px;
+                height:auto;
+                min-width:100px;
+                max-width:500px;
+                width:auto;
+              }
+                p#info-history{
+                  font-size:0.9em;
+                  margin-top:50px;
+                }
+                  /*** /pics-history***/
 }
 
 
@@ -508,7 +380,7 @@
       margin-bottom:50px;
       min-width :280px;
       max-width:767px;
-      width:100%;
+      width:94.6%;;
       -webkit-transition: margin .50s ease-out;
       -moz-transition: margin .50s ease-out;
       -o-transition: margin .50s ease-out;
@@ -551,6 +423,7 @@
          width:260px;
          margin-left:20px;
          padding-bottom:10px;
+         
         }
         section .pics-history h2{
           color:rgb(178, 178, 206);

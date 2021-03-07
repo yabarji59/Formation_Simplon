@@ -13,6 +13,12 @@
     padding:10px;
     font-size:1.8em;
   }
+  h3#brunembertInfo{
+    color:rgb(55, 102, 163);
+    background:rgb(204, 219, 228);
+    font-size:1.2em;
+    padding:5px;
+}
   .hide-bullets {
     list-style:none;
     margin-left: -40px;

@@ -2,32 +2,41 @@
   
   @media only screen and (min-width:1367px){
     /** Brunembert : Home media querries **//** pour pc**/
+body{
+  background:url('../../../img/bannieres/banniere-faq.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin-top:280px;
+}
     .content-faq{
       margin-top:200px;
-      margin-left:150px;
-      margin-right:150px;
-      background-color:rgb(9, 9, 39);
     }
     h1{
       text-align:center;
     }
+    h3#brunembertInfo{
+      color:rgb(55, 102, 163);
+      background:rgb(204, 219, 228);
+      font-size:1.2em;
+      padding:5px;
+  }
     .banniere-faq img .banniere{
       position:relative;
     }
+    .answer{
+      width:500px;
+      margin-left:350px;
+    }
     #select{
-      top:260px;
-      position:absolute;
-      background-color:rgb(9, 9, 39);
-      height:50px;
-      border-radius:10px;
-      color:rgb(238, 206, 26);
-      padding:10px;
-      text-align:center;
-      font-size:1.9em;
-      z-index:12;
+      float:left;
+      width:500px;
+      color:rgb(8, 8, 43);
+      margin-top:30px;
+      font-size:1.3em;
+      margin-bottom:30px;
     }
     #div-answer{
-      margin-top:100px;
+      margin:0;
       text-align:center;
       box-shadow: 0 2px 4px -1px rgb(29, 57, 100);
     }

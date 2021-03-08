@@ -113,8 +113,8 @@
                         <li class="nav-item">
                             <a class="nav-link contact-eloigne" href="index.php?page=contact"><i class="fa fa-envelope"></i> Contact</a>
                         </li>
-                        
-                        </div>
+                
+                    </div>
         </nav>
 
     </header>

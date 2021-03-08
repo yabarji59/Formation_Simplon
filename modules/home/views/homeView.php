@@ -40,7 +40,7 @@
         </div>
     </section><!-- / section caroussel pics -->
 
-    <section class="artualites">
+    <section class="actualites">
         <div class="col-xl-4 stretch-card grid-margin">
         
                 <div class="card-body scroller">
@@ -102,9 +102,15 @@
                         class="img-fluid img-lg"
                     />
                     </div>
+
+              
                 </div>
 
-
+                <div class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between">
+                    <div class="pr-3">
+                    <img src="./img/actus/post-it.png" alt="post it 08 MARS 2021" style="height:220px;">
+                    </div>
+                </div>
                 <p>©Brunembert</p>
                 </div>
                 </div>
@@ -145,8 +151,8 @@
         </section><!-- fin pics-history-->
 
     <section class="welcome-content-home" id="welcome-content">
-    <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/621790"> </iframe>
-        
+
+     
         <div class="texte-de-bienvenue-part-one">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom navbar-aside" style="font-family: 'Cinzel', serif;background:none!important; border:none!important;">
                 <div class="collapse navbar-collapse navbar-collapse-aside" id="navbarSupportedContent">
@@ -171,7 +177,7 @@
                     </ul><!-- navbar-nav -->
                 </div><!-- navbar-collapse-aside -->
             </nav>
-
+  
             <h1>Bienvenue sur le site de Brunembert.fr</h1>
 
                 <p>Un site dédié à l'histoire de Brunembert, à ses habitants, à ses aspirations mais aussi à son rôle dans l'agglomération de

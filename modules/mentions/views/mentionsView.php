@@ -156,10 +156,6 @@
             Le widget "chat" provient de : 
             <a href="https://www.smartsupp.com/fr/" target="_blank">Smartsupp</a>.
             <br>
-
-            Le widget "Météo France" provient de : 
-            <a href="https://meteofrance.com/widgets" target="blank">Météo France</a>.
-            <br>
             
             L'intégration ou redirection vers les réseaux sociaux provient de : 
             <a href="https://www.facebook.com/groups/200912411341170/" target="_blank">Facebook</a><br><br>

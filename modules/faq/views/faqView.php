@@ -1,7 +1,5 @@
 <div class="content-faq" id="faq">
   
-
-
 <section class="answer">
     <h1>Retrouvez les réponses aux questions fréquentes que vous vous posez</h1>
 

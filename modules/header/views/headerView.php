@@ -59,8 +59,60 @@
 
 <body>
  
-    <header>       
-            <a href="tel:+3321323187"><button class="btn-primary" style="width:80px; height:30px;"> <i class="fas fa-phone-square-alt"></i></button></a>  
+    <header>     
+        <section class="coordonnees-up">
+         <nav class="nav-de-coordonnees">
+             <ul class="coordonnees">
+                <li>
+                    <a href="https://www.facebook.com/brunembert" target="_blank"><img src="./img/logos/facebook-logo.png" width=40px; height=40px;> </a>
+                </li>
+    
+                <li>
+                    <!-- info flash -->
+                    <script language="JavaScript">
+                        <!--
+                        //PLF-/
+                        var position=0;
+                        var msg="Prochain événement : les législatives en Avril";/**ici tapez le texte qui va défiler */
+                        var msg="     "+msg;
+                        var longue=msg.length;
+                        var fois=(50/msg.length)+1;
+                        for(i=0;i<=fois;i++) msg+=msg;
+                        function textdefil() {
+                        document.form1.deftext.value=msg.substring(position,position+50);
+                        position++;
+                        if(position == longue) position=0;
+                        setTimeout("textdefil()",300);
+                        }
+                        window.onload = textdefil;
+                        //-->
+                        </script>
+
+
+                        <form name="form1" id="div-texte-qui-defile">
+                        <div align="left" id="div-texte-qui-defile">
+                        <input style="font-size:1.4em; background:rgb(241, 205, 137); color:white; border:1px solid rgb(241, 205, 137); border-radius:2px;" type="text" name="deftext" size=50 height=100 id="div-texte-qui-defile">
+                        </div>
+                    </form>
+                    <!-- info flash -->
+                </li>
+                <li>
+                <i class="fas fa-globe"></i> 14, place Servois 62240 BRUNEMBERT 
+                </li>
+                <li>
+                    <i class="fas fa-phone-square-alt"></i> 03 21 32 31 87
+                <li>
+                    <i class="fas fa-envelope"></i> mairie.brunembert@wanadoo.fr 
+                </li>
+                <li>
+                    <h4 id=""> wwww.brunembert.fr | communauté Desvres-Samer</h4>  
+                </li>
+             </ul>
+         </nav>
+
+        </section>
+   
+    
 
         <!-- menu de navigation -->
         <nav class="navbar navbar-light bg-light navbar-expand-lg navbar-header">
@@ -69,19 +121,18 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="https://www.facebook.com/brunembert" target="_blank"><img src="./img/logos/facebook-logo.png" width=40px; height=40px;> </a>
        
             <a href="#" class="popup" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" 
             title="Cliquez sur Brunembert.fr pour emprunter un raccourci vers la page d'accueil">
      
                 <a class="navbar-brand" href="index.php">
                   <img src="./img/logos/brunembert.png" alt="logo brunembert" style="height:100%; width:100%"; "> 
-                </a>
+                  <br>   
+                </a> 
             <br> 
             </a><!-- fin js info -->  
             
-            <br>
-                <span id="adress-span"> wwww.brunembert.fr | communauté Desvres-Samer</span>  
+            
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto ul-principal">

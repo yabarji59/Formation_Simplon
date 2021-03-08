@@ -41,8 +41,17 @@
     </section><!-- / section caroussel pics -->
 
     <section class="actualites">
+
         <div class="col-xl-4 stretch-card grid-margin">
-        
+        <script language="javascript">
+            // PLF - /
+            var date = new Date();
+            var options = {weekday: "long", year: "numeric", month: "long", day: "2-digit"};
+
+            document.write("<div align='center'><font size='2em'><b>");
+            document.write(date.toLocaleDateString("fr-FR", options));
+            document.write("</b></font></div>");
+        </script>
                 <div class="card-body scroller">
                 <h2>Dernières nouvelles...</h2>
                 <img src="./img/logos/brunembert.png" alt="logo brunembert" style="width:200px; height:30px;">

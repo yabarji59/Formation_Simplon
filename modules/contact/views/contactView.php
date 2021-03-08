@@ -43,7 +43,7 @@ if(isset($_POST['mailform']))
 
   <form action="" class="form" method="post" style="text-align:center;">
   <h1>Formulaire de contact</h1>
- 
+
       <div class="">
         <input type="text" id="name" name="name" placeholder="Nom" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; }?>">
       </div>
@@ -57,10 +57,23 @@ if(isset($_POST['mailform']))
       </div>
       <div class="">
       <textarea type="text" class="message" id="comment" name="message" placeholder=" Tapez votre message ici..." rows="5"></textarea>
-            <?php if(isset($_POST['message'])) { echo $_POST['message']; }?>
+      <div id="echo-msg">
+            <?php if(isset($_POST['message'])) { 
+              echo '<h3>Mon message envoyé</h3><br><br> 
+              Nom de l\'expéditeur : '.$_POST['name'].'<br><br>  
 
+              Mail de l\'expéditeur : '.$_POST['email'].'<br><br> 
+        
+              Téléphone de l\'expéditeur : '.$_POST['phone'].'<br><br> 
+
+              Le message de l\'expéditeur: '.nl2br($_POST['message']).'
+              '; 
+    }
+      
+      ?>
+
+      </div>
         <input id="send" type="submit" name="mailform" value="Envoyer mon message" class="send"></input>
-
       </div>   
 
   </form>

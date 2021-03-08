@@ -63,6 +63,11 @@
       #droits_et_devoirs .card-body{
           max-height:200px;
       }
+      .fa-file-download{
+        background:white;
+        color:red;
+        font-size:1em;
+      }
   }
 
   @media only screen and (min-width:768px) and (max-width:1366px){

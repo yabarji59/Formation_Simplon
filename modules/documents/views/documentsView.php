@@ -229,7 +229,8 @@
                            <i> N° Janvier 2021</i>
                            </p>
                         
-                           <a href="https://fr.calameo.com/read/0044099695184b5db15c3?fbclid=IwAR2JB95BYESYQHGc-EvheEFve5wZatrw9pjx2O3O8wBHiA3v48QItekdbxI" target="_blank" class="btn btn-primary">Afficher</a>
+                           <a href="https://fr.calameo.com/read/0044099695184b5db15c3?fbclid=IwAR2JB95BYESYQHGc-EvheEFve5wZatrw9pjx2O3O8wBHiA3v48QItekdbxI" target="_blank" class="btn btn-primary">Consulter</a>
+                           <a href="./docs/documents/bulletins/janvier.pdf" target="_blank" class="btn btn-primary" download="BM_Janvier2021"><i class="fas fa-file-download"></i> Télécharger</a>
                      
                        
                        

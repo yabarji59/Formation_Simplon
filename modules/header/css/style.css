@@ -28,7 +28,6 @@
  
         h4{
            color:#0f3a64;
-           color:#b9c9da;
         }
 
     /** header brunembert.fr **/
@@ -45,6 +44,9 @@
         height:30px;
         width:200px;
         margin-top:20px;
+    }
+    .navbar-collapse{
+        background:white!important;
     }
     .navbar-header li.nav-item{
         padding-left:20px;
@@ -192,7 +194,7 @@ body{
         margin:0;
         padding:5px;
         top:0;
-        background:rgb(10, 21, 78);
+        background:white;
         color:rgb(10, 21, 78);
     }
     .btn-sondage-css-simple-sidebar{
@@ -207,6 +209,11 @@ body{
         margin-top:30px;
     }
 
+    .nav-de-coordonnees{
+        background:rgb(231, 235, 235);
+        border:1px solid rgb(231, 235, 235);
+        padding:10px;
+    }
     /** header brunembert.fr **/
     .navbar-brand{
         height:50px;

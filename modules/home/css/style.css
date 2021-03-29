@@ -87,47 +87,47 @@
         font-size:1em;
       }
 
-      
- /** Infos articles**/
- .stretch-card{
-  position:left;
-  background-color:#0f3a64;
-  color:rgb(230, 248, 252);
-  top:180px;
-  height:280px;
-  width:470px;
-  margin-left:720px;
-}
-  .stretch-card img{
-    height:160px;
-    width:250px;
-  }
-   .border-bottom-blue{
-     background:transparent;
-     border:1px solid rgb(255, 174, 0);
-     padding:10px;
-   }
-   .stretch-card h2{
-     background:none;
-     color:rgb(255, 174, 0)!important;
-   }
-      .scroller {
-        width: 470px;
-        height: 280px;
-        overflow-y: scroll;
-        scrollbar-width: thin;
+            
+      /** Infos articles**/
+      .stretch-card{
+        position:left;
+        background-color:#0f3a64;
+        color:rgb(230, 248, 252);
+        top:180px;
+        height:280px;
+        width:470px;
+        margin-left:720px;
       }
-
-        .slideshow{
-        position:absolute;
-        box-shadow: 0 3px 15px -1px;
-        top:240px;  
-         position:right;
-         margin-left:200px;
-         width:500px;
-         height:300px;
+        .stretch-card img{
+          height:160px;
+          width:250px;
         }
-            span.carousel-control-next-icon{
+        .border-bottom-blue{
+          background:transparent;
+          border:1px solid rgb(255, 174, 0);
+          padding:10px;
+        }
+        .stretch-card h2{
+          background:none;
+          color:rgb(255, 174, 0)!important;
+        }
+            .scroller {
+              width: 470px;
+              height: 280px;
+              overflow-y: scroll;
+              scrollbar-width: thin;
+            }
+
+              .slideshow{
+              position:absolute;
+              box-shadow: 0 3px 15px -1px;
+              top:240px;  
+              position:right;
+              margin-left:200px;
+              width:500px;
+              height:300px;
+              }
+              span.carousel-control-next-icon{
               position:left;
               position:relative;
               color:#0f3a64;
@@ -196,24 +196,24 @@
     font-size:1.3em;
   }
   
-  #sidebar-wrapper {
-    /** fenêtre gauche droite js **/
-    position:absolute;
-    top:520px;
-    background:#0f3a64!important;
-    background:transparent;
-    border:none!important;
-    height:80px;
-    z-index:9999;
-    margin-bottom:50px;
-    min-width :768px;
-    max-width:1367px;
-    width:100%;
-    -webkit-transition: margin .50s ease-out;
-    -moz-transition: margin .50s ease-out;
-    -o-transition: margin .50s ease-out;
-    transition: margin .50s ease-out;
-  }
+    #sidebar-wrapper {
+      /** fenêtre gauche droite js **/
+      position:absolute;
+      top:520px;
+      background:#0f3a64!important;
+      background:transparent;
+      border:none!important;
+      height:80px;
+      z-index:9999;
+      margin-bottom:50px;
+      min-width :768px;
+      max-width:1367px;
+      width:100%;
+      -webkit-transition: margin .50s ease-out;
+      -moz-transition: margin .50s ease-out;
+      -o-transition: margin .50s ease-out;
+      transition: margin .50s ease-out;
+    }
 
     /** section histoire " découvrir brunembert **/
     .welcome-content-home{
@@ -348,13 +348,11 @@
     width:100%;
     color:rgb(5, 26, 32);
     margin-right:5px;
-  }
-  .content-home{
     margin-bottom:200px;
   }
+
     .up-window-information{
       height:100px;
-      background:rgb(2, 30, 73);
       color:blue;
       text-align:center;
       width:100%;
@@ -369,7 +367,6 @@
     #sidebar-wrapper {
       /** fenêtre gauche droite js **/
       position:absolute;
-      background:#0f3a64!important;
       color:rgb(144, 187, 25);
       padding:10px;
       text-align:center;
@@ -387,6 +384,20 @@
       transition: margin .50s ease-out;
     }
   
+    .stretch-card{
+      background-color:white;
+      color:#0f3a64;
+      border:1px solid #0f3a64;
+    }
+      .d-flex{
+        border:1px solid #0f3a64;
+        padding:10px;
+      }
+      .stretch-card .btn-primary{
+        background:#0f3a64;
+        padding:5px;
+        border:1px solid #0f3a64;
+      }
     /** section histoire " découvrir brunembert **/
     .welcome-content-home{
       width:100%;
@@ -395,6 +406,7 @@
       margin-left:0;
       margin-right:0;
       margin-bottom:100px;
+      background:#0f3a64;
       box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
     }
     .welcome-content-home h3{

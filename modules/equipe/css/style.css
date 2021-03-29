@@ -152,15 +152,22 @@
         height:800px;
         color:rgb(9, 9, 39);
     }
+    h1{
+        margin-top:260px;
+        margin-left:100px;
+        top:300px;
+        font-size:2em;
+        color:rgb(14, 28, 105);
+    }
     .equipe-intro{
         padding:20px;
-        color:white;
-        margin-top:300px;
+        color:rgb(9, 9, 39);
+        margin-top:50px;
         margin-left:50px;
     }
     .equipe-intro p{
         padding:20px;
-        color:white;
+        color:rgb(9, 9, 39);
     }
     .equipe-intro img{
       margin-left:-800px;
@@ -174,7 +181,7 @@
     }
     .thumb-img{
         position: absolute;
-        top:150px;
+        top:250px;
         float:left;
         width:15%;
         height:15%;

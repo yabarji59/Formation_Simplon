@@ -26,8 +26,8 @@ if(isset($_POST['mailform']))
 
 
   <section class="info-contact">
-
-      <li>
+    <nav class="btn-raccourcis">
+     <li>
         <a href="https://goo.gl/maps/CFH2WLhh9h7xn9hZ8" target="_blank"><button class="btn-primary">Géolocaliser<br><i class="fas fa-location-arrow"></i></button></a>  
       </li>
       <li>
@@ -36,6 +36,8 @@ if(isset($_POST['mailform']))
       <li>
         <a href="mailto:mairie.brunembert@wanadoo.fr?subject=VISITEUR SITE BRUNEMBERT.FR"><button class="btn-primary">Envoyer <br> <i class="fas fa-envelope"></i></button></a>    
       </li>  
+    </nav>
+      
 
   </section>	 
 

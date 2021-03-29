@@ -211,54 +211,29 @@ textarea{
 
 @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
 /** pour phone **/
-.info-contact{
-  margin-left:10px;
-  margin-right:10px;
-  height:1500px;
+.form{
+  background-image:url('../../../img/bannieres/bg-contact.png');
+  background-repeat:none;
+  background-size:cover;
+  top:0;
+  height:500px;
 }
-.content{
-  color:rgb(9, 9, 39);
-}
-h1{
-  color:rgb(20, 219, 153);
+.btn-raccourcis li{
+  display:inline-block;
 }
 .btn-primary{
-  padding:20px;
+  width:100px;
+  height:50px;
+  background:rgb(15, 240, 191);
+  border:rgb(15, 240, 191);
 }
-.box-part{
-  width:100%;
-  font-size:2em;
-  min-height:50px;
-  padding:20px;
-  margin-top:50px;
-  margin-bottom:50px;
-  background:rgb(241, 241, 248);
-  color:rgb(9, 9, 39);
-}
-  .box-part span{
-    font-size:0.9em;
+  .form input{
+    width:200px;
+    height:20px;
   }
-
-.info-contact form{
-  margin-top:50px;
-  background-color:rgb(9, 9, 39);
-  height:1200px;
-  color:rgb(241, 241, 248);
-}
-
-  input{
-    width:80%;
-    height:50px;
-    margin:20px;
-  }
-
-  .send{
-    background:rgb(20, 219, 153);
-    border:1px solid rgb(20, 219, 153);
-    font-size:1em;
-    width:40%;
-  }
-
+    .message{
+      width:200px;
+    }
   .fa-arrow-circle-up{
     position:absolute;
     margin-left:-800px;

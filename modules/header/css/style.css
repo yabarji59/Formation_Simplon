@@ -12,27 +12,23 @@
         height:50px;
     }
     .coordonnees-up nav.nav-de-coordonnees{
-        background:rgb(255, 179, 37);
+        background:rgb(231, 235, 235);
         height:50px;
     }
         .coordonnees-up nav.nav-de-coordonnees li{
         display:inline-block;
         height:50px;
         padding-left:20px;
+        color:#0f3a64;
         }
         .coordonnees-up nav.nav-de-coordonnees .fas{
           font-size:2em;
             }
-              
-            #texte-qui-defile input{
-                width:80%;
-                margin-left:50px;
-                background:white;
-                color:rgb(247, 240, 226);
-                font-size:1.4em;
-            }
+         
+ 
         h4{
-           color:rgb(185, 128, 20);
+           color:#0f3a64;
+           color:#b9c9da;
         }
 
     /** header brunembert.fr **/

@@ -73,7 +73,7 @@
                         <!--
                         //PLF-/
                         var position=0;
-                        var msg="Prochain événement : les législatives en Avril";/**ici tapez le texte qui va défiler */
+                        var msg="Prochain événement : les législatives en Avril | Nouvelles attestations au 29/03/2021 disponibles dans vos documents!";/**ici tapez le texte qui va défiler */
                         var msg="     "+msg;
                         var longue=msg.length;
                         var fois=(50/msg.length)+1;
@@ -91,7 +91,7 @@
 
                         <form name="form1" id="div-texte-qui-defile">
                         <div align="left" id="div-texte-qui-defile">
-                        <input style="font-size:1.4em; background:rgb(241, 205, 137); color:white; border:1px solid rgb(241, 205, 137); border-radius:2px;" type="text" name="deftext" size=50 height=100 id="div-texte-qui-defile">
+                        <input style="font-size:1.4em; background:rgb(231, 235, 235); color:#0f3a64; border:none; border-radius:2px;" type="text" name="deftext" size=50 height=100 id="div-texte-qui-defile">
                         </div>
                     </form>
                     <!-- info flash -->

@@ -62,22 +62,7 @@
                     </div>
                   </div>
              
-
-                <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body">
-                        
-                        <h5 class="card-title">Symptômes du covid-19</h5>
-                        <p class="card-text">
-                        Conduite à tenir si je ressens des symptômes du covid-19.</p>
-                            <a href="./docs/documents/affiche_-_conduite_a_tenir_si_j_ai_des_symptomes_du_covid-19.pdf" class="btn btn-primary">Afficher</a>
-                    
-                    </div>
-                  </div>
-                </div>
-          
-
-                <div class="col-sm-4">
+                  <div class="col-sm-4">
                     <div class="card">
                       <div class="card-body">
                         
@@ -95,10 +80,10 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Attestation de déplacement confinement week-end (62)</h5>
+                        <h5 class="card-title" style="color:green;">Attestation de déplacement la journée en-dehors des 10km</h5>
                         <p class="card-text">
-                        Publiée le 07 Mars 2021</p>
-                        <a href="./docs/documents/attestation-deplacement-we.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 29/03/2021 <br> Avoir un justificatif de domicile sur soi si je reste dans le rayon des 10km autorisés </p>
+                        <a href="./docs/documents/sante/att-journee.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
@@ -109,10 +94,10 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Justificatif de déplacement professionnel, couvre-feu 18H00</h5>
+                        <h5 class="card-title" style="color:green;">Attestation de couvre-feu à 19H00</h5>
                         <p class="card-text">
-                        Publiée le 07 Mars 2021</p>
-                         <a href="./docs/documents/justificatif-pro-couvreFeu.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 29/03/2021 <br> Valable si vous devez sortir après 19H00  </p>
+                         <a href="./docs/documents/sante/att-couvreFeu.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
@@ -123,14 +108,28 @@
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title">Justificatif de déplacement scolaire, couvre-feu 18H00</h5>
+                        <h5 class="card-title" style="color:green;">Justificatif de déplacement professionnel </h5>
                         <p class="card-text">
-                        Publiée le 07 Mars 2021 </p>
-                         <a href="./docs/documents/just-scolaire.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 29/03/2021 </p>
+                         <a href="./docs/documents/sante/att-justPro.pdf" class="btn btn-primary">Afficher</a>
 
                       </div>
                     </div>
                   </div>
+
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        
+                        <h5 class="card-title" style="color:green;"> Attestation de déplacement scolaire</h5>
+                        <p class="card-text">
+                        Publiée le 29/03/2021</p>
+                            <a href="./docs/documents/sante/att-scolaire.pdf" class="btn btn-primary">Afficher</a>
+                    
+                    </div>
+                  </div>
+                </div>
+
 
               </div><!-- /container-docs -->
             </div><!-- container-de-documents-par-thematiques -->

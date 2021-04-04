@@ -73,7 +73,7 @@
                         <!--
                         //PLF-/
                         var position=0;
-                        var msg="PLus qu'une seule attestation pour la journée et le couvre-feu, disponible dans les documents";/**ici tapez le texte qui va défiler */
+                        var msg="Plus qu'une seule attestation pour la journée et le couvre-feu, disponible dans les documents";/**ici tapez le texte qui va défiler */
                         var msg="     "+msg;
                         var longue=msg.length;
                         var fois=(50/msg.length)+1;

@@ -34,13 +34,12 @@
       
       .presse-btn{
         position:absolute;
-        top:660px;
-        height:50px;
-        margin-left:100px;
-        text-align:center;
+        top:760px;
+        height:20px;
+        margin-left:500px;
       }
     .presse-btn img{
-        min-height:100px; 
+        min-height:10px; 
         max-height:50px; 
         height:auto; 
         min-width:80px; 
@@ -166,7 +165,8 @@
     width:auto;
   }
   .presse-btn{
-    margin-left:0;  }
+    margin-left:0;  
+  }
   .presse-btn a{
     margin-top:20px;
   } 

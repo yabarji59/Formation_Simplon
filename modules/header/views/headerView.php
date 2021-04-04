@@ -91,7 +91,7 @@
 
                         <form name="form1" id="div-texte-qui-defile">
                         <div align="left" id="div-texte-qui-defile">
-                        <input style="font-size:1.4em; background:rgb(231, 235, 235); color:#0f3a64; border:none; border-radius:2px;" type="text" name="deftext" size=50 height=100 id="div-texte-qui-defile">
+                        <input style="font-size:1.4em; background:rgb(253, 254, 255); color:#0f3a64; border:none; border-radius:2px;" type="text" name="deftext" size=50 height=100 id="div-texte-qui-defile">
                         </div>
                     </form>
                     <!-- info flash -->

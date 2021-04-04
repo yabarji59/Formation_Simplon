@@ -29,6 +29,13 @@
                 </p>
             
             </a>
+            <a href="index.php?page=employes"><h2>4. Les employés communaux</h2>
+        
+                <p>
+                Sur cette page, vous y trouverez les employés communaux au service du Village de Brunembert.</p>
+                </p>
+            
+            </a>
             <a href="index.php?page=articles"><h2>5. Articles</h2>
         
                 <p>
@@ -36,14 +43,14 @@
                 </p>
             
             </a>
-            <a href="index.php?page=galerie"><h2>4. Galerie photo</h2>
+            <a href="index.php?page=galerie"><h2>6. Galerie photo</h2>
         
                 <p>
                 Sur cette page, vous y trouverez des photos des évènements, actualités et dynamiques du village à consulter ou à enregistrer</p>
                 </p>
             
             </a>
-            <a href="index.php?page=contact"><h2>5. Contact</h2>
+            <a href="index.php?page=contact"><h2>7. Contact</h2>
         
                 <p>
                 Sur cette page, vous pourrez joindre directement le secrétariat de la mairie de Brunembert via un formulaire mais aussi trouver le mail direct, le numéro de contact
@@ -51,32 +58,32 @@
                 </p>
             
             </a>
-            <a href="index.php?page=illectronisme"><h2>7. Illectronisme</h2>
+            <a href="index.php?page=illectronisme"><h2>8. Illectronisme</h2>
         
                 <p>Sur cette page, vous y trouverez des informations concernant l'inclusion numérique soit, des solutions pour équiper à la maison, vous former et avoir un diagnostic de vos
                     compétences numériques
                 </p>
             
             </a>
-            <a href="index.php?page=presse"><h2>8. Presse</h2>
+            <a href="index.php?page=presse"><h2>9. Presse</h2>
         
                 <p> Sur cette page, vous y trouverez deux liens de redirection vers les sites de deux Presses locales, La semaine dans le Boulonnais et La Voix du Nord</p>
             
             </a>
 
-            <a href="index.php?page=mentions"><h2>9. Mentions Légales</h2></a>
+            <a href="index.php?page=mentions"><h2>10. Mentions Légales</h2></a>
         
                 <p>Sur cette page, vous y trouverez les informations légales concernant le développement du site internet de la Mairie de Brunembert.</p>
             
             </a>
 
-            <a href="index.php?page=faq"><h2>10. Foire aux questions</h2>
+            <a href="index.php?page=faq"><h2>11. Foire aux questions</h2>
         
                 <p> Sur cette page, vous y trouverez les questions fréquentes posées au secrétariat de la mairie de Brunembert.</p>
             
             </a>
 
-            <a href=""><h2>11. Administration </h2>
+            <a href=""><h2>12. Administration </h2>
             <p>privé - maintenance du site </p>
             </a>
         </div><!-- class texte -->

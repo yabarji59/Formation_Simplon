@@ -115,11 +115,6 @@
               
                 </div>
 
-                <div class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between">
-                    <div class="pr-3">
-                    <img src="./img/actus/post-it.png" alt="post it 08 MARS 2021" style="height:220px;">
-                    </div>
-                </div>
                 <p>©Brunembert</p>
                 </div>
                 </div>

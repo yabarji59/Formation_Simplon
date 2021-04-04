@@ -80,7 +80,7 @@
      
 
      
-            <h4>Moral en baisse, COVID-10</h4>              
+            <h4>Moral en baisse, COVID-19</h4>              
                 <i class="search-boat-icon fa search-captain vertical-align-mid"></i>
                  <span class="vertical-align-mid">Brunembert.fr</span>
                     <p>              
@@ -98,6 +98,11 @@
                         Et si demain tout réouvrait, quel serait la première chose que je ferais? 
 
                         Tentez de répondre à ces questions... 
+
+                        
+                        Si besoin, n'hésitez pas à vous orienter vers votre médecin traitant 
+                        pour découvrir les soins psychologiques possibles. 
+
                     </p> 
                     
                     <i class="search-boat-icon fa search-captain vertical-align-mid"></i>

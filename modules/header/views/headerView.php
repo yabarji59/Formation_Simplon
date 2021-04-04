@@ -73,7 +73,7 @@
                         <!--
                         //PLF-/
                         var position=0;
-                        var msg="Prochain événement : les législatives en Avril | Nouvelles attestations au 29/03/2021 disponibles dans vos documents!";/**ici tapez le texte qui va défiler */
+                        var msg="PLus qu'une seule attestation pour la journée et le couvre-feu, disponible dans les documents";/**ici tapez le texte qui va défiler */
                         var msg="     "+msg;
                         var longue=msg.length;
                         var fois=(50/msg.length)+1;

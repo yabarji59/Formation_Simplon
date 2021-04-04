@@ -67,8 +67,8 @@
         margin:20px;
       }
       section .pics-history{
-       min-width:450px;
-       max-width:550px;
+       min-width:250px;
+       max-width:350px;
        width:auto;
        margin-left:550px;
        padding-bottom:100px;

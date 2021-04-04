@@ -47,24 +47,12 @@
           <a href="#" class="" data-toggle="popover" data-trigger="hover" data-placement ="bottom" data-content="" title="En cliquant sur l'image, affichez votre document ">
               
           <img class="logos-thematiques" src="./img/logos/sante.jpg" alt="gestes">
-                  <h2>Santé</h2></a>
+              <h2>Santé</h2></a>
 
-                  <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body">
-                        
-                        <h5 class="card-title">Les gestes barrières du coronavirus</h5>
-                        <p class="card-text">
-                            Comment se protéger du virus? Découvrez les gestes barrières.</p>
-                        <a href="./docs/documents/covid_gestes.pdf" class="btn btn-primary">Afficher</a>
-
-                      </div>
-                    </div>
-                  </div>
              
-                  <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
                         
                       <h5 class="card-title">Les numéros d'urgence</h5>
                       <p class="card-text">
@@ -74,34 +62,19 @@
                     </div>
                   </div>
                 </div>
-
-        
+             
                 <div class="col-sm-4">
                     <div class="card">
                       <div class="card-body">
                         
-                        <h5 class="card-title" style="color:green;">Attestation de déplacement la journée en-dehors des 10km</h5>
+                        <h5 class="card-title" style="color:green;">Attestation de jour et de couvre-feu</h5>
                         <p class="card-text">
-                        Publiée le 29/03/2021 <br> Avoir un justificatif de domicile sur soi si je reste dans le rayon des 10km autorisés </p>
-                        <a href="./docs/documents/sante/att-journee.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 04/04/2021 <br> Plus qu'une seule attestation!  </p>
+                         <a href="./docs/documents/attestations/03042021.pdf" class="btn btn-primary">Afficher</a>
 
-                      </div>
                     </div>
                   </div>
-              
-
-                <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body">
-                        
-                        <h5 class="card-title" style="color:green;">Attestation de couvre-feu à 19H00</h5>
-                        <p class="card-text">
-                        Publiée le 29/03/2021 <br> Valable si vous devez sortir après 19H00  </p>
-                         <a href="./docs/documents/sante/att-couvreFeu.pdf" class="btn btn-primary">Afficher</a>
-
-                      </div>
-                    </div>
-                  </div>
+                </div>
             
 
                 <div class="col-sm-4">
@@ -110,21 +83,21 @@
                         
                         <h5 class="card-title" style="color:green;">Justificatif de déplacement professionnel </h5>
                         <p class="card-text">
-                        Publiée le 29/03/2021 </p>
-                         <a href="./docs/documents/sante/att-justPro.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 29/03/2021 ( inchangé au 04/04/2021 ) </p>
+                         <a href="./docs/documents/attestations/19032021.2.pdf" class="btn btn-primary">Afficher</a>
 
-                      </div>
                     </div>
                   </div>
+                </div>
 
-                  <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
                         
                         <h5 class="card-title" style="color:green;"> Attestation de déplacement scolaire</h5>
                         <p class="card-text">
-                        Publiée le 29/03/2021</p>
-                            <a href="./docs/documents/sante/att-scolaire.pdf" class="btn btn-primary">Afficher</a>
+                        Publiée le 29/03/2021 (inchangé au 04/04/2021 ) </p>
+                            <a href="./docs/documents/attestations/19032021.pdf" class="btn btn-primary">Afficher</a>
                     
                     </div>
                   </div>

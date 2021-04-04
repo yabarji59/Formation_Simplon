@@ -1,0 +1,15 @@
+/** employes **/
+.content-employes{
+    margin-top:200px;
+}  
+h1{
+    text-align:center;
+    font-size:1.4em;
+} 
+    nav.employes{
+    width:100%;
+    text-align:center;
+}
+    nav.employes li{
+        display:inline-block;
+    }

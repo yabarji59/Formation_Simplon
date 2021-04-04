@@ -69,5 +69,6 @@
  <h2>Conseil Municipal <i>2020-2026</i>
  <br> ©Brunembert-62240</h2>
 
+
 </div><!-- content -->
 </div><!-- div src -->

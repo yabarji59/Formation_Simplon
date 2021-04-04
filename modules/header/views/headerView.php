@@ -147,6 +147,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=employes">Employés communaux</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="index.php?page=documents">Documents</a>
                         </li>
 

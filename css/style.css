@@ -25,22 +25,14 @@ body{
         color:rgb(9, 9, 32);
         font-family: 'Allison', cursive;
     }
+
 /** style nav **/
-/* menu pour présenter les simploniennes */
-nav{
-    background:rgb(9, 9, 32);
-    width:100px;
-}
-    nav.super-nav li{
-        text-decoration: non;
-        font-size:1.2em;
-        color:blanchedalmond;
-        padding-left:10px;
-        border:1px solid blanchedalmond;
-    }
+/* menu déroulant js pour présenter les simploniennes */
+
+/** / fin menu style */
 
 footer{
-    background-color:rgb(9, 9, 32);
+    background-color:rgb(240, 245, 244);
     padding:5px;
-    color:blanchedalmond;
+    color:rgb(9, 9, 32);
 }

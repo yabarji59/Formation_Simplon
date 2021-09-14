@@ -1,0 +1,108 @@
+/** Brunembert : footer media querries **/
+@media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
+    footer{
+        min-width:1281px;
+        margin-top:300px;
+        padding-top:10px;
+        padding-bottom:30px;
+        height:180px;
+        background-color:rgb(10, 30, 53);
+        text-align:center;
+        z-index:5;
+    }
+    footer p{
+        font-size:1.3em;
+        color:rgb(10, 30, 53);
+    }
+    footer .nav-headerFooter a{
+        font-size:1em!important;
+        color:rgb(238, 206, 26)!important;
+    }
+    footer #nav-footer a{
+        color:rgb(12, 53, 100);
+    }
+        footer .rappel-navHeader li{
+            display:inline-block;
+            font-size:1em;
+            padding-right:30px;
+        }
+        footer .footer-header a.navbar-brand{
+           margin-bottom:20px!important;
+           width:100%;
+        }
+        footer #nav-footer{
+            margin-top:100px;
+            z-index:9999;
+        }
+        .carte{
+            position:relative;
+            padding-top:10px;
+            padding-bottom:10px;
+          }
+            .carte iframe{
+            width:1200px;
+            height:200px;
+            }
+}
+
+/** Brunembert : Home media querries **/
+
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+    footer{
+       margin-top:200px;
+       margin-bottom:50px;
+       padding:10px;
+       background:rgb(52, 108, 212);
+    }
+        /* Styles pour cette Media Queries *//** pour tablette **/
+    footer a{
+        color:rgb(236, 233, 248);
+        font-size:1.2em;
+     }
+     footer p{
+        color:rgb(3, 34, 48);
+        font-size:1.3em;
+        text-align:center;
+        padding:20px;
+     }
+
+    footer .nav-headerFooter li{
+        display:inline-block;
+    }
+    #logotypes{
+        text-align:center;
+    }
+
+}
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+/** pour phone **/
+    footer{
+        margin:0;
+        background:white;
+        margin-bottom:50px;
+        min-width:280px;
+        max-width:768px;
+        padding:20px;
+        min-height:300px;
+        max-height:auto;
+        font-size:1.1em;
+        } 
+        footer a{
+            font-size:1.1em;
+            color:rgb(9, 9, 39)!important;
+        }
+        .nav-headerFooter{
+            text-align:center;
+        }
+        footer #nav-footer{
+            margin-top:100px;
+            z-index:9999;
+        }
+        .footer-header li.nav-item{
+            padding-top:30px;
+        }
+}

@@ -1,0 +1,179 @@
+/** Brunembert : presse media querries **/
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
+  .content-presse{
+    margin-top:50px;
+    margin-bottom:300px;
+    } 
+    .presse{
+      margin-left:300px; 
+      float:left;
+      position:absolute;
+      top:200px;
+      font-size:1.3em;
+    }
+      #presse p{
+        height:500px;
+        width:300px;
+        margin-left:40px;
+        background:yellow;
+        height:200px;
+        padding:20px;
+        text-align:center;
+        margin-bottom:100px;
+        margin-right:20px;
+        text-align:center;
+      }
+        #presse a{
+        display:inline;
+        }
+      .presse #p-style-h1{
+        font-family: 'Orbitron', sans-serif;
+        font-size:2em;
+      }
+      
+      .presse-btn{
+        position:absolute;
+        top:760px;
+        height:20px;
+        margin-left:500px;
+      }
+    .presse-btn img{
+        min-height:10px; 
+        max-height:50px; 
+        height:auto; 
+        min-width:80px; 
+        max-width:300px; 
+        width:auto;
+      }
+      
+  
+  
+      .content-presse .btn-primary{
+        font-size:1.2em;
+        padding:20px;
+        margin-top:50px;
+        margin-left:50px;
+        width:350px;
+        height:500px;
+      }
+    span#B{
+        font-family: 'Anton', ;
+        font-size:1em;
+        margin-left:60px;
+        color:rgb(4, 4, 61);
+      }
+  }
+
+  /** Brunembert : Home media querries **/
+
+  @media only screen and (min-width :768px) and (max-width:1366px){
+  /* Styles pour cette Media Queries *//** pour tablette **/
+  .content-presse{
+    min-width:768px;
+    max-width:1366px;
+    width:100%;
+    margin:0;
+    margin-bottom:100px;
+    padding:0;
+    height:auto;
+    padding-bottom:100px;
+  }
+  h2{
+    color:blue;
+    background:silver;
+    padding:20px;
+    height:80px;
+  }
+  #presse .btn-primary{
+    position:relative;
+    margin-bottom:0;
+    padding:10px;
+    width:100px;
+  } 
+  #presse .btn #sdb{
+    position:absolute;
+    margin-left:500px;
+  } 
+  .presse{
+    margin-left:300px; 
+    float:left;
+    position:absolute;
+    top:600px;
+  }
+    .presse #p-style-h1{
+      font-family: 'Orbitron', sans-serif;
+    }
+    .content-presse .presse-btn img{
+      min-height:20px; 
+      max-height:120px; 
+      height:auto; 
+      min-width:20px; 
+      max-width:120px; 
+      width:auto;
+    }
+    .presse-btn{
+      position:absolute;
+      top:900px;
+      margin-left:200px;
+      text-align:center;
+    }
+    .presse-btn .btn-primary{
+        height:150px;
+        margin-left:50px;
+    }
+  }
+
+
+  @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+  /** pour phone **/
+  .content-presse{
+    min-width:280px;
+    max-width: 767px;
+    width:100%;
+    margin:0;
+    margin-bottom:100px;
+    padding:0;
+  }
+  #presse h1{
+   padding-left:10px;
+   text-align:center;
+   font-size:3em;
+   background-color:silver;
+  }
+  .content-presse h2{
+    margin:10px;
+    padding:30px;
+    font-size:1.5em;
+    color:rgb(139, 173, 204);
+  }
+  .banniere-presse-pc{
+    padding:0;
+  }
+  .content-presse .btn-primary{
+    font-size:1.2em;
+    padding:20px;
+    width:100%;
+    display:inline-block;
+  }
+  .content-presse .presse-btn img{
+    min-height:20px; 
+    max-height:80px; 
+    height:auto; 
+    min-width:20px; 
+    max-width:80px; 
+    width:auto;
+  }
+  .presse-btn{
+    margin-left:0;  
+  }
+  .presse-btn a{
+    margin-top:20px;
+  } 
+  .presse{
+    margin-left:0;
+    padding:20px;
+    color:white;
+  }
+}
+

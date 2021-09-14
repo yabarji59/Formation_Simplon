@@ -1,0 +1,160 @@
+  /* faq.php mediaquerries brunembert.fr */
+  
+  @media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
+body{
+  background:url('../../../img/bannieres/banniere-faq.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin-top:280px;
+}
+    .content-faq{
+      margin-top:200px;
+    }
+    h1{
+      text-align:center;
+    }
+    h3#brunembertInfo{
+      color:rgb(55, 102, 163);
+      background:rgb(204, 219, 228);
+      font-size:1.2em;
+      padding:5px;
+  }
+    .banniere-faq img .banniere{
+      position:relative;
+    }
+    .answer{
+      width:500px;
+      margin-left:350px;
+    }
+    #select{
+      float:left;
+      width:500px;
+      color:rgb(8, 8, 43);
+      margin-top:30px;
+      font-size:1.3em;
+      margin-bottom:30px;
+    }
+    #div-answer{
+      margin:0;
+      text-align:center;
+      box-shadow: 0 2px 4px -1px rgb(29, 57, 100);
+    }
+    #div-answer p#q{
+      text-align:center;
+      background-color:rgb(9, 9, 39);
+      color:rgb(238, 206, 26);
+      padding:8px;
+      font-size:1.8em;
+    }
+    #div-answer p#r{
+      color:rgb(238, 206, 26);
+      padding:20px;
+      font-size:1.5em;
+    }
+    h1{
+      background:rgb(238, 206, 26);
+      color:rgb(9, 9, 39);
+      font-size:1.9em;
+      padding:10px;
+    }
+
+    .bouton
+    {
+        color:#0000ff;
+        font-size:24px;
+        cursor:pointer;
+    }
+      .bouton:hover
+      {
+          text-decoration:underline;
+      }
+    .texte
+    {
+        border:1px solid #333333;
+        background:#eeeeee;
+        padding:10px;
+        color:#333333;
+    }
+      .texte:hover
+      {
+          border:1px solid #000000;
+          background:#cccccc;
+          color:#000000;
+      }
+
+  }
+
+  @media only screen and (min-width :768px) and (max-width:1366px){
+  /* Styles pour cette Media Queries *//** pour tablette **/
+    .content-faq{
+      background-color:rgb(9, 9, 39);
+      margin:0;
+      padding:50px;
+      color:rgb(193, 207, 214);
+    }
+    .banniere-faq img .banniere{
+      position:relative;
+      height:100%;
+      width:100%;
+    }
+    #select{
+      width:80%;
+      margin:20px;
+    }
+    #select option{
+      color:rgb(193, 207, 214);
+    }
+    #div-answer p{
+      color:rgb(193, 207, 214);
+    }
+  }
+
+
+  @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+  /** pour phone **/
+  .content-faq{
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+    margin-bottom:150px;
+    background-color:rgb(9, 9, 39);
+    color:rgb(238, 206, 26);
+  }
+  .content-faq h1{
+    font-size:2em;
+    margin-top:100px;
+    margin-bottom:50px;
+    color:rgb(238, 206, 26);
+  }
+  .banniere-faq-pc{
+    margin-top:100px;
+  }
+  .content-faq h2{
+    margin-top:20px;
+    margin-bottom:50px;
+    margin-right:20px;
+    font-size:1em;
+    width:100%;
+    color:rgb(10, 21, 78)!important;
+  }
+  .faq-container{
+    margin:0;
+    padding:0;
+  }
+  .content-faq .panel-body{
+    margin:0;
+    padding:0;
+  }
+  #select{
+    width:100%;
+    background-color:rgb(9, 9, 39);
+    color:rgb(238, 206, 26);
+  }
+}
+
+
+
+
+
+ 

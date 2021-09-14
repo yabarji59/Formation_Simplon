@@ -1,0 +1,468 @@
+@media only screen and (min-width:1367px){
+/** Brunembert : Home media querries **//** pour pc**/
+.content-home{
+  margin-bottom:200px;
+}
+  .content-home a{
+    color:rgb(35, 204, 196);
+    font-size:1em;
+  }
+
+        #p-button{
+          color:silver;
+          font-size:0.6em;
+        }
+        #p-button:hover{
+          color:#0f3a64;
+        }
+
+  /** section histoire " découvrir brunembert **/
+  #widget_autocomplete_preview{
+    float:left;
+  }
+  .welcome-content-home{
+    width:1000px;
+    margin-top:20px;
+    padding-top:50px;
+    padding-right:50px;
+    margin-left:200px;
+    margin-right:100px;
+    margin-bottom:20px;
+    box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+  }
+      .texte-de-bienvenue{
+        margin-top:30px;
+        text-align:center;
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom:20px;
+      }
+        .texte-de-bienvenue-part-one{
+          width:300px;
+          padding:30px;
+          float:left;
+          margin-left:100px;
+        }
+        .texte-de-bienvenue-part-one .navbar a{
+          font-family: sans-serif;
+          color:#0f3a64;
+        }
+        .texte-de-bienvenue-part-two{
+          width:400px;
+          margin-left:500px;
+          top:0;
+          color:black;
+          font-size:1.5em;
+          padding:50px;
+        }
+      h2{
+        background:#fbfeff;
+        box-shadow: 0 1px 2px -1px rgb(29, 57, 100);
+        color:#0f3a64!important;
+        font-family: 'Orbitron', sans-serif;
+        width:500px;
+      }
+      h3{
+        color:#0f3a64;
+        margin:20px;
+      }
+      section .pics-history{
+       min-width:250px;
+       max-width:350px;
+       width:auto;
+       margin-left:550px;
+       padding-bottom:100px;
+      }
+      section .pics-history h2{
+        color:rgb(4, 4, 43);
+        margin-top:50px;
+        text-align:left;
+       }
+       .welcome-content-home a{
+         color:#698dda;
+       }
+
+      section .pics-history .btn-primary{
+        margin-left:100px;
+        font-size:1em;
+      }
+
+            
+      /** Infos articles**/
+      .stretch-card{
+        position:left;
+        background-color:#0f3a64;
+        color:rgb(230, 248, 252);
+        top:180px;
+        height:280px;
+        width:470px;
+        margin-left:720px;
+      }
+        .stretch-card img{
+          height:160px;
+          width:250px;
+        }
+        .border-bottom-blue{
+          background:transparent;
+          border:1px solid rgb(255, 174, 0);
+          padding:10px;
+        }
+        .stretch-card h2{
+          background:none;
+          color:rgb(255, 174, 0)!important;
+        }
+            .scroller {
+              width: 470px;
+              height: 280px;
+              overflow-y: scroll;
+              scrollbar-width: thin;
+            }
+
+              .slideshow{
+              position:absolute;
+              box-shadow: 0 3px 15px -1px;
+              top:240px;  
+              position:right;
+              margin-left:200px;
+              width:500px;
+              height:300px;
+              }
+              span.carousel-control-next-icon{
+              position:left;
+              position:relative;
+              color:#0f3a64;
+            }     
+            span.carousel-control-prev-icon{
+              position:right;
+              position:inherit;
+              margin-left:30px;
+            }
+
+            /*** pics-history***/
+            .pics-history{
+              position:absolute;
+              margin-left:1250px;
+              float:right;
+              top:240px;
+            }
+              .pics-history .card{
+                max-width:500px;
+                width:auto;
+              }
+              .pics-history .card-img-top{
+                min-height:200px;
+                max-height:300px;
+                height:auto;
+                min-width:100px;
+                max-width:500px;
+                width:auto;
+              }
+                p#info-history{
+                  font-size:0.9em;
+                  margin-top:50px;
+                }
+                  /*** /pics-history***/
+}
+
+
+
+
+@media only screen and (min-width :768px) and (max-width:1367px){
+  /* Styles pour cette Media Queries *//** pour tablette **/
+ 
+  .content-home{
+    min-width: 768px;
+    max-width:1366px;
+    width:100%;
+    margin-bottom:200px;
+  }
+  .content-home p{
+    color:rgb(5, 26, 32);
+  }
+
+  .up-window-information{
+    position:absolute;
+    float:left;
+    box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
+    top:450px;
+    height:70px;
+    z-index:1000;
+    width:100%;
+    padding:10px;
+    opacity:0.8;
+    background:rgb(144, 187, 25);
+    text-align:center;
+    color:rgb(16, 35, 36);
+    font-size:1.3em;
+  }
+  
+    #sidebar-wrapper {
+      /** fenêtre gauche droite js **/
+      position:absolute;
+      top:520px;
+      background:#0f3a64!important;
+      background:transparent;
+      border:none!important;
+      height:80px;
+      z-index:9999;
+      margin-bottom:50px;
+      min-width :768px;
+      max-width:1367px;
+      width:100%;
+      -webkit-transition: margin .50s ease-out;
+      -moz-transition: margin .50s ease-out;
+      -o-transition: margin .50s ease-out;
+      transition: margin .50s ease-out;
+    }
+
+    /** section histoire " découvrir brunembert **/
+    .welcome-content-home{
+      padding-right:50px;
+      margin-left:0;
+      margin-right:0;
+      margin-bottom:200px;
+      box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+    }
+        .texte-de-bienvenue{
+          text-align:center;
+          margin-left:50px;
+          margin-right:50px;
+          margin-bottom:20px;
+            color:black;
+        }
+          .texte-de-bienvenue-part-one{
+            width:300px;
+            padding:30px;
+            float:left;
+            margin-left:100px;
+            color:black;
+          }
+          .texte-de-bienvenue-part-two{
+            width:400px;
+            margin-left:500px;
+            top:0;
+            color:black;
+            font-size:1.5em;
+            padding:50px;
+          }
+        h2{
+          background:#fbfeff;
+          box-shadow: 0 1px 2px -1px rgb(29, 57, 100);
+          color:rgb(93, 230, 230)!important;
+          font-family: 'Orbitron', sans-serif;
+        }
+        h3{
+          color:#0f3a64;
+          margin:20px;
+        }
+        section .pics-history{
+         min-width:450px;
+         max-width:550px;
+         width:auto;
+         margin-left:450px;
+         padding-bottom:100px;
+         color:black;
+        }
+        section .pics-history h2{
+          color:rgb(4, 4, 43);
+          margin:0;
+          text-align:left;
+         }
+  
+        section .pics-history .btn-primary{
+          margin-left:100px;
+          font-size:1em;
+        }
+  
+  
+          .slideshow{
+            padding-top:20px;
+          }
+            .slideshow .slide .carousel-inner{
+              height:100%;
+              width:100%;
+            }
+              .slideshow .w-100{
+                height:auto;
+                width:auto;
+              }
+  
+              span.carousel-control-next-icon{
+                width:100px;
+                height:100px;
+                background-size:80%;
+              }     
+              span.carousel-control-prev-icon{
+                background-color:transparent;
+                width:100px;
+                height:100px;
+                background-size:80%;
+              }
+  
+        .pics-history .card{
+          max-width:500px;
+          width:auto;
+        }
+        
+        .pics-history .card-img-top{
+          min-height:200px;
+          max-height:300px;
+          height:auto;
+          min-width:100px;
+          max-width:500px;
+          width:auto;
+        }
+  
+        /** actus **/
+        .infos-js-dashboard-auto-actus{
+          position:absolute;
+          top:1600px;
+          text-align:center;
+          padding:50px;
+          float:right;
+          margin-bottom:100px;
+          box-shadow: 0 4px 6px -1px rgb(198, 207, 234);
+        }
+        .infos-js-dashboard-auto-actus .card{
+          margin-right:10px; 
+          margin-bottom:5px;
+          padding:20px;
+        }
+          .infos-js-dashboard-auto-actus .card img{
+            width:25rem; 
+          }
+  
+          p#info-history{
+            font-size:0.9em;
+            margin-top:50px;
+          }
+
+}
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+  /** pour phone **/
+  .content-home{
+    min-width:280px;
+    max-width:767px;
+    width:100%;
+    color:rgb(5, 26, 32);
+    margin-right:5px;
+    margin-bottom:200px;
+  }
+
+    .up-window-information{
+      height:100px;
+      color:blue;
+      text-align:center;
+      width:100%;
+      padding:10px;
+    }
+    .up-window-information span{
+      padding-top:10px;
+    }
+    .up-window-information a{
+      padding-top:10px;
+    }
+    #sidebar-wrapper {
+      /** fenêtre gauche droite js **/
+      position:absolute;
+      color:rgb(144, 187, 25);
+      padding:10px;
+      text-align:center;
+      background:transparent;
+      border:none!important;
+      height:80px;
+      z-index:9999;
+      margin-bottom:50px;
+      min-width :280px;
+      max-width:767px;
+      width:94.6%;;
+      -webkit-transition: margin .50s ease-out;
+      -moz-transition: margin .50s ease-out;
+      -o-transition: margin .50s ease-out;
+      transition: margin .50s ease-out;
+    }
+  
+    .stretch-card{
+      background-color:white;
+      color:#0f3a64;
+      border:1px solid #0f3a64;
+    }
+      .d-flex{
+        border:1px solid #0f3a64;
+        padding:10px;
+      }
+      .stretch-card .btn-primary{
+        background:#0f3a64;
+        padding:5px;
+        border:1px solid #0f3a64;
+      }
+    /** section histoire " découvrir brunembert **/
+    .welcome-content-home{
+      width:100%;
+      padding:0;
+      margin-top:50px;
+      margin-left:0;
+      margin-right:0;
+      margin-bottom:100px;
+      background:#0f3a64;
+      box-shadow: 0 4px 30px -1px rgb(198, 207, 234);
+    }
+    .welcome-content-home h3{
+      color:rgb(163, 207, 236);
+      margin-top:50px;
+      margin-bottom:20px;
+    }
+        .texte-de-bienvenue{
+          margin-top:30px;
+          margin-left:0;
+          margin-right:0;
+          color:white;
+        }
+          .texte-de-bienvenue-part-one{
+            width:100%;
+            padding:20px;
+            color:white;
+          }
+          .texte-de-bienvenue-part-two{
+            width:100%;
+            padding:20px;
+            color:white;
+          }
+
+        section .pics-history{
+         width:260px;
+         margin-left:20px;
+         padding-bottom:10px;
+         
+        }
+        section .pics-history h2{
+          color:rgb(178, 178, 206);
+          margin:0;
+          text-align:left;
+         }
+         section .pics-history p{
+          color:silver;
+         }
+  
+        section .pics-history .btn-primary{
+          margin-left:10px;
+        }
+
+          .slideshow .slide{
+            height:50%;
+            width:100%;
+          }
+        /** actus **/
+        .infos-js-dashboard-auto-actus{
+          top:100px;
+          widows: 300px;
+          width:190px;
+          margin-left:80px;
+        }
+          .infos-js-dashboard-auto-actus .card img{
+            width:18.6rem; 
+          }
+  }
+

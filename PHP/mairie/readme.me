@@ -1,0 +1,116 @@
+Projet récupéré sur PC DELL SIMPLON promo Java Capgémini le 13 Septembre 2021
+
+Au 7 Novembre 2020
+                avant la publication 
+                    reste:
+                        plan.php 
+                            JS
+                        all pages
+                            responsive
+                        Mise à jour plan.php avec img responsive
+
+                        Vérification localhost et email pour contact.php
+                        / Au 7 Novembre 2020
+
+@mediaquerries
+                @media only screen and (min-width:1367px){
+                /** Brunembert : Home media querries **//** pour pc**/
+                }
+
+                @media only screen and (min-width :768px) and (max-width:1366px){
+                /* Styles pour cette Media Queries *//** pour tablette **/
+                }
+
+
+                @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+                /** pour phone **/
+                }
+
+
+Créer un cookie ex: "rester connecté"
+                                    ( conserver les infos du visiteur ) 
+                                        setcookie(name, value, expire, path, domain, secure, httponly)
+                                        setcookie('user_pref', 'documents, time()+3600*24, '/', brunembert.fr, true, true)
+
+                                    créons un cookie pour enregistrer les consultations de documents pendant un an
+                                    ( avant le head )
+                                        <?php 
+                                            setcookie('user_id', '1234');
+                                            setcookie('user_pref', 'documents', time()+3600*8760, '/', brunembert.fr, true, true)
+                                        ?>
+
+                                    récupérons le cookie dans le body - content 
+                                        <?php 
+                                            if(isset($_COOKIE['user_id']))
+                                            {
+                                            echo 'Votre ID de session est le ' .$_COOKIE['user_id'];
+                                            }
+                                            echo ' Votre ID de session est le ' .$_COOKIE['user_id'];
+                                        ?>
+
+PDO pour relier bdd au site ex: database.php
+                                            ! ne pas oublier: require_once 'database.php'; dans index.php 
+                                            <?php 
+                                                $db= new PDO('mysql:host=localhost;dbname=brunembert', 'root', '');
+                                                $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                                            ?> 
+
+
+
+-- CHARTE GRAPHIQUE -- 
+                        blanc = color:rgb(255, 255, 255);
+                        vert rgb(144, 187, 25);
+                        bleu #0f3a64; accueil 
+                        bleu rgb(9, 9, 39); faq
+                        jaune rgb(238, 206, 26); faq
+                        bleu turquoise a: rgb(35, 204, 196);
+  
+                        -- /CHARTE GRAPHIQUE -- 
+    
+    
+
+    
+
+
+#Barre ajax 
+            <?php 
+                $bdd =  new PDO('mysql:host=localhost;dbname=brunembert', 'root', '');
+
+                $articles = $bdd->query('SELECT titre FROM articles ORDER BY id DESC');
+                if(isset($_GET['q']) AND !empty($_GET['q'])) {
+                    $q = htmlspecialchars($_GET['q']);
+                    $articles = $bdd->query('SELECT titre FROM articles WHERE titre LIKE "%'.$q. '%" ORDER BY id DESC');
+                }
+            ?>
+
+            <div id="admin_dashboard"> 
+
+                <form id="searchBar_admin" method="GET">
+                    <input id="search" type="search" name="q" placeholder="rechercher...">
+                    <input id="valider" type="submit" value="valider">
+                </form>
+
+                <?php if($articles->rowCount() > 0) { ?>
+                    <ul>
+                        <?php while($a =$articles->fetch()) {?>
+                            <li><?= $a['titre'] ?></li>
+                        <?php } ?>
+                    </ul>   
+                <?php } else  {?>
+                Aucun résultat...
+                <?php } ?>
+
+            </div><!-- admin dashboard -->
+
+
+ 
+
+/ ## évolution du site : 
+    -- home 
+                        Barre de recherche AJAX à l'accueil
+                        Fenêtre modale "Info" défilante
+                        Newsletter "Lettre d'information Brunembert"
+                        comptes utilisateurs HABITANTS
+                        Page événements et invitations
+                        Agendas de réservation des salles, matériels et suivi
+                        contribution & signalement par les habitants

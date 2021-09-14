@@ -1,0 +1,191 @@
+/** Brunembert : équipe.php mediaquerries */
+@media only screen and (min-width:1367px){
+    /** Brunembert : Home media querries **//** pour pc**/
+    .content-equipe{
+        background:linear-gradient(rgb(242, 240, 255),#ffffff, rgb(249, 249, 252));
+        margin-top:150px;
+        margin-bottom:620px;
+        width:500px;
+        height:130px;
+    }
+        h1{
+            padding:50px;
+            font-size:1.5em;
+            color:rgb(14, 28, 105);
+        }
+         h1 span{
+             font-size:1em;
+             font-style: oblique;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             color:rgb(185, 203, 223);
+
+         }
+        h2{            
+            color:rgb(14, 28, 105);
+            padding:10px;
+            font-size:0.9em;
+        }
+        h3#brunembertInfo{
+            color:rgb(55, 102, 163);
+            background:rgb(204, 219, 228);
+            font-size:1.2em;
+            padding:5px;
+        }
+        /** float left: **/
+        .equipe-intro{
+            position:absolute;
+            top:0;
+            margin-left:500px;
+            float:right;
+            width:350px;
+            height:60px;
+            border-radius:10px;
+            border-radius:10px;
+         }
+         .equipe-intro p{
+             color:rgb(55, 102, 163);
+            background:white;
+            padding:50px;
+            border-radius:10px;
+            text-align:center;
+        }
+        .equipe-intro img{
+            height:320px; 
+            width:500px;
+        }
+
+
+        /** à droite **/
+        .product{
+            position:relative;
+            padding-left:100px;
+            padding-right:50px;
+            padding-top:10px;
+            margin-left:50px;
+            border:1px solid rgb(238, 240, 247);
+            width:auto;
+        }
+            .product .main-img{
+                margin-left:500px;
+                max-width: 500px;
+                display:block;
+            }
+                .product .main-img img{
+                    max-width:500px;
+                    margin:auto;
+                }
+                .product .thumb-img{
+                    position:absolute;
+                    top:0;
+                    text-align: left;
+                }
+                    .product .thumb-img .box{
+                        display:inline-block;
+                        width:70px;
+                        height:70px;
+                        border:1px solid white;
+                        margin:10px;
+                        cursor:pointer;
+                    }
+                    .product .thumb-img .box.active{
+                      border-color:blue;
+                      border-width:2px;
+                    }
+                        .product .thumb-img .box .img{
+                            max-width:100%;
+                            max-height:100%;
+                        }
+                        .product .thumb-img .box p{
+                            font-size:0.9em;
+                            color:white;
+                        }
+  
+       /** displayTexte**/
+       .displayTexte{
+           width:300px;
+           height:600px;
+           margin-left:800px;
+           background:black;
+           color:silver;
+           font-size:2em;
+           display:none;
+       }
+
+    }
+
+    @media only screen and (min-width :768px) and (max-width:1366px){
+    /* Styles pour cette Media Queries *//** pour tablette **/
+        .content{
+            margin-left:50px;
+            margin-right:50px;
+            margin-bottom:100px;
+            background-color:rgb(9, 9, 39);
+        }
+        .equipe-intro{
+            margin-left:120px;
+            padding:20px;
+        }
+        .equipe-intro p{
+            color:white;
+        }
+        .product .main-img img{
+            width:70%;
+            height:70%;
+            margin-left:150px;
+        }
+        .thumb-img{
+            position:absolute;
+            top:500px;
+            float:left;
+            width:7%;
+            height:7%;
+        }
+
+    }
+
+
+    @media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+    /** pour phone **/
+    .content{
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom:100px;
+        height:800px;
+        color:rgb(9, 9, 39);
+    }
+    h1{
+        margin-top:260px;
+        margin-left:100px;
+        top:300px;
+        font-size:2em;
+        color:rgb(14, 28, 105);
+    }
+    .equipe-intro{
+        padding:20px;
+        color:rgb(9, 9, 39);
+        margin-top:50px;
+        margin-left:50px;
+    }
+    .equipe-intro p{
+        padding:20px;
+        color:rgb(9, 9, 39);
+    }
+    .equipe-intro img{
+      margin-left:-800px;
+    }
+    .product .main-img img{
+        position:absolute;
+        width:60%;
+        height:38%;
+       top:180px;
+       margin-left:80px;
+    }
+    .thumb-img{
+        position: absolute;
+        top:250px;
+        float:left;
+        width:15%;
+        height:15%;
+    }
+
+}

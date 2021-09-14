@@ -1,0 +1,77 @@
+/** Brunembert : plan media querries **/
+@media only screen and (min-width:1367px){
+  /** Brunembert : Home media querries **//** pour pc**/
+  h1{
+    margin-top:100px;
+    text-align:center;
+    color:rgb(242, 243, 248);
+  }
+  .plan-du-site{    
+    padding:20px;
+    margin-left:300px;   
+    margin-right:300px;
+    width:1000px;
+    box-shadow: 0 4px 15px -1px rgb(242, 243, 248);
+  }
+  h2{
+    text-align:left;
+    width:100%;
+    text-align:center;
+    color:rgb(6, 3, 15);
+    font-size:2em;
+    box-shadow: 0 1px 2px -1px rgb(29, 57, 100);
+  }
+  
+  .bouton
+  {
+      color:#0000ff;
+      font-size:24px;
+      cursor:pointer;
+  }
+  .bouton:hover
+  {
+      text-decoration:underline;
+  }
+  .texte
+  {
+      background:rgb(255, 254, 255);
+      color:#0c0e79;
+      padding:20px;
+      text-align:left;
+  }
+  .texte:hover
+  {
+      text-align:left;
+  }
+
+}
+
+
+
+@media only screen and (min-width :768px) and (max-width:1366px){
+/* Styles pour cette Media Queries *//** pour tablette **/
+  .content-plan{
+    min-width:768px;
+    max-width:1366px;
+    margin-bottom:100px;
+    margin-left:0;
+    margin-right:0;
+    background-color:rgb(9, 9, 39);
+    padding:100px;
+  }
+
+  .plan-du-site .texte p{
+    width:300px;
+  }
+
+
+}
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 767px) {
+/** pour phone **/
+
+
+
+}
+

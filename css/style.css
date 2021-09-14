@@ -1,22 +1,46 @@
 *{
     /* settings */
     text-decoration: none;
+    list-style-type:none;
+    /** h1 color:     color:rgb(9, 9, 32); **/
+    /** font h1 : font-family: 'Allison', cursive; **/
+    /** global font : font-family: 'Caveat', cursive; */
+
 }
 body{
     background-color: rgb(255, 255, 255);
     color:rgb(117, 117, 158);
-    text-align: center;;
+    text-align: center;
+    font-family: 'Caveat', cursive;
 }
+    img.logo-simplon{
+        width:30px;
+    }
+    img.logo-capgemini{
+        width:30px;
+        height:30px;
+    }
     h1{
         font-size:3em;
+        color:rgb(9, 9, 32);
+        font-family: 'Allison', cursive;
     }
 /** style nav **/
 /* menu pour présenter les simploniennes */
 nav{
-    background:rgb(29, 38, 39);
+    background:rgb(9, 9, 32);
+    width:100px;
 }
     nav.super-nav li{
-        display:inline;
+        text-decoration: non;
+        font-size:1.2em;
         color:blanchedalmond;
-        padding:10px;
+        padding-left:10px;
+        border:1px solid blanchedalmond;
     }
+
+footer{
+    background-color:rgb(9, 9, 32);
+    padding:5px;
+    color:blanchedalmond;
+}

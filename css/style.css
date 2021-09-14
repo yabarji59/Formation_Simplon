@@ -5,6 +5,18 @@
 body{
     background-color: rgb(255, 255, 255);
     color:rgb(117, 117, 158);
-    font-size:3em;
     text-align: center;;
 }
+    h1{
+        font-size:3em;
+    }
+/** style nav **/
+/* menu pour présenter les simploniennes */
+nav{
+    background:rgb(29, 38, 39);
+}
+    nav.super-nav li{
+        display:inline;
+        color:blanchedalmond;
+        padding:10px;
+    }

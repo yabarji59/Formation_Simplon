@@ -2,6 +2,9 @@
     /* settings */
     text-decoration: none;
     list-style-type:none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /** h1 color:     color:rgb(9, 9, 32); **/
     /** font h1 : font-family: 'Allison', cursive; **/
     /** global font : font-family: 'Caveat', cursive; */
@@ -13,13 +16,18 @@ body{
     font-family: 'Caveat', cursive;
 }
     .super-header{
-        border:1px solid silver;
+        position:relative;
+        top:50px;
+        margin-bottom:80px;
+        border-bottom:1px solid silver;
         text-align:center;
     }
     /* header */
     nav li{
         display:none;
     }
+  
+        
     img.logo-simplon{
         min-width:30px;
         max-width:100px;
@@ -40,6 +48,9 @@ body{
     /* fin header */
 
     /* content */ 
+    img#photo-promo{
+        margin-top:20px;
+    }
     h1{
         font-size:3em;
         color:rgb(18, 6, 59);
@@ -55,6 +66,7 @@ body{
 /** / fin menu style */
 
 footer{
+    margin-top:50px;
     padding:5px;
     background:rgb(255, 255, 255);
     color:rgb(9, 9, 32);

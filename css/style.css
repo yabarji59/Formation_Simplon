@@ -27,6 +27,7 @@ body{
         width:100%;
         height:100%;
     }
+<<<<<<< HEAD
     img.logo-capgemini{
         min-width:30px;
         max-width:100px;
@@ -34,6 +35,11 @@ body{
         max-height:100px;
         width:100%;
         height:100%;
+=======
+    img.logo-capgemini {
+    
+        height:30px;
+>>>>>>> main
     }
     h1{
         font-size:3em;

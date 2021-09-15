@@ -16,6 +16,7 @@ body{
         border:1px solid silver;
         text-align:center;
     }
+    /* header */
     nav li{
         display:none;
     }
@@ -27,7 +28,7 @@ body{
         width:100%;
         height:100%;
     }
-<<<<<<< HEAD
+
     img.logo-capgemini{
         min-width:30px;
         max-width:100px;
@@ -35,26 +36,27 @@ body{
         max-height:100px;
         width:100%;
         height:100%;
-=======
-    img.logo-capgemini {
-    
-        height:30px;
->>>>>>> main
     }
+    /* fin header */
+
+    /* content */ 
     h1{
         font-size:3em;
-        color:rgb(50, 11, 114);
+        color:rgb(18, 6, 59);
         font-family: 'Allison', cursive;
     }
+    section.content-student{
+        text-align:center;
+        margin-left:20px;
+        margin-right:20px;
+    }
 
-/** style nav **/
-/* menu déroulant js pour présenter les simploniennes */
 
 /** / fin menu style */
 
 footer{
     padding:5px;
-    background:silver;
+    background:rgb(255, 255, 255);
     color:rgb(9, 9, 32);
     text-align:center;
 }

@@ -1,4 +1,4 @@
-function showAlert()
-{
-    alert ("coucou");
+function coucou()
+{ 
+    alert('coucou');
 }

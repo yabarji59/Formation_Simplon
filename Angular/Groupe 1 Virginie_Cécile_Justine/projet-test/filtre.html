@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular/projet-test</title>
+</head>
+<body ng-app>
+
+    <!-- les filtres:
+       exemple 1/ majuscule avec uppercase pour users
+       exemple 2/ query dans ng-model et filter
+       exemple 3/ orderby filter de plus après query +username croissant -username décroissant
+    -->
+    <input type="text" ng-model="query"/>
+    <select ng-model="order">
+        <option value="username">Organiser par nom</option>
+        <option value="content">Organiser par contenu</option>
+    </select>
+    <!-- directive  = ng-... -->
+    <div ng-init="users= [{username:'Marc', content:'Salut les gens'}, {username:'Jean', content:'Je suis content'}, {username:'John', content:'First'}]">
+            <div ng-repeat="user in users | filter :{username: query} | orderBy :order">
+                <p><strong>{{user.username}}</strong>
+                <br>{{ user.content }}
+                </p>
+            </div>
+    </div>
+
+    <!-- script CDN taken on angularjs.org -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</body>
+</html>
